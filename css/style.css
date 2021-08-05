@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.chart{
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.fullStar{
+    color: #0065FC;
+}
+
+.emptyStar{
+    color: #DEEBFF;
+}
+
+.search{
+    background-color: #F2F2F2;
+}
