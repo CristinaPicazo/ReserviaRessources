@@ -1,6 +1,30 @@
 body{
     background-color: white;
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+    color: black;
+    margin-right: 20px;
+}
+
+nav #accommodations{  
+    border-top: thick solid #0065FC; 
+}    
+
+nav a#sign{
+    font-weight: bolder;
+    color: #0065FC;
 }
 
 .chart{
