@@ -1,7 +1,6 @@
 body{
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
     margin-left: 60px;
 }
 
@@ -20,12 +19,44 @@ nav a{
 
 nav #accommodations{  
     border-top: thick solid #0065FC; 
+    color: #0065FC;
 }    
 
+
 nav a#sign{
-    font-weight: bolder;
+    font-weight: bold;
     color: #0065FC;
 }
+
+h1, h2{
+    font-weight: bold;
+}
+
+#search i{
+    background-color:rgb(226, 220, 220);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    padding: 1em;
+}
+
+#search input{
+    padding: 1em;
+    border: thick;
+    border-color: #DEEBFF;
+    font-weight: bold;
+}
+
+#search button{
+    font-weight: bold;
+    color: #DEEBFF;
+    background-color: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1em;
+    border: none;
+}
+
 
 .chart{
     color: #0065FC;
