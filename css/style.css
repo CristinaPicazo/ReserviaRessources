@@ -10,12 +10,19 @@ nav li{
 }
 
 nav a{
-    text-decoration: none;
-    float: right;
+    text-decoration: none;    
     padding: 20px;
     color: black;
     margin-right: 20px;
 }
+
+nav #signNav{
+    font-weight: bold;
+    color: #0065FC;
+    float: right;
+}
+
+
 
 nav #accommodationsNav{  
     border-top: thick solid #0065FC; 
@@ -23,10 +30,6 @@ nav #accommodationsNav{
 }    
 
 
-nav #signNav{
-    font-weight: bold;
-    color: #0065FC;
-}
 
 h1, h2{
     font-weight: bold;
@@ -109,14 +112,15 @@ h1, h2{
 } 
 
 #accommodations article{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 5px 5px 5px #c9c8c8;
     padding: 1%;
     width: 25%;
     margin: 2% 2% auto;
-    max-height: 40%;
+    max-height: 40%; 
 }
 
 #accommodations article img{
@@ -161,6 +165,22 @@ h1, h2{
     width: 90%;
     height: 80%;
 }
+
+.bottomSection section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.bottomSection section figure{
+    border: red;
+    border-radius: 20px;
+    flex-grow: 1;
+}
+
+.bottomSection section article:nth-child(1), article:nth-child(4){
+    flex-grow: 2;
+}   
 
 footer{
     background-color: #F2F2F2;
