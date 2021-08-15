@@ -1,35 +1,41 @@
 body{
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    margin-left: 60px;
+    margin: 5%;
 }
 
-nav li{
+nav ul{
     list-style-type: none;
-    display: inline;
+    display: flex;
+    flex-direction: row;
 }
 
 nav a{
     text-decoration: none;    
-    padding: 20px;
-    color: black;
-    margin-right: 20px;
+    color: black;    
 }
 
 nav #signNav{
     font-weight: bold;
     color: #0065FC;
     float: right;
+    margin: 5% 5%;
 }
 
+nav #activitiesNav{
+    display: flex;
+    flex-direction: row;
+}
 
-
+nav #accommodationsNav{
+    display: flex;
+    flex-direction: row;
+}
+/*
 nav #accommodationsNav{  
     border-top: thick solid #0065FC; 
     color: #0065FC;
 }    
-
-
 
 h1, h2{
     font-weight: bold;
@@ -166,12 +172,16 @@ h1, h2{
     height: 80%;
 }
 
-.bottomSection section {
+.bottomSection {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
+.bottomSection section{
+    display: flex;
+    flex-direction: column;
+}
+/*
 .bottomSection section figure{
     border: red;
     border-radius: 20px;
@@ -180,8 +190,9 @@ h1, h2{
 
 .bottomSection section article:nth-child(1), article:nth-child(4){
     flex-grow: 2;
-}   
+}    
 
 footer{
     background-color: #F2F2F2;
 }
+*/
