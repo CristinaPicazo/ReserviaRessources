@@ -1,167 +1,18 @@
-body{
-    background-color: white;
-    font-family: 'Raleway', sans-serif;
-    margin-left: 60px;
+.logo{
+    align-self: center;
 }
 
-nav li{
-    list-style-type: none;
-    display: inline;
+.signNav{
+    flex-basis: 25%;
+    justify-content: center;
 }
 
-nav a{
-    text-decoration: none;
-    float: right;
-    padding: 20px;
-    color: black;
-    margin-right: 20px;
+.activitiesNav{
+    flex-basis: 25%;
+    justify-content: center;
 }
 
-nav #accommodationsNav{  
-    border-top: thick solid #0065FC; 
-    color: #0065FC;
-}    
-
-
-nav #signNav{
-    font-weight: bold;
-    color: #0065FC;
-}
-
-h1, h2{
-    font-weight: bold;
-}
-
-#search i{
-    background-color:rgb(226, 220, 220);
-    border-top-left-radius: 30%;
-    border-bottom-left-radius: 30%;
-    border: none;
-    padding: 1em;
-}
-
-#search input{
-    padding: 1em;
-    border: thick;
-    border-color: #DEEBFF;
-    font-weight: bold;
-}
-
-#search button{
-    font-weight: bold;
-    color: #DEEBFF;
-    background-color: #0065FC;
-    border-top-right-radius: 30%;
-    border-bottom-right-radius: 30%;
-    padding: 2em;
-    border: none;
-}
-
-#filtersMenu i{
-    border-radius: 50%;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    padding: 1em;
-    margin-right: 1em;
-}
-
-#filtersMenu button{
-    border: 1px solid #DEEBFF;
-    background-color: transparent;
-    border-radius: 20px;
-}
-
-#filtersMenu button:hover {
-    background-color: #DEEBFF;
-}
-
-#info i{
-    color: #0065FC;
-}
-
-.fullStar{
-    color: #0065FC;
-}
-
-.emptyStar{
-    color: #DEEBFF;
-}
-
-.mainSection {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-grow: 1;
-    padding: 1.3rem;
-    margin: 1rem;
-    max-height: 40%;
-}
-
-#accommodations{
-    background-color: #F2F2F2;
-    border-radius: 10px;
-    width: 60%;
-    margin-right: 3em;
-}
-
-#accommodations h2{
-    padding: 5% 2%;
-} 
-
-#accommodations article{
-    display: inline-block;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 5px 5px #c9c8c8;
-    padding: 1%;
-    width: 25%;
-    margin: 2% 2% auto;
-    max-height: 40%;
-}
-
-#accommodations article img{
-    padding: 0px 0 10px 0;
-    border-radius: 20px;
-    width: 100%;
-    height: 100px;
-}
-
-#popular{
-    background-color: #F2F2F2;
-    border-radius: 10px;
-    width: 30%;
-}
-
-#popular article{
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 5px 5px #c9c8c8;
-    padding: 10px;
-    width: 90%;
-    margin: 2%;
-}
-
-#popular article img{
-    padding: 10px 0 10px 0;
-    border-radius: 20px;
-    width: 100px;
-    height: 150px;
-}
-
-#activities figure{
-    border-radius: 10px;
-    box-shadow: 0 5px 5px 5px #c9c8c8;
-    padding: 10px;
-    width: 20%;
-}
-
-#activities figure img{
-    padding: 10px;
-    border-radius: 20px;
-    width: 90%;
-    height: 80%;
-}
-
-footer{
-    background-color: #F2F2F2;
+.accommodationsNav{
+    flex-basis: 25%;
+    justify-content: center;
 }

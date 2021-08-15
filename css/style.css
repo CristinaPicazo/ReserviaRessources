@@ -1,13 +1,12 @@
-body{
+
+*{
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    margin: 5%;
+    /* margin: 0% 1%; */
 }
 
 nav ul{
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
 }
 
 nav a{
@@ -15,26 +14,36 @@ nav a{
     color: black;    
 }
 
-nav .signNav{
+.navTop, .navBottom{
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+.logo{
+    align-self: flex-start;
+}
+
+.signNav{
+    align-self: flex-end;
+    align-items: center;
     font-weight: bold;
-    color: .0065FC;
-    float: right;
-    margin: 5% 5%;
+    color: #0065FC;
 }
 
-nav .activitiesNav{
-    display: flex;
-    flex-direction: row;
+.activitiesNav{
+    flex-basis: 50%;
+    justify-content: center;
 }
 
-nav .accommodationsNav{
-    display: flex;
-    flex-direction: row;
+.accommodationsNav{
+    flex-basis: 50%;
+    justify-content: center;
 }
 /*
+
 nav .accommodationsNav{  
-    border-top: thick solid .0065FC; 
-    color: .0065FC;
+    border-top: thick solid #0065FC; 
+    color: #0065FC;
 }    
 
 h1, h2{
@@ -52,14 +61,14 @@ h1, h2{
 .search input{
     padding: 1em;
     border: thick;
-    border-color: .DEEBFF;
+    border-color: #DEEBFF;
     font-weight: bold;
 }
 
 .search button{
     font-weight: bold;
-    color: .DEEBFF;
-    background-color: .0065FC;
+    color: #DEEBFF;
+    background-color: #0065FC;
     border-top-right-radius: 30%;
     border-bottom-right-radius: 30%;
     padding: 2em;
@@ -68,32 +77,32 @@ h1, h2{
 
 .filtersMenu i{
     border-radius: 50%;
-    color: .0065FC;
-    background-color: .DEEBFF;
+    color: #0065FC;
+    background-color: #DEEBFF;
     padding: 1em;
     margin-right: 1em;
 }
 
 .filtersMenu button{
-    border: 1px solid .DEEBFF;
+    border: 1px solid #DEEBFF;
     background-color: transparent;
     border-radius: 20px;
 }
 
 .filtersMenu button:hover {
-    background-color: .DEEBFF;
+    background-color: #DEEBFF;
 }
 
 .info i{
-    color: .0065FC;
+    color: #0065FC;
 }
 
 .fullStar{
-    color: .0065FC;
+    color: #0065FC;
 }
 
 .emptyStar{
-    color: .DEEBFF;
+    color: #DEEBFF;
 }
 
 .mainSection {
@@ -107,7 +116,7 @@ h1, h2{
 }
 
 .accommodations{
-    background-color: .F2F2F2;
+    background-color: #F2F2F2;
     border-radius: 10px;
     width: 60%;
     margin-right: 3em;
@@ -122,7 +131,7 @@ h1, h2{
     justify-content: center;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 5px 5px 5px .c9c8c8;
+    box-shadow: 0 5px 5px 5px #c9c8c8;
     padding: 1%;
     width: 25%;
     margin: 2% 2% auto;
@@ -137,7 +146,7 @@ h1, h2{
 }
 
 .popular{
-    background-color: .F2F2F2;
+    background-color: #F2F2F2;
     border-radius: 10px;
     width: 30%;
 }
@@ -145,7 +154,7 @@ h1, h2{
 .popular article{
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 5px 5px 5px .c9c8c8;
+    box-shadow: 0 5px 5px 5px #c9c8c8;
     padding: 10px;
     width: 90%;
     margin: 2%;
@@ -160,7 +169,7 @@ h1, h2{
 
 .activities figure{
     border-radius: 10px;
-    box-shadow: 0 5px 5px 5px .c9c8c8;
+    box-shadow: 0 5px 5px 5px #c9c8c8;
     padding: 10px;
     width: 20%;
 }
@@ -193,6 +202,6 @@ h1, h2{
 }    
 
 footer{
-    background-color: .F2F2F2;
+    background-color: #F2F2F2;
 }
 */

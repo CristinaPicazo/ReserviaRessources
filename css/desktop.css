@@ -1,40 +1,20 @@
-/*
-nav li{
-    list-style-type: none;
-    display: inline;
-}
-
-nav a{
-    text-decoration: none;
-    float: right;
-    padding: 20px;
-    color: black;
-    margin-right: 20px;
-}
-
-nav #accommodationsNav{  
-    border-top: thick solid #0065FC; 
-    color: #0065FC;
-}    
-
-
-nav #signNav{
-    font-weight: bold;
-    color: #0065FC;
-}
-
-.bottomSection section {
+.nav{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-flow: row wrap; 
 }
 
-.bottomSection section figure{
-    border: red;
-    border-radius: 20px;
-    flex-grow: 1;
+.accommodationsNav{
+    order: 1;
+    align-self: flex-end;
+
 }
 
-.bottomSection section article:nth-child(1), article:nth-child(4){
-    flex-grow: 2;
-}   */
+.activitiesNav{
+    order: 2;
+    align-self: flex-end;
+}
+
+.signNav{
+    order: 3;
+    align-self: flex-end;
+}
