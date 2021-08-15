@@ -2,9 +2,8 @@
 *{
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    /* margin: 0% 1%; */
 }
-
+/* Nav Bar */
 nav a{
     text-decoration: none;    
     color: black;    
@@ -38,15 +37,22 @@ nav a{
 .accommodationsNav{
     flex-basis: 50%;
     justify-content: center;
-
 }   
 
 .accommodationsNav:active{
     border-bottom: thick solid #0065FC;
 }    
 
+/* Header */
 h1, h2{
     font-weight: bold;
+}
+
+.search{
+    display: flex;
+    flex-grow: row nowrap;
+    align-content: center;
+    flex-basis: 100%;
 }
 
 .search i{
