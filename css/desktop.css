@@ -6,13 +6,20 @@
 .accommodationsNav{
     order: 1;
     align-self: flex-end;
+}
 
+.accommodationsNav:active{
+    border-top: thick solid #0065FC;
 }
 
 .activitiesNav{
     order: 2;
-    align-self: flex-end;
+    align-self: flex-end;    
 }
+
+.activitiesNav:active{
+border-top: thick solid #0065FC;
+}    
 
 .signNav{
     order: 3;

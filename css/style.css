@@ -5,10 +5,6 @@
     /* margin: 0% 1%; */
 }
 
-nav ul{
-    list-style-type: none;
-}
-
 nav a{
     text-decoration: none;    
     color: black;    
@@ -35,15 +31,18 @@ nav a{
     justify-content: center;
 }
 
+.activitiesNav:active{
+    border-bottom: thick solid #0065FC;
+}    
+
 .accommodationsNav{
     flex-basis: 50%;
     justify-content: center;
-}
-/*
 
-nav .accommodationsNav{  
-    border-top: thick solid #0065FC; 
-    color: #0065FC;
+}   
+
+.accommodationsNav:active{
+    border-bottom: thick solid #0065FC;
 }    
 
 h1, h2{
@@ -74,7 +73,7 @@ h1, h2{
     padding: 2em;
     border: none;
 }
-
+/*
 .filtersMenu i{
     border-radius: 50%;
     color: #0065FC;
