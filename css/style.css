@@ -2,28 +2,46 @@
 *{
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    margin: 0% 2%;;
+    margin: 0% 2%;
+    width: 100%;
+    height: 100%;
 }
+
 /* Nav Bar */
-nav a{
+.navTop li, .navBottom li{
+    display: inline;
+}
+
+.navTop a, .navBottom a{
     text-decoration: none;    
     color: black;    
 }
 
-.navTop, .navBottom{
+.navTop{
     display: flex;
-    flex-flow: row wrap; 
+    flex-flow: row;
+    width: 100%;
+    height: 5%;
 }
 
 .logo{
-    align-self: flex-start;
+    width: 10em;
+    height: 10em;
+    justify-content: flex-start;
 }
 
 .signNav{
-    align-self: flex-end;
-    align-items: center;
+    justify-content: flex-end; 
     font-weight: bold;
     color: #0065FC;
+}
+
+.navBottom{
+    display: flex;
+    flex-flow: row wrap; 
+    background-color: black;
+    width: 100%;
+    height: 5%;
 }
 
 .activitiesNav{
