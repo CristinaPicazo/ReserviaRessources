@@ -125,11 +125,10 @@ h1, h2{
     
 }
 
-.accommodations{
+.accommodationsArticle{
     background-color: #F2F2F2;
     border-radius: 10px;
     margin-right: 3em;
-    order: 2;
 }
 
 .accommodations h2{
@@ -159,7 +158,6 @@ h1, h2{
 .popularArticle{
     background-color: #F2F2F2;
     border-radius: 10px;
-    order: 1;
     flex-flow: row nowrap;
     justify-content: space-between;
 }
