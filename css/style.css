@@ -12,7 +12,6 @@ html, body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    font-size: 2em;
 }
 
 /* Header & NavBar*/
@@ -67,7 +66,6 @@ header a{
 .accommodationsNav, .activitiesNav{
     justify-content: center;
     flex: 0.4;
-    background-color: black;
 }
 
 .activitiesNav:active{
@@ -85,29 +83,42 @@ h1, h2{
     margin: 5% 0%;
 }
 
-.search{
-    display: flex;
-    flex-grow: row nowrap;
-    align-content: center;
-    flex-basis: 50%;
-    margin: 5% 0%;
+h1{
+    font-size: 3em;    
 }
 
-.search i{
+h2{
+    font-size: 2em;
+}
+
+p{
+    font: 0.5em;
+}
+
+.inputContainer{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    
+}
+
+.map{
+    padding: 1em;
+    font-size: 3em;
     background-color:rgb(226, 220, 220);
     border-top-left-radius: 30%;
     border-bottom-left-radius: 30%;
-    border: none;
-    padding: 1em;
-    align-items: center;
-    justify-content:center;
 }
 
-.search input{
+.searchSubmit{
+    background-color:#0065FC;
+    border-radius: 30%;
+    border: none;
     padding: 1em;
     border: thick;
     border-color: #DEEBFF;
     font-weight: bold;
+    font-size: 3em;
 }
 
 .search button{
@@ -118,6 +129,7 @@ h1, h2{
     border-bottom-right-radius: 30%;
     padding: 2em;
     border: none;
+    flex:0.2;
 }
 
 .filtersMenu i{
