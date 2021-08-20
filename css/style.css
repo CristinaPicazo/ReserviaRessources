@@ -15,13 +15,6 @@ html, body{
 }
 
 /* Header & NavBar*/
-header{
-    width: 100%;
-    height: 20%;
-    display: flex;
-    flex-direction: column;
-}
-
 header ul li{
     display: inline;
 }
@@ -33,18 +26,17 @@ header a{
 
 .navTop{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
 }
 
 .logo{
     width: 250px;
     height: 250px;
-    justify-content: flex-start;
 }
 
-.navTop ul{
-    align-self: flex-end;
+.navTop > nav{
+    margin-left: auto;
+    align-self: center;
+    font-size: 3em;
 }
 
 .signNav{
@@ -54,26 +46,26 @@ header a{
 
 .navBottom{
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
 }
 
-.navBottom ul{
+.navBottom > ul{
+    display: flex;
     flex: 1;
+    border-bottom: solid #DEEBFF;
 }
 
+.navBottom > ul > li{
+    flex: 1;
+    font-size: 3em;
+}
 
-.accommodationsNav, .activitiesNav{
+.activitiesNav{
+    justify-content: center;    
+} 
+
+.accommodationsNav{
     justify-content: center;
-    flex: 0.4;
-}
-
-.activitiesNav:active{
     color: #0065FC;
-    border-bottom: thick solid #0065FC;
-}    
-
-.accommodationsNav:active{
     border-bottom: thick solid #0065FC;
 }    
 
@@ -95,55 +87,71 @@ p{
     font: 0.5em;
 }
 
-.inputContainer{
+.search{
     display: flex;
-    width: 100%;
-    flex-flow: row nowrap;
-    
 }
 
-.map{
-    padding: 1em;
+.search > form{
+    flex:1;
+}
+
+.search > form > div{
+    flex:1;
+    border: solid #DEEBFF;
+    border-radius: 30%;
+}
+
+.search > form > div > .map{
+    flex: 0.2;
     font-size: 3em;
     background-color:rgb(226, 220, 220);
     border-top-left-radius: 30%;
     border-bottom-left-radius: 30%;
-}
-
-.searchSubmit{
-    background-color:#0065FC;
-    border-radius: 30%;
+    padding: 4%;
     border: none;
-    padding: 1em;
-    border: thick;
-    border-color: #DEEBFF;
-    font-weight: bold;
-    font-size: 3em;
 }
 
-.search button{
+.search > form > div > .inputText{
+    font-size: 3em;
+    font-weight: bold;
+    flex: 0.5;
+    padding: 4%;
+    border: none;
+}
+
+.search > form > div > .searchSubmit{
+    font-size: 3em;
+    flex: 0.2;
     font-weight: bold;
     color: #DEEBFF;
     background-color: #0065FC;
     border-top-right-radius: 30%;
     border-bottom-right-radius: 30%;
-    padding: 2em;
     border: none;
-    flex:0.2;
+    padding: 4%;
 }
 
-.filtersMenu i{
+.filtersMenu > .filtersButtons{
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+}
+
+.filtersMenu > div > .buttons{
+    flex-flow: row nowrap;
+    border-radius: 40%;
+    font-size: 2em;
+    font-weight: bold;
+    border: 1px solid blue;
+    background-color: transparent;
+    padding-right:4%;
+}
+
+.filtersMenu > div > button > i{
     border-radius: 50%;
     color: #0065FC;
     background-color: #DEEBFF;
-    padding: 1em;
-    margin-right: 1em;
-}
-
-.filtersMenu button{
-    border: 1px solid #DEEBFF;
-    background-color: transparent;
-    border-radius: 20px;
+    padding: 1em 1.5em;
 }
 
 .filtersMenu button:hover {
