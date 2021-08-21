@@ -189,7 +189,7 @@ p{
 
 .mainSection > .popular > .popularCard{
     background-color: #F2F2F2;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 5px 5px 5px #c9c8c8;
     margin: 3em;
     display: flex;
@@ -197,20 +197,65 @@ p{
     flex: 1;
 }
 
-.mainSection > .popular > .popularCard > .popularPicture{
+.mainSection > .popular > .popularCard > a > .popularPicture{
     flex: 0.3;
-    max-height: 200px;
 }
 
-.mainSection > .popular > .popularCard > .popularPicture img{
-    padding: 0px;
-    border-radius: 20px;
+.mainSection > .popular > .popularCard > a > .popularPicture img{
+    margin: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 300px;
+    width: 280px;
 }
+    
 
 .mainSection > .popular > .popularCard > .popularDescription{
     flex: 0.5;    
     margin-left: 3%;
     padding-bottom: 3%;
+}
+
+.fullStar{
+    color: #0065FC;
+}
+
+.emptyStar{
+    color: #DEEBFF;
+}
+
+
+
+.accommodations{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.accommodations > .accommodationsCard{
+    flex: 1;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px #c9c8c8;
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.accommodations > .accommodationsCard > a > .accommodationsPicture{
+    display: flex;
+    margin: 0px;
+}
+
+.accommodations > .accommodationsCard > a > .accommodationsPicture img{
+    flex: 1;
+    height: 300px;
+}
+
+.accommodations > .accommodationsCard > .accommodationsDescription{
+    flex: 1;    
+    padding: 3%;
 }
 
 
@@ -257,13 +302,7 @@ p{
     
 }
 
-.fullStar{
-    color: #0065FC;
-}
 
-.emptyStar{
-    color: #DEEBFF;
-}
 
 .popular article{
     background-color: white;
