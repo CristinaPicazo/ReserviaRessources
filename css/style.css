@@ -76,10 +76,14 @@ h1, h2{
 }
 
 h1{
-    font-size: 3em;    
+    font-size: 4em;    
 }
 
 h2{
+    font-size: 3em;
+}
+
+h3{
     font-size: 2em;
 }
 
@@ -139,6 +143,7 @@ p{
 
 .filtersMenu > div > .buttons{
     flex-flow: row nowrap;
+    justify-content: space-between;
     border-radius: 40%;
     font-size: 2em;
     font-weight: bold;
@@ -160,31 +165,56 @@ p{
 
 .info i{
     color: #0065FC;
-}
-
-.fullStar{
-    color: #0065FC;
-}
-
-.emptyStar{
-    color: #DEEBFF;
+    margin-right: 2%;
 }
 
 .mainSection {
-    display: flex;
-    flex-flow: column nowrap;
-    width: 100%;
-    padding: 1.3rem;
-    margin: 1rem;
-    max-height: 40%;
-    
+    display: flex;    
+    flex-direction: column;
 }
 
-.accommodationsArticle{
+.mainSection > .popularHeading{
+    flex: 1;
+    flex-direction: row;
+}
+
+.mainSection > .popularHeading > i{
+    margin-right: auto;
+}
+
+.mainSection > .popular{
+    flex: 1;
+    flex-direction: column;
+}
+
+.mainSection > .popular > .popularCard{
     background-color: #F2F2F2;
     border-radius: 10px;
-    margin-right: 3em;
+    box-shadow: 0 5px 5px 5px #c9c8c8;
+    margin: 3em;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
 }
+
+.mainSection > .popular > .popularCard > .popularPicture{
+    flex: 0.3;
+    max-height: 200px;
+}
+
+.mainSection > .popular > .popularCard > .popularPicture img{
+    padding: 0px;
+    border-radius: 20px;
+}
+
+.mainSection > .popular > .popularCard > .popularDescription{
+    flex: 0.5;    
+    margin-left: 3%;
+    padding-bottom: 3%;
+}
+
+
+/*
 
 .accommodations h2{
     padding: 5% 2%;
@@ -225,6 +255,14 @@ p{
 .bodyPopular{
     flex-basis: 50%;
     
+}
+
+.fullStar{
+    color: #0065FC;
+}
+
+.emptyStar{
+    color: #DEEBFF;
 }
 
 .popular article{
@@ -279,3 +317,4 @@ p{
 footer{
     background-color: #F2F2F2;
 }
+*/
