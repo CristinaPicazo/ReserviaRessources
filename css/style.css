@@ -240,23 +240,32 @@ header a{
     box-shadow: 0 5px 5px 5px #F2F2F2;
     margin: 3em;
     display: flex;
-    flex-direction: column;
+    flex:1;
 }
 
 
 /* Activities */
+.bottomSection{
+    margin-right: 1%;
+}
+
 .bottomSection > .activities > .activitiesCard{
     background-color: white;
     border-radius: 10%;
     box-shadow: 0 5px 5px 5px #F2F2F2;
-    margin: 3em;
+    margin: 2em;
     display: flex;
     flex: 1;
     flex-direction: column;
 }
+.bottomSection > .activities > .activitiesCard{
+    display: flex;
+    flex:1;
+
+}
 
 .bottomSection > .activities > .activitiesCard > .activitiesPictures img{
-    flex: 1;
+    flex:1;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     height: 300px;
