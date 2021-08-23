@@ -14,6 +14,28 @@ html, body{
     flex-direction: column;
 }
 
+/* General */
+h1, h2{
+    font-weight: bold;
+    margin: 5% 0%;
+}
+
+h1{
+    font-size: 4em;    
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+p{
+    font: 0.5em;
+}
+
 /* Header & NavBar*/
 header ul li{
     display: inline;
@@ -34,9 +56,9 @@ header a{
 }
 
 .navTop > nav{
-    margin-left: auto;
     align-self: center;
     font-size: 3em;
+    margin-left: auto;
 }
 
 .signNav{
@@ -69,27 +91,7 @@ header a{
     border-bottom: thick solid #0065FC;
 }    
 
-/* Header */
-h1, h2{
-    font-weight: bold;
-    margin: 5% 0%;
-}
 
-h1{
-    font-size: 4em;    
-}
-
-h2{
-    font-size: 3em;
-}
-
-h3{
-    font-size: 2em;
-}
-
-p{
-    font: 0.5em;
-}
 
 .search{
     display: flex;
@@ -224,8 +226,7 @@ p{
     color: #DEEBFF;
 }
 
-
-
+/* Accommodations */
 .accommodations{
     display: flex;
     flex: 1;
@@ -243,117 +244,29 @@ p{
 }
 
 
-.accommodations > .accommodationsCard > a > .accommodationsPicture{
+/* Activities */
+.bottomSection > .activities > .activitiesCard{
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0 5px 5px 5px #c9c8c8;
+    margin: 3em;
     display: flex;
-    margin: 0px;
+    flex: 1;
+    flex-direction: column;
 }
 
-.accommodations > .accommodationsCard > a > .accommodationsPicture img{
+.bottomSection > .activities > .activitiesCard > .activitiesPictures img{
     flex: 1;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
     height: 300px;
 }
 
-.accommodations > .accommodationsCard > .accommodationsDescription{
+.bottomSection > .activities > .activitiesCard > .activitiesPictures figcaption{
     flex: 1;    
-    padding: 3%;
+    padding: 2%;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 
-/*
-
-.accommodations h2{
-    padding: 5% 2%;
-} 
-
-.accommodations article{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 5px 5px #c9c8c8;
-    padding: 1%;
-    width: 25%;
-    margin: 2% 2% auto;
-    max-height: 40%; 
-}
-
-.accommodations article img{
-    padding: 0px 0 10px 0;
-    border-radius: 20px;
-    width: 100%;
-    height: 100px;
-}
-
-.popularArticle{
-    background-color: #F2F2F2;
-    border-radius: 10px;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-}
-
-.popular img{
-    flex-basis: 50%;
-    
-}
-
-.bodyPopular{
-    flex-basis: 50%;
-    
-}
-
-
-
-.popular article{
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 5px 5px #c9c8c8;
-    padding: 10px;
-    margin: 2%;
-}
-
-.popular article img{
-    padding: 10px 0 10px 0;
-    border-radius: 20px;
-    height: 150px;
-    flex-basis: 50%;
-}
-
-.activities figure{
-    border-radius: 10px;
-    box-shadow: 0 5px 5px 5px #c9c8c8;
-    padding: 10px;
-    width: 20%;
-}
-
-.activities figure img{
-    padding: 10px;
-    border-radius: 20px;
-    width: 90%;
-    height: 80%;
-}
-
-.bottomSection {
-    display: flex;
-    flex-direction: column;
-}
-
-.bottomSection section{
-    display: flex;
-    flex-direction: column;
-}
-
-.bottomSection section figure{
-    border: red;
-    border-radius: 20px;
-    flex-grow: 1;
-}
-
-.bottomSection section article:nth-child(1), article:nth-child(4){
-    flex-grow: 2;
-}    
-
-footer{
-    background-color: #F2F2F2;
-}
-*/
