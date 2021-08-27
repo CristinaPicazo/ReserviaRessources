@@ -234,15 +234,31 @@ header a{
 }
 
 .accommodations > .accommodationsCard{
+    display: flex;
     flex: 1;
+    flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 20px;
     box-shadow: 0 5px 5px 5px #F2F2F2;
     margin: 3em;
-    display: flex;
-    flex:1;
 }
 
+.accommodationsPicture{
+    flex: 1 1 60%;
+}
+
+.accommodationsPicture img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.accommodationsDescription{
+    flex: 1 1 30%;
+    margin: 2%;
+
+}
 
 /* Activities */
 .bottomSection{
