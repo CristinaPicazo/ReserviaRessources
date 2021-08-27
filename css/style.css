@@ -37,28 +37,34 @@ p{
 }
 
 /* Header & NavBar*/
-header ul li{
-    display: inline;
-}
 
 header a{
     text-decoration: none;    
     color: black;    
 }
 
+header{
+    display: flex;
+    flex: 1;
+}
+
 .navTop{
+    display: flex;
+    flex: 1;
+}
+
+.navTop ul{
     display: flex;
 }
 
 .logo{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
-.navTop > nav{
-    align-self: center;
-    font-size: 3em;
-    margin-left: auto;
+.navTop li{
+    display: inline;
+    flex: 1 1 40%;
 }
 
 .signNav{
@@ -280,17 +286,17 @@ header a{
 
 }
 
-.bottomSection > .activities > .activitiesCard > .activitiesPictures img{
-    flex:1;
+.bottomSection img{
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    height: 300px;
+    height: 100%;
+    width: 100%;
 }
 
 .bottomSection > .activities > .activitiesCard > .activitiesPictures figcaption{
     flex: 1;    
-    padding: 2%;
-    font-size: 2em;
+    padding: 3%;
+    font-size: 3em;
     font-weight: bold;
 }
 
