@@ -18,10 +18,12 @@ html, body{
 /* General */
 h1, h2{
     font-weight: bold;
+    margin: 3%;
 }
 
 h1{
-    font-size: 4em;    
+    font-size: 4em;  
+      
 }
 
 h2{
@@ -30,10 +32,12 @@ h2{
 
 h3{
     font-size: 2em;
+    margin: 3%;
 }
 
 p{
     font: 0.5em;
+    margin: 3%;
 }
 
 /* Header & NavBar*/
@@ -49,42 +53,38 @@ header{
 }
 
 .navTop{
-    display: flex;
     flex: 1;
 }
 
 .navTop ul{
     display: flex;
-}
-
-.logo{
-    width: 150px;
-    height: 150px;
+    flex-flow: row wrap;
+    margin-left: 0;
 }
 
 .navTop li{
     display: inline;
-    flex: 1 1 40%;
+    flex: 1 1 50%;
+    font-size: 2em;
+}
+
+.navTop img{
+    width: 60%;
+    height: 60%;
 }
 
 .signNav{
     font-weight: bold;
     color: #0065FC;
+    margin: auto;
+    
 } 
 
 .navBottom{
-    display: flex;
-}
-
-.navBottom > ul{
+    margin-left: 0;
     display: flex;
     flex: 1;
-    border-bottom: solid #DEEBFF;
-}
-
-.navBottom > ul > li{
-    flex: 1;
-    font-size: 3em;
+    text-align: center;
 }
 
 .activitiesNav{
@@ -94,12 +94,14 @@ header{
 .accommodationsNav{
     justify-content: center;
     color: #0065FC;
-    border-bottom: thick solid #0065FC;
-}    
+} 
 
-
+.navTop hr{
+    border-bottom: solid #DEEBFF;
+}
 
 .search{
+    margin: 3%;
     display: flex;
 }
 
@@ -147,6 +149,7 @@ header{
     display: flex;
     flex: 1;
     flex-flow: row wrap;
+    margin: 3%;
 }
 
 .filtersMenu > div > .buttons{
@@ -325,6 +328,71 @@ header{
     color: black;
     text-decoration: none;
     font-size: 2em;
+  
     
+}
+
+@media only screen and (min-width: 981px) {
+    
+    .navTop ul{
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+    
+    .navTop li{
+        flex: 1;
+        padding: 0 5%;
+        margin-right: 5%;
+    }    
+    
+    .navTop hr{
+        border-bottom: none;
+    }
+
+    .signNav{
+        order: 3;
+    }
+    
+    .accommodationsNav{
+        order: 1;
+        
+    }
+    
+    .activitiesNav{
+        order: 2;
+        
+    }
+
+    /* .navTop{
+        flex: 1;
+    }
+    
+    .navTop ul{
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 0;
+    }
+    
+    .navTop li{
+        display: inline;
+        flex: 1 1 50%;
+        font-size: 2em;
+    }
+    
+    .navTop img{
+        width: 60%;
+        height: 60%;
+    }
+    
+    .signNav{
+        font-weight: bold;
+        color: #0065FC;
+        margin: auto;
+        
+    }  */
+
+
+
+
     
 }
