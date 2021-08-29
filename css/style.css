@@ -8,7 +8,6 @@ html, body{
 .root{
     background-color: white;
     font-family: 'Raleway', sans-serif;
-
     width: 100%;
     height: 100%;
     display: flex;
@@ -18,7 +17,7 @@ html, body{
 /* General */
 h1, h2{
     font-weight: bold;
-    margin: 3%;
+    margin-left: 20px;
 }
 
 h1{
@@ -32,12 +31,11 @@ h2{
 
 h3{
     font-size: 1em;
-    margin: 3%;
+    margin-left: 20px;
 }
 
 p{
     font: 0.5em;
-    margin: 3%;
 }
 
 /* Header & NavBar*/
@@ -101,7 +99,7 @@ header{
 }
 
 .search{
-    margin: 3%;
+    margin-left: 50px;
     display: flex;
 }
 
@@ -153,7 +151,7 @@ header{
     display: flex;
     flex: 1;
     flex-flow: row wrap;
-    margin: 3%;
+    margin-left: 50px;
 }
 
 .filtersMenu > div > .buttons{
@@ -180,29 +178,29 @@ header{
 
 .info i{
     color: #0065FC;
-    margin-right: 2%;
+    margin-right: 50px;
 }
 
-.mainSection {
+.popularSection {
     display: flex;    
     flex-direction: column;
 }
 
-.mainSection > .popularHeading{
+.popularSection > .popularHeading{
     flex: 1;
     flex-direction: row;
 }
 
-.mainSection > .popularHeading > i{
+.popularSection > .popularHeading > i{
     margin-right: auto;
 }
 
-.mainSection > .popular{
+.popularSection > .popular{
     flex: 1;
     flex-direction: column;
 }
 
-.mainSection > .popular > .popularCard{
+.popularSection > .popular > .popularCard{
     background-color: #F2F2F2;
     border-radius: 20px;
     box-shadow: 0 5px 5px 5px #c9c8c8;
@@ -212,11 +210,11 @@ header{
     flex: 1;
 }
 
-.mainSection > .popular > .popularCard > a > .popularPicture{
+.popularSection > .popular > .popularCard > a > .popularPicture{
     flex: 0.3;
 }
 
-.mainSection > .popular > .popularCard > a > .popularPicture img{
+.popularSection > .popular > .popularCard > a > .popularPicture img{
     margin: 0px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -225,9 +223,9 @@ header{
 }
     
 
-.mainSection > .popular > .popularCard > .popularDescription{
+.popularSection > .popular > .popularCard > .popularDescription{
     flex: 0.5;    
-    margin-left: 3%;
+    margin-left: 150px;
     padding-bottom: 3%;
 }
 
@@ -247,17 +245,11 @@ header{
 }
 
 .accommodations > .accommodationsCard{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+
     background-color: #F2F2F2;
     border-radius: 20px;
     box-shadow: 0 5px 5px 5px #F2F2F2;
-    margin: 3em;
-}
-
-.accommodationsPicture{
-    flex: 1 1 60%;
+    margin: 50px;
 }
 
 .accommodationsPicture img{
@@ -268,14 +260,14 @@ header{
 }
 
 .accommodationsDescription{
-    flex: 1 1 30%;
-    margin: 2%;
+    flex: 1;
+    margin-left: 50px;
 
 }
 
 /* Activities */
 .bottomSection{
-    margin-right: 1%;
+    margin-left: 50px;
 }
 
 .bottomSection > .activities > .activitiesCard{
@@ -315,7 +307,7 @@ header{
 }
 
 .footer > .footerSection{
-    margin: 1%;
+    margin-left: 50px;
     flex: 1;
     flex-direction: column;
 }
@@ -346,7 +338,7 @@ header{
     .navTop li{
         flex: 1;
         padding: 0 5%;
-        margin-right: 5%;
+        margin-left: 50px;
     }    
     
     .navTop hr{
@@ -366,34 +358,6 @@ header{
         order: 2;
         
     }
-
-    /* .navTop{
-        flex: 1;
-    }
-    
-    .navTop ul{
-        display: flex;
-        flex-flow: row wrap;
-        margin-left: 0;
-    }
-    
-    .navTop li{
-        display: inline;
-        flex: 1 1 50%;
-        font-size: 2em;
-    }
-    
-    .navTop img{
-        width: 60%;
-        height: 60%;
-    }
-    
-    .signNav{
-        font-weight: bold;
-        color: #0065FC;
-        margin: auto;
-        
-    }  */
 
 
     .search > form > div{
@@ -419,53 +383,44 @@ header{
         
     }
 
+    .mainSection{
+        display: flex;    
+        flex-direction: row;
+        flex: 1;
+    }
 
+    .popularSection{
+        order: 2;
+        display: flex;
+        flex: 1 1 30%;        
+    }
+    
+    .accommodations{
+        order: 1;
+        flex: 1 1 70%;
+        margin-right: 10px;
+        flex-flow: row wrap;
+    }
+    
+    .accommodations > .accommodationsCard{
+        margin-bottom: 30px;
+        height:300px;
+        margin: 0 10px;
+    }
 
-    /* .search{
-        margin: 3%;
+    .accommodations > .accommodationsCard > .accommodationsDescription{
+        display: 100%;
+    }
+
+    .bottomSection{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .bottomSection > .activities{
         display: flex;
     }
     
-    .search > form{
-        flex:1;
-    }
-    
-    .search > form > div{
-        flex:1;
-        border: solid #DEEBFF;
-        border-radius: 30%;
-    }
-    
-    .search > form > div > .map{
-        flex: 0.2;
-        font-size: 3em;
-        background-color:rgb(226, 220, 220);
-        border-top-left-radius: 30%;
-        border-bottom-left-radius: 30%;
-        padding: 4%;
-        border: none;
-    }
-    
-    .search > form > div > .inputText{
-        font-size: 3em;
-        font-weight: bold;
-        flex: 0.5;
-        padding: 4%;
-        border: none;
-    }
-    
-    .search > form > div > .searchSubmit{
-        font-size: 3em;
-        flex: 0.2;
-        font-weight: bold;
-        color: #DEEBFF;
-        background-color: #0065FC;
-        border-top-right-radius: 30%;
-        border-bottom-right-radius: 30%;
-        border: none;
-        padding: 4%;
-    } */
-
-
     
 }
