@@ -22,16 +22,16 @@ h1, h2{
 }
 
 h1{
-    font-size: 4em;  
+    font-size: 3em;  
       
 }
 
 h2{
-    font-size: 3em;
+    font-size: 2em;
 }
 
 h3{
-    font-size: 2em;
+    font-size: 1em;
     margin: 3%;
 }
 
@@ -106,13 +106,18 @@ header{
 }
 
 .search > form{
+    display: flex;
     flex:1;
+
 }
 
 .search > form > div{
-    flex:1;
-    border: solid #DEEBFF;
-    border-radius: 30%;
+    display: flex;
+    flex-direction: row nowrap;
+
+    /* border-radius: 30%; */
+    /* border: solid #DEEBFF; */
+    
 }
 
 .search > form > div > .map{
@@ -122,13 +127,12 @@ header{
     border-top-left-radius: 30%;
     border-bottom-left-radius: 30%;
     padding: 4%;
-    border: none;
 }
 
 .search > form > div > .inputText{
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
-    flex: 0.5;
+    flex: 0.6;
     padding: 4%;
     border: none;
 }
@@ -392,6 +396,75 @@ header{
     }  */
 
 
+    .search > form > div{
+        flex:0.5;
+    }
+
+    .search > form > div > .map{
+        font-size: 2em;
+        flex:0.2;
+        border: none;
+
+    }
+    
+    .search > form > div > .inputText{
+        flex:0.6;
+        font-size: 2em;
+        
+    }
+    
+    .search > form > div > .searchSubmit{
+        font-size: 2em;
+        flex:0.2;
+        
+    }
+
+
+
+    /* .search{
+        margin: 3%;
+        display: flex;
+    }
+    
+    .search > form{
+        flex:1;
+    }
+    
+    .search > form > div{
+        flex:1;
+        border: solid #DEEBFF;
+        border-radius: 30%;
+    }
+    
+    .search > form > div > .map{
+        flex: 0.2;
+        font-size: 3em;
+        background-color:rgb(226, 220, 220);
+        border-top-left-radius: 30%;
+        border-bottom-left-radius: 30%;
+        padding: 4%;
+        border: none;
+    }
+    
+    .search > form > div > .inputText{
+        font-size: 3em;
+        font-weight: bold;
+        flex: 0.5;
+        padding: 4%;
+        border: none;
+    }
+    
+    .search > form > div > .searchSubmit{
+        font-size: 3em;
+        flex: 0.2;
+        font-weight: bold;
+        color: #DEEBFF;
+        background-color: #0065FC;
+        border-top-right-radius: 30%;
+        border-bottom-right-radius: 30%;
+        border: none;
+        padding: 4%;
+    } */
 
 
     
