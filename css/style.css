@@ -483,17 +483,23 @@ header{
     }
     
     
-    
-
-    .bottomSection{
+    .activities{
         display: flex;
         flex-direction: row;
         flex: 1;
     }
-
-    .bottomSection > .activities{
-        display: flex;
+    
+    .bottomSection > .activities > .activitiesCard > .activitiesPictures figcaption{
+        font-size: 1em;
     }
+
+    .activities > .activitiesCard > .small{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
     
     .footer{
         margin-top: 3em;
@@ -508,16 +514,6 @@ header{
     .footer > .footerSection ul{
         margin-left: 1em;
         font-size: 0.5em;
-    }/* 
-    
-    .footer > .footerSection > ul > li{
-        padding: 2%;
-        list-style-type: none;
     }
-    .footer > .footerSection > ul > li > a{
-        color: black;
-        text-decoration: none;
-        font-size: 2em;
-    }     */
     
 }
