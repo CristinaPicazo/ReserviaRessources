@@ -51,6 +51,10 @@ header{
 .navTop{
     flex: 1;
 }
+.signupLink
+{
+    display: none;
+}
 
 .navTop ul{
     display: flex;
@@ -153,20 +157,19 @@ header{
 }
 
 .filtersMenu > div > .buttons{
-    border-radius: 40%;
+    border-radius: 40px;
     font-size: 2em;
-    font-weight: bold;
-    border: 1px solid blue;
-    background-color: transparent;
-    padding-right:4%;
+    border: 1px solid grey;
 }
 
 .filtersMenu > div > button > i{
-    border-radius: 50%;
+    border-radius: 40%;
     color: #0065FC;
     background-color: #DEEBFF;
-    padding: 1em 1.5em;
-}
+    padding: 1em;
+    position: relative;
+    left:-7px;
+    }
 
 .filtersMenu button:hover {
     background-color: #DEEBFF;
@@ -347,7 +350,15 @@ header{
         flex: 1;
         padding: 0 5%;
         margin-left: 50px;
-    }    
+    }   
+.signupTop{
+    display: none;
+    }
+    
+    .signupLink
+        {
+    display: block;
+}
     
     .navTop hr{
         border-bottom: none;
@@ -395,6 +406,7 @@ header{
         border-radius: 40px;
         font-size: 2em;
         border: 1px solid grey;
+        margin: 0.5em;
     }
 
     .filtersMenu > div > button > i{
