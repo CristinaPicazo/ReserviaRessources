@@ -153,8 +153,6 @@ header{
 }
 
 .filtersMenu > div > .buttons{
-    flex-flow: row nowrap;
-    justify-content: space-between;
     border-radius: 40%;
     font-size: 2em;
     font-weight: bold;
@@ -393,10 +391,26 @@ header{
         
     }
 
+    .filtersMenu > div > .buttons{
+        border-radius: 40px;
+        font-size: 2em;
+        border: 1px solid grey;
+    }
+
+    .filtersMenu > div > button > i{
+        border-radius: 40%;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        padding: 1em;
+        position: relative;
+        left:-7px;
+        }
+
     .mainSection{
         display: flex;    
         flex-direction: row;
         flex: 1;
+        height: 50%;
     }
 
     .popularSection{
@@ -464,8 +478,8 @@ header{
         background-color: white;
         border-radius: 20px;
         box-shadow: 0 5px 5px 5px #F2F2F2;
-        height: 20em;
-        width: 15em;
+        min-height: 20em;
+        min-width: 15em;
         
     }
     
