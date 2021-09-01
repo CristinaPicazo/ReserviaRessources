@@ -64,7 +64,6 @@ header{
 }
 
 .navTop ul{
-    flex: 1 1 50%;
     display: flex;
     flex-flow: row wrap;
     margin-left: 0;
@@ -101,8 +100,12 @@ header{
     border-bottom: solid #DEEBFF;
 }
 
+.intro{
+    margin-left: 3em;
+}
+
 .search{
-    margin-left: 50px;
+    margin-left: 0;
     display: flex;
 }
 
@@ -110,6 +113,10 @@ header{
     display: flex;
     flex:1;
 
+}
+
+.searchWords{
+    display: none;
 }
 
 .search > form > div{
@@ -135,7 +142,7 @@ header{
     font-weight: bold;
     flex: 0.6;
     padding: 4%;
-    border: none;
+    border: solid rgb(226, 220, 220);
 }
 
 .search > form > div > .searchSubmit{
@@ -378,6 +385,13 @@ header{
         
     }
 
+    .glass{
+        display: none;
+    }
+
+    .searchWords{
+        display: block;
+    }
 
     .search > form > div{
         flex:0.5;
