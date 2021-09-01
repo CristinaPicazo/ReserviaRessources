@@ -50,13 +50,21 @@ header{
 
 .navTop{
     flex: 1;
+    margin: auto;
 }
-.signupLink
-{
+
+.signupBottom{
     display: none;
 }
 
+.signupTop{
+    font-weight: bold;
+    color: #0065FC;
+    margin-right: 0;
+}
+
 .navTop ul{
+    flex: 1 1 50%;
     display: flex;
     flex-flow: row wrap;
     margin-left: 0;
@@ -73,26 +81,19 @@ header{
     height: 60%;
 }
 
-.signNav{
-    font-weight: bold;
-    color: #0065FC;
-    margin-right: 0;
-    
-} 
+.two{
+    display: flex;
+    margin-left: 0;
+
+}
 
 .navBottom{
-    margin-left: 0;
-    display: flex;
-    flex: 1;
+    flex: 1 1 50%;
     text-align: center;
 }
 
-.activitiesNav{
-    justify-content: center;    
-} 
 
 .accommodationsNav{
-    justify-content: center;
     color: #0065FC;
 } 
 
@@ -340,36 +341,35 @@ header{
     p{
         font: 0.5em;
     }
-    
-    .navTop ul{
-        flex-flow: row nowrap;
-        align-items: center;
+
+    .navTop{
+        font-size: 0.5em;
     }
     
     .navTop li{
         flex: 1;
-        padding: 0 5%;
-        margin-left: 50px;
-    }   
-.signupTop{
-    display: none;
+        flex-flow: row nowrap;
+        padding-right: 1em;
+    } 
+    
+    .signupTop{
+        display: none;
     }
     
-    .signupLink
-        {
-    display: block;
-}
+    .signupBottom{
+        display: block;
+        justify-content: center;
+        font-weight: bold;
+        color: #0065FC;
+    }
     
     .navTop hr{
         border-bottom: none;
     }
-
-    .signNav{
-        order: 3;
-    }
     
     .accommodationsNav{
         order: 1;
+        border-top: 0.2em solid blue;
         
     }
     
