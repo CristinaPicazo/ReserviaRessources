@@ -442,7 +442,11 @@ header{
         display: flex;    
         flex-direction: row;
         flex: 1;
-        height: 50%;
+        height: calc(120vh - 100px);
+    }
+
+    .mainSection h3{
+        margin-left: 2em;
     }
 
     .popularSection{
@@ -450,8 +454,8 @@ header{
         display: flex;
         flex-direction: column;
         flex: 0.3; 
+        margin-right: 2em;
     }
-
     
     .popularSection > .popularHeading > i{
         font-size: 1.5em;
@@ -486,6 +490,10 @@ header{
         padding: 0.5;
         
     }
+
+    .popularSection > .popular > .firstArticle {
+        margin-top: 0;
+    }
     
     .accommodations{
         order: 1;        
@@ -499,19 +507,20 @@ header{
         margin-left: 2em;
     }
     
-    .accommodations > .accommodationsCardBox{
+    .accommodations > .accommodationsCardBox > .ThreeCards{
         display: flex;        
-        flex-flow: row wrap;
-        
+        flex-flow: row nowrap;
+        justify-content: center;
     }
     
     
-    .accommodations > .accommodationsCardBox > .accommodationsCard{
+    .accommodations > .accommodationsCardBox > .ThreeCards > .accommodationsCard{
         background-color: white;
         border-radius: 20px;
         box-shadow: 0 5px 5px 5px #F2F2F2;
-        min-height: 20em;
+        max-height: 18em;
         min-width: 15em;
+        margin: 1em;
         
     }
     
@@ -524,7 +533,7 @@ header{
     
     .accommodationsDescription{
         margin: 0em;
-        padding: 1em;
+        padding: 0.5em;
     
     }
     
