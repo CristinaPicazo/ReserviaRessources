@@ -350,7 +350,7 @@ header{
     }
 
     .navTop{
-        font-size: 0.5em;
+        font-size: 0.4em;
     }
     
     .navTop li{
@@ -361,11 +361,19 @@ header{
     .signupTop{
         display: none;
     }
-    
+
     .navBottom{
+        display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        
+        padding-top: 1.2em;
+    }
+
+    .lineAccommodationsNav{
+        border: 0;
+        color: blue;
+        width: 60px;
+        height: 20px;
     }
 
     .signupBottom{
@@ -382,8 +390,8 @@ header{
     
     .accommodationsNav{
         order: 1;
-        border-top: 0.2em solid blue;
-        
+        border-top: 0.3em solid blue;
+        padding-top: 0.6em;
     }
     
     .activitiesNav{
