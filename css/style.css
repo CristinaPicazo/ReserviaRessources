@@ -461,7 +461,7 @@ header{
         order: 2;
         display: flex;
         flex-direction: column;
-        flex: 0.3; 
+        flex: 1 1 30%; 
         margin-right: 2em;
     }
     
@@ -505,7 +505,7 @@ header{
     
     .accommodations{
         order: 1;        
-        flex: 0.7;
+        flex: 1 1 70%;
         margin-right: 10px;
         background-color: #F2F2F2;
         margin: 0 2em;
@@ -526,8 +526,7 @@ header{
         background-color: white;
         border-radius: 20px;
         box-shadow: 0 5px 5px 5px #F2F2F2;
-        max-height: 18em;
-        min-width: 15em;
+        flex:1 1 30%;
         margin: 1em;
         
     }
