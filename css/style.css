@@ -50,7 +50,6 @@ header{
 
 .navTop{
     flex: 1;
-    margin: auto;
 }
 
 .signupBottom{
@@ -60,7 +59,7 @@ header{
 .signupTop{
     font-weight: bold;
     color: #0065FC;
-    margin-right: 0;
+    margin-right: 2em;
 }
 
 .navTop ul{
@@ -73,23 +72,24 @@ header{
     display: inline;
     flex: 1 1 50%;
     font-size: 2em;
+    margin: auto;
+    text-align: right;
 }
 
 .navTop img{
     width: 60%;
     height: 60%;
+    margin-left: 0em;
 }
 
 .two{
-    display: flex;
-    margin-left: 0;
-
+    justify-content: space-around;
 }
 
 .navBottom{
     flex: 1 1 50%;
-    text-align: center;
 }
+
 
 
 .accommodationsNav{
