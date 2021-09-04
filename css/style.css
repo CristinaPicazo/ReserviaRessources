@@ -545,48 +545,67 @@ header{
     
     }
     
-    .bottomSection{
+    /* .bottomSection{
         height: calc(133vh - 100px);
 
-    }
+    } */
     
     .activities{
         display: flex;
         flex-direction: row;
         flex: 1;
-
+        
     }
     
+    .activities > .fourContainers{
+        padding: 1em;
+        height: 22em;
+        flex: 1;
+    }
+    
+    .activities > .fourContainers > .activitiesCard{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .activities > .fourContainers > .activitiesCard figure{
+        flex: 1;
+    }
+    
+    .activities > .fourContainers > .activitiesCard img{
+        flex: 1 1 80%;
+    }
+    
+    .activities > .fourContainers > .activitiesCard figcaption{
+        flex: 1 1 20%;
+    }
     
     figure{
         margin: 1em;
         margin: 0;
     }
     
-    .bottomSection > .activities > .activitiesCard{
-        height: fit-content;
-    }
     
     .bottomSection > .activities > .activitiesCard > .activitiesPictures figcaption{
         font-size: 1em;
     }
-    
-    .activities > .activitiesCard >{
-        max-width: 17em;
-        height: 18em;
         
+    
+    .activities > .fourContainers > .small{
+        height: 100%;
     }
     
-    .activities > .activitiesCard > .small{
-        display: flex;
-        flex-direction: column;
-        
+    .activities > .fourContainers > .small > .activitiesCard{
+        height: 50%;
     }
     
-
+    /* .activities > .fourContainers > .small > .activitiesCard figure{
+        flex: 1 1 50%;
+    } */
     
     .footer{
-        margin-top: 3em;
+        margin: 3em 0 0 0 ;
         flex-direction: row;
     }
     
