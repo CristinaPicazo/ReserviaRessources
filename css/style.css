@@ -76,6 +76,12 @@ header{
     text-align: right;
 }
 
+.navTop .imgLogo{
+    text-align: left !important;
+    
+}
+
+
 .navTop img{
     width: 60%;
     height: 60%;
