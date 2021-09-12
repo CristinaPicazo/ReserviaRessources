@@ -284,7 +284,7 @@ header{
     margin-left: 50px;
 }
 
-.bottomSection > .activities > .activitiesCard{
+ .activitiesCard{
     background-color: white;
     border-radius: 10%;
     box-shadow: 0 5px 5px 5px #F2F2F2;
@@ -293,10 +293,20 @@ header{
     flex: 1;
     flex-direction: column;
 }
-.bottomSection > .activities > .activitiesCard{
+/* .bottomSection > .activities > .activitiesCard{
     display: flex;
     flex:1;
+    
+} */
 
+
+/* .activities > .fourContainers > .small > .activitiesCard figure{
+    display: flex;
+    flex:1;
+} */
+
+figure{
+    margin: 0;
 }
 
 .bottomSection img{
@@ -306,7 +316,8 @@ header{
     width: 100%;
 }
 
-.bottomSection > .activities > .activitiesCard > .activitiesPictures figcaption{
+/* background-color: black; */
+figcaption{
     flex: 1;    
     padding: 3%;
     font-size: 3em;
@@ -574,9 +585,9 @@ header{
         height: 100%;
     }
 
-    .activities > .fourContainers > .activitiesCard figure{
+    /* .activities > .fourContainers > .activitiesCard figure{
         flex: 1;
-    }
+    } */
     
     .activities > .fourContainers > .activitiesCard img{
         flex: 1 1 80%;
@@ -592,8 +603,9 @@ header{
     }
     
     
-    .bottomSection > .activities > .activitiesCard > .activitiesPictures figcaption{
+    .bottomSection > .activities > .activitiesCard > .activitiesPictures{
         font-size: 1em;
+        flex: 0.5;
     }
         
     
@@ -612,6 +624,8 @@ header{
     .footer{
         margin: 3em 0 0 0 ;
         flex-direction: row;
+        display: flex;
+        align-items: end;
     }
     
     .footer > .footerSection h2{
