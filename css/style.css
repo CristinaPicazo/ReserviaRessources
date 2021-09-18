@@ -172,27 +172,43 @@ hr.activitiesNavHR{
 
 
 
-.filtersMenu > .filtersButtons{
+.filtersButtons{
     display: flex;
     flex: 1;
     flex-flow: row wrap;
-    margin-left: 50px;
+    margin-left: -1em;
+    
 }
 
-.filtersMenu > div > .buttons{
-    border-radius: 40px;
-    font-size: 2em;
+.filtersButtons button{
+    display: flex;
+    margin: 0.8em 1em 0.8em 0;
+    border-radius: 50px;
     border: 1px solid grey;
     background-color: white;
 }
-
-.filtersMenu > div > button > i{
-    border-radius: 40%;
+.buttons{
+    font-size: 2.2em;
+    
+}
+.filtersMenu i{
+    flex: 1 1 20%;
+    border-radius: 50%;
     color: #0065FC;
-    padding: 1em;
+    padding: 1.2em;
     position: relative;
-    left:-11px;
-    }
+    margin: -7px 0 0 -18px;
+    /* left:-20px; */
+    background-color: #d5e5ff;
+}
+
+.filtersMenu div{
+    flex: 1 1 80%;
+    padding: 1em;
+    white-space: nowrap;
+    margin: auto;
+    font-weight: bold;
+}
 
 .filtersMenu button:hover {
     background-color: #DEEBFF;
