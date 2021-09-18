@@ -52,6 +52,12 @@ header{
     flex: 1;
 }
 
+.one{
+    flex: 1;
+    flex-direction: row;
+    
+}
+
 .signupBottom{
     display: none;
 }
@@ -60,6 +66,7 @@ header{
     font-weight: bold;
     color: #0065FC;
     margin-right: 2em;
+    align-self: flex-end;
 }
 
 .navTop ul{
@@ -73,7 +80,6 @@ header{
     flex: 1 1 50%;
     font-size: 2em;
     margin: auto;
-    text-align: right;
 }
 
 .navTop .imgLogo{
