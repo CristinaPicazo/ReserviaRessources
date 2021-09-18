@@ -41,74 +41,75 @@ p{
 header a{
     text-decoration: none;    
     color: black;    
+    font-size: 2.5em;
 }
 
-header{
+.navTop li{
+    display: inline;
+    flex: 1 1 50%;
+    margin: auto;
+}
+
+.navTop ul{
     display: flex;
-    flex: 1;
+    flex-flow: row wrap;
+}
+ .one{
+     margin: 0;
+ }
+
+.logo{
+    width: 60%;
+    height: 60%;
+    margin-left: 1em;
 }
 
-.navTop{
-    flex: 1;
+.signupTop{
+    font-weight: bold;
+    color: #0065FC;
+    margin-left: 50%;
 }
 
-.one{
-    flex: 1;
+.navBottom{
+    display: flex;
+}
+
+.two{
+    flex: 1 1 50%;
     flex-direction: row;
-    
+}
+
+.two li{
+    text-align: center;
 }
 
 .signupBottom{
     display: none;
 }
 
-.signupTop{
-    font-weight: bold;
-    color: #0065FC;
-    margin-right: 2em;
-    align-self: flex-end;
-}
-
-.navTop ul{
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: 0;
-}
-
-.navTop li{
-    display: inline;
-    flex: 1 1 50%;
-    font-size: 2em;
-    margin: auto;
-}
-
-.navTop .imgLogo{
-    text-align: left !important;
-    
-}
-
-
-.navTop img{
-    width: 60%;
-    height: 60%;
-    margin-left: 0em;
-}
-
-.two{
-    justify-content: space-around;
-}
-
-.navBottom{
-    flex: 1 1 50%;
-}
-
-
-
 .accommodationsNav{
     color: #0065FC;
 } 
 
 .navTop hr{
+    width: 50%;
+    margin: inherit;
+    border-bottom: solid #DEEBFF;
+}
+
+.hrDiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+hr.accommodationsNavHR{
+    flex: 1 1 50%;
+    border-bottom: solid #0065FC;
+}
+
+hr.activitiesNavHR{
+    flex: 1 1 50%;
     border-bottom: solid #DEEBFF;
 }
 
