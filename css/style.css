@@ -464,6 +464,11 @@ figcaption{
         font: 0.5em;
     }
 
+    .logo{
+        height: 8em;
+        margin-left: -6em;
+    }
+
     .navTop{
         font-size: 0.4em;
     }
@@ -473,7 +478,7 @@ figcaption{
         padding-right: 1em;
     } 
     
-    .signupTop{
+    .signupTop, hr{
         display: none;
     }
 
@@ -482,14 +487,16 @@ figcaption{
         flex-direction: row;
         flex-wrap: nowrap;
         padding-top: 1.2em;
+        margin-left: -10em;
     }
 
-    .lineAccommodationsNav{
+    /* .lineAccommodationsNav{
+        margin-top: -;
         border: 0;
         color: blue;
         width: 60px;
         height: 20px;
-    }
+    } */
 
     .signupBottom{
         display: block;
@@ -505,8 +512,8 @@ figcaption{
     
     .accommodationsNav{
         order: 1;
-        border-top: 0.3em solid blue;
-        padding-top: 0.6em;
+        border-top: 0.5em solid blue;
+        padding-top: 0.9em;
     }
     
     .activitiesNav{
