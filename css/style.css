@@ -214,9 +214,26 @@ hr.activitiesNavHR{
     background-color: #DEEBFF;
 }
 
+.info{
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+    margin: 0.2em
+}
+
 .info i{
-    color: #0065FC;
+    flex: 1 1 5%;
+    height: 50%;
+    background-color: #0065FC;
     margin-right: 50px;
+    color: white;
+    border-radius: 50%;
+    margin: 1em 1em  1em 0;
+}
+
+.info p{
+    flex: 1 1 90%;
+    
 }
 
 .popularSection {
