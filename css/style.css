@@ -362,49 +362,48 @@ hr.activitiesNavHR{
 
 .accommodationsDescription a{
     color: black;
+    text-decoration: none;
 
+}
+
+.accommodationsDescription i{
+    padding: 0.2em;
+    font-size: 0.8em;
 }
 
 /* Activities */
-.bottomSection{
-    margin-left: 50px;
+
+
+.bottomSection h2{
+    font-size: 4em;
+    margin: 2em 1em 1em 1em;
 }
 
- .activitiesCard{
+
+.activitiesCard{
     background-color: white;
-    border-radius: 10%;
+    border-radius: 40px;
     box-shadow: 0 5px 5px 5px #F2F2F2;
-    margin: 2em;
+    margin: 3em;
+}
+
+.activitiesPictures{
     display: flex;
     flex: 1;
     flex-direction: column;
-}
-/* .bottomSection > .activities > .activitiesCard{
-    display: flex;
-    flex:1;
-    
-} */
-
-
-/* .activities > .fourContainers > .small > .activitiesCard figure{
-    display: flex;
-    flex:1;
-} */
-
-figure{
     margin: 0;
+
 }
 
-.bottomSection img{
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    height: 100%;
-    width: 100%;
+.activitiesPictures img{
+    flex: 1 1 70%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    /* width: 100%; */
 }
 
-/* background-color: black; */
-figcaption{
-    flex: 1;    
+figcaption{    
+    flex: 1 1 30%;
     padding: 3%;
     font-size: 3em;
     font-weight: bold;
