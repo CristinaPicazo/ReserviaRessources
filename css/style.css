@@ -334,25 +334,34 @@ hr.activitiesNavHR{
     flex-direction: column;
 }
 
-.accommodations > .accommodationsCardBox > .accommodationsCard{
+.accommodations h2{
+    margin: 2em 2em 0 1.5em;
+}
 
-    background-color: #F2F2F2;
-    border-radius: 20px;
+ .accommodationsCard{
+    border-radius: 40px;
     box-shadow: 0 5px 5px 5px #F2F2F2;
-    margin: 1em;
+    margin: 3em;
 }
 
 .accommodationsPicture img{
-    height: 30em;
-    width: 100%;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    margin: 0.8em;
+    height: 20em;
+    width: 98%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    align-items: center;
 }
 
 .accommodationsDescription{
     flex: 1;
-    margin-left: 2em;
-    padding: 2em;
+    margin: 1em;
+    padding: 0 1em 1em 1em;
+    
+}
+
+.accommodationsDescription a{
+    color: black;
 
 }
 
