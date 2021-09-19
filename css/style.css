@@ -125,6 +125,17 @@ hr.activitiesNavHR{
 
 }
 
+.search{
+    display: flex;
+    
+}
+
+.inputContainer{
+    flex:1 1 10%;
+    margin: 1em;
+
+}
+
 .searchWords{
     display: none;
 }
@@ -452,16 +463,21 @@ figcaption{
 }
 
 @media only screen and (min-width: 981px) {
-    h2{
+    h1{
+
         font-size: 1.5em;
     }
-    
-    h3{
+
+    h2{
         font-size: 1em;
     }
     
+    h3{
+        font-size: 0.5em;
+    }
+    
     p{
-        font: 0.5em;
+        font: 0.3em;
     }
 
     .logo{
@@ -490,24 +506,12 @@ figcaption{
         margin-left: -10em;
     }
 
-    /* .lineAccommodationsNav{
-        margin-top: -;
-        border: 0;
-        color: blue;
-        width: 60px;
-        height: 20px;
-    } */
-
     .signupBottom{
         display: block;
         justify-content: center;
         font-weight: bold;
         color: #0065FC;
         white-space: nowrap;
-    }
-    
-    .navTop hr{
-        border-bottom: none;
     }
     
     .accommodationsNav{
@@ -517,8 +521,17 @@ figcaption{
     }
     
     .activitiesNav{
-        order: 2;
-        
+        order: 2;        
+    }
+
+    .bodyPage h3{
+        font-size: 1em;
+        font-weight: normal;
+
+    }
+
+    .search{
+        margin-left: -1em;
     }
 
     .glass{
@@ -527,17 +540,18 @@ figcaption{
 
     .searchWords{
         display: block;
+        
     }
-
+    
     .search > form > div{
         flex:0.5;
     }
-
+    
     .search > form > div > .map{
         font-size: 2em;
         flex:0.2;
         border: none;
-
+        
     }
     
     .search > form > div > .inputText{
@@ -549,6 +563,8 @@ figcaption{
     .search > form > div > .searchSubmit{
         font-size: 2em;
         flex:0.2;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;            
         
     }
 
