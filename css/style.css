@@ -236,6 +236,11 @@ hr.activitiesNavHR{
     
 }
 
+.mainSection{
+    display: flex;
+    flex-direction: column;
+}
+
 .popularSection {
     display: flex;    
     flex-direction: column;
@@ -246,24 +251,31 @@ hr.activitiesNavHR{
     display: flex;
     flex-direction: row;
     margin-left: 3em;
+    margin-top: 2em;
+}
+
+.popularSection > .popularHeading > h2{
+    font-size: 3.5em;
+
 }
 
 .popularSection > .popularHeading > i{
+    font-size: 3em;
     flex: 1 1 50%;
-    font-size: 2.5em;
     text-align: end;
     margin: 40px 40px;
 }
 
+/* popularCard */
+
 .popularSection > .popular > .popularCard{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 40px;
     box-shadow: 0 5px 5px 5px #c9c8c8;
     margin: 3em;
     display: flex;
     flex-direction: row;
     flex: 0.9;
-    height: 10%;
 }
 
 .popularSection > .popular > .popularCard > a{
@@ -271,18 +283,41 @@ hr.activitiesNavHR{
     flex: 1;
 }
 
-.popularSection > .popular > .popularCard > a > .popularDescription p, .stars{    
-    margin-left: 2em;
-    padding: 1em;
+.popularSection > .popular > .popularCard > a > .popularDescription{    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 1.5em;
+    margin-top: -25px;
     
 }
 
+.popularSection > .popular > .popularCard > a > .popularDescription h3{    
+    flex: 1 1 30%;
+    font-size: 3em;
+    
+}
+
+.popularSection > .popular > .popularCard > a > .popularDescription p{    
+    flex: 1 1 30%;
+    font-size: 2em;
+    
+}
+
+.popularSection > .popular > .popularCard > a > .popularDescription .stars{    
+    flex: 1 1 30%;
+    justify-self: end;
+    font-size: 1.5em;
+
+}
+
+
 .popularSection > .popular > .popularCard > a > .popularPicture img{
-    margin: 0px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    height: 300px;
-    width: 280px;
+    margin: 0.8em;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: 19em;
+    width: 19em;
 }
 .fullStar{
     color: #0065FC;
@@ -547,15 +582,15 @@ figcaption{
         height: 450px;
         width: 300px;
     }
-    
-    .popularSection > .popular > .popularCard > a > .popularDescription h3{    
-        margin: 0;
-    }
-    
+        
     .popularSection > .popular > .popularCard > a > .popularDescription p, .stars{    
         margin-left: 0;
-        padding: 0.5;
-        
+        padding: 0.5;  
+    }
+    
+    .popularSection > .popular > .popularCard > a > .popularDescription .stars{    
+        font-size: 0.8em;    
+    
     }
 
     .popularSection > .popular > .firstArticle {
