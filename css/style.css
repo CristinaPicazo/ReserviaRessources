@@ -28,10 +28,6 @@ h2{
     font-size: 2.5em;
 }
 
-h3{
-    font-size: 2em;
-}
-
 p{
     font: 0.5em;
 }
@@ -77,6 +73,7 @@ header a{
 .two{
     flex: 1 1 50%;
     flex-direction: row;
+    width: 100%;
 }
 
 .two li{
@@ -89,6 +86,7 @@ header a{
 
 .accommodationsNav{
     color: #0065FC;
+    margin-left: -5em;
 } 
 
 .navTop hr{
@@ -117,6 +115,9 @@ hr.activitiesNavHR{
     margin-left: 3em;
 }
 
+.bodyPage h3{
+    font-size: 1.7em;
+}
 
 .inputContainer{
     display: flex;
@@ -197,6 +198,12 @@ hr.activitiesNavHR{
     border-radius: 50px;
     border: 1px solid grey;
     background-color: white;
+}
+
+.filterText{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .buttons{
     font-size: 2.2em;
