@@ -33,6 +33,7 @@ header a{
     display: flex;
     flex-flow: row wrap;
 }
+
 .one{
     margin: 0;
 }
@@ -72,7 +73,6 @@ header a{
     margin-left: -5em;
 } 
 
-
 .navTop hr{
     width: 50%;
     margin: inherit;
@@ -95,12 +95,13 @@ hr.activitiesNavHR{
     border-bottom: solid #DEEBFF;
 }
 
-.intro{
-    margin-left: 3em;
+/* Head */
+.bodyPage{
+    margin-left: 1em;
 }
 
 .bodyPage h3{
-    font-size: 1.7em;
+    font-weight: normal;
 }
 
 .inputContainer{
@@ -455,9 +456,6 @@ figcaption{
 
 
 @media (min-width: 768px) {
-    .root{
-        background-color: red;
-    }
     /* For tablets: */
     header a{ 
         font-size: 0.8em;
