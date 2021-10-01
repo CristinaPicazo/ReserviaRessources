@@ -216,7 +216,7 @@ hr.activitiesNavHR{
     display: flex;
     flex-direction: row;
     font-size: 1em;
-    margin: 0.2em
+    margin: 0 0.2em 3.2em 0.2em;
 }
 
 .info i{
@@ -233,9 +233,11 @@ hr.activitiesNavHR{
     
 }
 
+/* Main section */
 .mainSection{
     display: flex;
     flex-direction: column;
+    margin: -1em;
 }
 
 .popularSection {
@@ -244,78 +246,84 @@ hr.activitiesNavHR{
     background-color: #F2F2F2;
 }
 
-.popularSection > .popularHeading{
+.popularHeading{
     display: flex;
     flex-direction: row;
-    margin-left: 3em;
-    margin-top: 2em;
+    margin: 0 1em;
 }
 
-.popularSection > .popularHeading > h2{
-    font-size: 3.5em;
+.popularHeading h2{
+    font-size: 1.5em;
+    white-space: nowrap;
+    margin: auto;
 
 }
 
-.popularSection > .popularHeading > i{
-    font-size: 3em;
+.popularHeading i{
+    font-size: 2em;
     flex: 1 1 50%;
     text-align: end;
     margin: 40px 40px;
 }
 
 /* popularCard */
-
-.popularSection > .popular > .popularCard{
+.popularCard{
     background-color: white;
-    border-radius: 40px;
+    border-radius: 10%;
     box-shadow: 0 5px 5px 5px #c9c8c8;
-    margin: 3em;
+    margin: 1em;
     display: flex;
     flex-direction: row;
     flex: 0.9;
 }
 
-.popularSection > .popular > .popularCard > a{
+.popularCard a{
     display: flex;
     flex: 1;
 }
 
-.popularSection > .popular > .popularCard > a > .popularDescription{    
+.popularPicture{
+    flex: 0.5;
+    max-height: 20em;
+}
+
+.popularPicture img{
+    margin: 0.5em;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    height: 90%;
+    width: 100%;
+}
+
+.popularDescription{    
     display: flex;
     flex-direction: column;
     flex: 1;
     margin-left: 1.5em;
     margin-top: -25px;
+    /* flex: 0.7; */
     
 }
 
-.popularSection > .popular > .popularCard > a > .popularDescription h3{    
+.popularDescription h3{    
     flex: 1 1 30%;
-    font-size: 3em;
+    font-size: 1.2em;
     
 }
 
-.popularSection > .popular > .popularCard > a > .popularDescription p{    
+.popularDescription p{    
     flex: 1 1 30%;
-    font-size: 2em;
+    font-size: 1.2em;
     
 }
 
-.popularSection > .popular > .popularCard > a > .popularDescription .stars{    
+.stars{    
     flex: 1 1 30%;
     justify-self: end;
-    font-size: 1.5em;
+    font-size: 1em;
 
 }
 
-
-.popularSection > .popular > .popularCard > a > .popularPicture img{
-    margin: 0.8em;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
-    height: 19em;
-    width: 19em;
-}
 .fullStar{
     color: #0065FC;
 }
@@ -579,7 +587,7 @@ figcaption{
         font-size: 0.8em;
         margin-right: 50%;
     }
-    
+
     /* Main section */
     .mainSection{
         display: flex;    
