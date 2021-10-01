@@ -95,6 +95,7 @@ hr.activitiesNavHR{
     border-bottom: solid #DEEBFF;
 }
 
+
 /* Head */
 .bodyPage{
     margin-left: 1em;
@@ -108,6 +109,7 @@ hr.activitiesNavHR{
 .bodyPageSection h3{
     font-weight: normal;
 }
+
 
 /* Search button */
 .search{
@@ -167,49 +169,24 @@ hr.activitiesNavHR{
 }
 
 
-
-
+/* Filters */
 .filtersButtons{
     display: flex;
     flex: 1;
     flex-flow: row wrap;
-    margin-left: -1em;
-    
-}
-
-.filtersButtons button{
-    display: flex;
-    margin: 0.8em 1em 0.8em 0;
-    border-radius: 50px;
-    border: 1px solid grey;
-    background-color: white;
-}
-
-.filterText{
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-.buttons{
-    font-size: 2.2em;
-    
-}
-.filtersMenu i{
-    flex: 1 1 20%;
-    border-radius: 50%;
-    color: #0065FC;
-    padding: 1.2em;
-    position: relative;
-    margin: -7px 0 0 -18px;
-    /* left:-20px; */
-    background-color: #d5e5ff;
-}
-
-.filtersMenu div{
-    flex: 1 1 80%;
     padding: 1em;
     white-space: nowrap;
     margin: auto;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    margin: 0.8em 1.5em 0.8em 0;
+    border-radius: 50px;
+    border: 1px solid grey;
+    background-color: white;
+    font-size: 0.9em;
     font-weight: bold;
 }
 
@@ -217,6 +194,24 @@ hr.activitiesNavHR{
     background-color: #DEEBFF;
 }
 
+.filtersMenu i{
+    flex: 1 1 20%;
+    border-radius: 50%;
+    color: #0065FC;
+    padding: 1.2em;
+    position: relative;
+    margin: -7px 0 0 -18px;
+    background-color: #d5e5ff;
+}
+
+.filterText{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;    
+}
+
+
+/* Info */
 .info{
     display: flex;
     flex-direction: row;
@@ -457,22 +452,18 @@ figcaption{
 
 @media (min-width: 768px) {
     /* For tablets: */
+    /* Nav bar */
     header a{ 
-        font-size: 0.8em;
+        font-size: 0.5em;
     }
     
     .logo{
-        width: 40%;
-        margin-left: -0.3em;
+        width: 30%;
+        margin: 0.5em 0 0 -0.3em;
     }
     
-    
-    /* .navTop{
-        font-size: 0.2em;
-    } */
-    
     .navTop li{
-        margin-top: -0.8em;
+        margin-top: -1.3em;
         flex: 1;
         padding-right: 1em;
         padding-top: -1em;
@@ -486,7 +477,7 @@ figcaption{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        padding-top: 1.2em;
+        padding: 1.2em;
         margin-left: -10em;
     }
 
@@ -508,6 +499,7 @@ figcaption{
         order: 2;        
     }
 
+
     /* Head */
     .bodyPage{
         margin-left: 2em;
@@ -516,16 +508,20 @@ figcaption{
     .bodyPageSection h1{
         font-size: 1em;
     }
+    
+    .bodyPageSection h3{
+        font-size: 0.5em;
+    }
+
 
     /* Search */
-
     .search{
         margin-left: -1em;
+        font-size: 0.5em;
     }
     
     .inputContainer{
-        margin-right: 15%;
-        
+        margin-right: 15%;        
     }
 
     map{
@@ -536,7 +532,6 @@ figcaption{
 
     .inputText{
         flex:0.6;
-        font-size: 1em;
     }
 
     .glass{
@@ -550,25 +545,38 @@ figcaption{
 
     .searchWords{
         display: block;
-        font-size: 1em;        
+        font-size: 1em;
     }
 
-    .filtersMenu > div > .buttons{
+
+    /* Filters */
+    .filtersMenu{
+        display: flex;
+        flex: 1;
+        font-size: 0.5em;
+    }
+    .filtersMenu h2{
+        margin: auto;
+    }
+    
+    .filtersButtons{
+        flex-flow: row nowrap;
+    }
+
+    .buttons{
         border-radius: 40px;
-        font-size: 2em;
         border: 1px solid grey;
         margin: 0.5em;
     }
 
-    .filtersMenu > div > button > i{
-        border-radius: 40%;
+    .filtersMenu i{
         color: #0065FC;
-        background-color: #DEEBFF;
-        padding: 1em;
         position: relative;
-        left:-7px;
-        }
+        margin: -5px 0 0 -10px;
+    }
 
+
+    /* Main section */
     .mainSection{
         display: flex;    
         flex-direction: row;
