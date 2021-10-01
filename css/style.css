@@ -215,18 +215,17 @@ hr.activitiesNavHR{
 .info{
     display: flex;
     flex-direction: row;
-    font-size: 3em;
+    font-size: 1em;
     margin: 0.2em
 }
 
 .info i{
-    flex: 1 1 5%;
+    flex: 1;
     height: 50%;
     background-color: #0065FC;
-    margin-right: 50px;
     color: white;
     border-radius: 50%;
-    margin: 1em 1em  1em 0;
+    margin: 1em 1em 1em 0;
 }
 
 .info p{
@@ -575,7 +574,12 @@ figcaption{
         margin: -5px 0 0 -10px;
     }
 
-
+    /* Info */
+    .info{
+        font-size: 0.8em;
+        margin-right: 50%;
+    }
+    
     /* Main section */
     .mainSection{
         display: flex;    
