@@ -300,27 +300,29 @@ hr.activitiesNavHR{
     flex-direction: column;
     flex: 1;
     margin-left: 1.5em;
-    margin-top: -25px;
-    /* flex: 0.7; */
+    /* margin-top: -25px; */
     
 }
 
 .popularDescription h3{    
     flex: 1 1 30%;
-    font-size: 1.2em;
+    font-size: 1em;
     
 }
 
 .popularDescription p{    
     flex: 1 1 30%;
-    font-size: 1.2em;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+    justify-self: start;
     
 }
 
 .stars{    
     flex: 1 1 30%;
     justify-self: end;
-    font-size: 1em;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
 
 }
 
@@ -368,7 +370,6 @@ hr.activitiesNavHR{
 .accommodationsDescription a{
     color: black;
     text-decoration: none;
-
 }
 
 .accommodationsDescription i{
@@ -596,95 +597,64 @@ figcaption{
         height: calc(133vh - 100px);
     }
 
-    .mainSection h3{
-        margin-left: 2em;
-    }
-
+    /* Popular */
     .popularSection{
         order: 2;
-        display: flex;
-        flex-direction: column;
-        flex: 1 1 30%; 
-        margin-right: 2em;
-    }
-    
-    .popularSection > .popularHeading > i{
-        font-size: 1.5em;
-        margin: 30px;
-    }
-    
-    .popularSection > .popular > .popularCard > a > .popularPicture img{
-        height: 100%;
-        width: 10em;
-    }
-    
-    .popularSection > .popular > .popularCard > a{
-        display: flex;
-        flex: 1;
-    }
-    
-    .popularSection > .popular > .popularCard > a > .popularDescription{    
-        margin: 0.5em;
-        padding: 1em;
-        display: flex;
-        flex-direction: column;
-        height: 450px;
-        width: 300px;
-    }
-        
-    .popularSection > .popular > .popularCard > a > .popularDescription p, .stars{    
-        margin-left: 0;
-        padding: 0.5;  
-    }
-    
-    .popularSection > .popular > .popularCard > a > .popularDescription .stars{    
-        font-size: 0.8em;    
-    
+        flex: 1 1 30%;
     }
 
-    .popularSection > .popular > .firstArticle {
-        margin-top: 0;
+    .popularHeading h2{
+        font-size: 1em;
+    }
+
+    .popularHeading i{
+        font-size: 1em;
+        margin-right: 0.5em;
     }
     
     .accommodations{
         order: 1;        
         flex: 1 1 70%;
-        margin-right: 10px;
         background-color: #F2F2F2;
         margin: 0 2em;
     }
-    
-    .accommodations h2{
-        margin-left: 2em;
+
+    .accommodations h2{ 
+        white-space: nowrap;
+        font-size: 1em;
     }
-    
-    .accommodations > .accommodationsCardBox > .ThreeCards{
+
+    .ThreeCards{
         display: flex;        
         flex-flow: row nowrap;
         justify-content: center;
     }
     
     
-    .accommodations > .accommodationsCardBox > .ThreeCards > .accommodationsCard{
+    .accommodationsCard{
         background-color: white;
         border-radius: 20px;
         box-shadow: 0 5px 5px 5px #F2F2F2;
         flex:1 1 30%;
-        margin: 1em;
+        margin: 0.5em;
         
     }
     
     .accommodationsPicture img{
-        height: 10em;
-        width: 15em;
+        margin: 0.2em;
+        height: 100%;
+        width: 98%;
         border-top-left-radius: 10%;
         border-top-right-radius: 10%;
     }
     
     .accommodationsDescription{
         margin: 0em;
-        padding: 0.5em;
-    
+        padding: 0.5em;    
+    }
+
+    .accommodationsDescription{
+        font-size: 0.8em;
     }
     
     /* .bottomSection{
@@ -710,16 +680,12 @@ figcaption{
         flex-direction: column;
         height: 100%;
     }
-
-    /* .activities > .fourContainers > .activitiesCard figure{
-        flex: 1;
-    } */
     
-    .activities > .fourContainers > .activitiesCard img{
+    .activitiesCard img{
         flex: 1 1 80%;
     }
     
-    .activities > .fourContainers > .activitiesCard figcaption{
+    .activitiesCard figcaption{
         flex: 1 1 20%;
     }
     
@@ -729,23 +695,19 @@ figcaption{
     }
     
     
-    .bottomSection > .activities > .activitiesCard > .activitiesPictures{
+    .activitiesPictures{
         font-size: 1em;
         flex: 0.5;
     }
         
     
-    .activities > .fourContainers > .small{
+    .small{
         height: 100%;
     }
     
-    .activities > .fourContainers > .small > .activitiesCard{
+    .activitiesCard{
         height: 50%;
     }
-    
-    /* .activities > .fourContainers > .small > .activitiesCard figure{
-        flex: 1 1 50%;
-    } */
     
     .footer{
         margin: 3em 0 0 0 ;
@@ -754,12 +716,12 @@ figcaption{
         align-items: end;
     }
     
-    .footer > .footerSection h2{
+    .footerSection h2{
         margin-left: 2em;
     }
     
     
-    .footer > .footerSection ul{
+    .footerSection ul{
         margin-left: 1em;
         font-size: 0.5em;
     }
