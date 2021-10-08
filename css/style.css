@@ -285,8 +285,8 @@ hr.activitiesNavHR{
 
 .popularPicture img{
     margin: 0.5em;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
     height: 90%;
     width: 100%;
 }
@@ -346,7 +346,7 @@ hr.activitiesNavHR{
 }
 
 .accommodationsCard{
-    border-radius: 40px;
+    border-radius: 30%;
     box-shadow: 0 5px 5px 5px #F2F2F2;
     margin: 1em;
 }
@@ -355,8 +355,8 @@ hr.activitiesNavHR{
     margin: 0.8em;
     height: 8em;
     width: 98%;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
     align-items: center;
 }
 
@@ -377,19 +377,16 @@ hr.activitiesNavHR{
     font-size: 0.8em;
 }
 
-/* Activities */
-
+/* Bottom section */
 .bottomSection h2{
     font-size: 1.5em;
-    margin: 2em 1em 1em 1em;
+    margin: 2em 1em 1em 0.5em;
 }
 
-
-/* .activitiesCard{
-    background-color: white;
-    border-radius: 40px;
-    margin: 3em; */
-    
+.activitiesCard{
+    border-radius: 1em;
+    margin: 3em 0.2em 3em -2em;
+}
     
     /* .activitiesPictures{
         display: flex;
@@ -402,18 +399,16 @@ hr.activitiesNavHR{
     
 .activitiesPictures img{
     display: flex;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
     height: 8em;
     width: 100%;
     z-index: -1;
-    margin-top: 1em;
 }
 
 figcaption{    
-    /* flex: 1 1 30%; */
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
     padding: 1em;
     font-size: 1em;
     font-weight: bold;
@@ -571,7 +566,7 @@ figcaption{
     }
 
     .buttons{
-        border-radius: 40px;
+        border-radius: 30%;
         border: 1px solid grey;
         margin: 0.5em;
     }
@@ -643,8 +638,8 @@ figcaption{
         margin: 0.2em;
         height: 100%;
         width: 98%;
-        border-top-left-radius: 10%;
-        border-top-right-radius: 10%;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
     }
     
     .accommodationsDescription{
