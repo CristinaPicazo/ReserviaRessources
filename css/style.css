@@ -1,10 +1,10 @@
 /* General */
-html, body{
+/* html, body{
     width: 100%;
     height: 100%;
     margin: 0;
     
-}
+} */
 
 .root{
     background-color: white;
@@ -333,10 +333,6 @@ hr.activitiesNavHR{
 }
 
 /* Accommodations */
-/* .accommodations{
-    background: #F2F2F2;
-    padding-bottom: 2em;
-} */
 
 .accommodations h2{
     font-size: 1.5em;
@@ -354,9 +350,9 @@ hr.activitiesNavHR{
     max-height: 14em;
 }
 
-.accommodationsPicture{
+/* .accommodationsPicture{
     flex: 0.6;
-}
+} */
 
 
 .accommodationsPicture img{    
@@ -384,15 +380,6 @@ hr.activitiesNavHR{
     margin-bottom: 0.5em;
 }
 
-.showMore{
-    display: none;
-}
-
-/* .accommodationsDescription i{
-    padding: 0.3em;
-    font-size: 0.8em;
-} */
-
 
 /* Activities */
 .activitiesCard{
@@ -410,57 +397,72 @@ hr.activitiesNavHR{
     
     
 .activitiesPictures img{
-    display: flex;
+    /* display: flex; */
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     height: 8em;
-    width: 100%;
-    z-index: -1;
+    width: 107%;
+    /* z-index: -1; */
+    /* position: absolute; */
 }
 
 figcaption{    
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    padding: 1em;
+    padding: 1em 0;
     font-size: 1em;
     font-weight: bold;
     background-color: white;
     box-shadow: 0 5px 5px 5px #F2F2F2;
-    z-index: 1;
-    width: 86%;
+    width: 107%;
     margin-top: -1em;
-    position: absolute;
+    position: relative;
+    /* z-index: 1; */
+    /* position: absolute; */
 }
 
 /* Footer */
 .footer{
-    margin-top: 10em;
+    /* margin-top: 1em; */
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
+    margin:0;
 }
 
-.footer > .footerSection{
-    margin-top: 5em;
+.footerSection{
+    /* margin-top: 5em; */
     flex: 1;
     flex-direction: column;
 }
 
-.footer > .footerSection h2,ul{
-    margin-left: 2em;
+.firstFooterSection{
+    margin-top: 2em;
 }
-.footer > .footerSection > ul > li{
-    padding: 2%;
+
+.footerSection h2{
+    margin-left: 1em;
+    font-size: 1.2em;    
+
+}
+
+.footerSection ul{
+    margin-left: -1.2em;
+}
+
+.foooterUl li{
+    padding: 0.2em;
     list-style-type: none;
 }
-.footer > .footerSection > ul > li > a{
+
+.foooterUl li a{
     color: black;
     text-decoration: none;
-    font-size: 2em;    
+    font-size: 1em;    
 }
 
 .assistance{
-    margin-bottom: 5em;
+    margin-bottom:2em;
 }
 
 
@@ -618,6 +620,7 @@ figcaption{
         margin-right: 0.5em;
     }
     
+    /* Accommodations */
     .accommodations{
         order: 1;        
         flex: 1 1 70%;
