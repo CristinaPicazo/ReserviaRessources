@@ -1,10 +1,9 @@
 /* General */
-/* html, body{
+html, body{
     width: 100%;
     height: 100%;
-    margin: 0;
-    
-} */
+    margin: 0;    
+}
 
 .root{
     background-color: white;
@@ -17,11 +16,14 @@
 
 /* Mobile First*/
 /* Header & NavBar*/    
-header a{
-    text-decoration: none;    
-    color: black;    
-    font-size: 1em;
-    font-weight: bold;
+
+.one{
+    margin: 0;
+}
+
+.navTop ul{
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .navTop li{
@@ -31,19 +33,17 @@ header a{
     margin: auto;
 }
 
-.navTop ul{
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.one{
-    margin: 0;
-}
-
 .logo{
     width: 60%;
-    height: 60%;
-    margin-left: 1em;
+    /* height: 60%; */
+    margin-left: -1em;
+}
+
+header a{
+    text-decoration: none;    
+    color: black;    
+    font-size: 1em;
+    font-weight: bold;
 }
 
 .signupTop{
@@ -61,22 +61,22 @@ header a{
 }
 
 .two li{
-    margin: auto;
-}
-
-.signupBottom{
-    display: none;
+    text-align: center;
+    /* margin: auto; */
 }
 
 .accommodationsNav{
     color: #0065FC;
-    margin-left: -5em;
+    /* margin-left: -3em; */
 } 
 
-.navTop hr{
-    width: 50%;
-    margin: inherit;
-    border-bottom: solid #DEEBFF;
+/* .activitiesNav{
+    margin-left: 1em;
+    
+} */
+
+.signupBottom{
+    display: none;
 }
 
 .hrDiv{
@@ -85,16 +85,21 @@ header a{
     margin-top: 0.2em;
 }
 
-hr.accommodationsNavHR{
+.accommodationsNavHR{
     flex: 1 1 50%;
     border-bottom: solid #0065FC;
 }
 
-hr.activitiesNavHR{
+.activitiesNavHR{
     flex: 1 1 50%;
     border-bottom: solid #DEEBFF;
 }
 
+/* .navTop hr{
+    width: 50%;
+    margin: inherit;
+    border-bottom: solid #DEEBFF;
+} */
 
 /* Head */
 .bodyPage{
@@ -335,7 +340,7 @@ hr.activitiesNavHR{
 /* Accommodations */
 
 .accommodations h2{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
     margin: 2em 0em 0em 1em;
     white-space: nowrap;
@@ -347,7 +352,8 @@ hr.activitiesNavHR{
     border-radius: 1em;
     box-shadow: 0 5px 5px 5px #F2F2F2;
     margin: 1em;
-    max-height: 14em;
+    width: 90%;
+    height: calc(50vh - 155px);
 }
 
 /* .accommodationsPicture{
