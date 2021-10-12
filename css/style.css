@@ -1,6 +1,6 @@
 /* General */
 html, body{
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     margin: 0;    
 }
@@ -53,11 +53,13 @@ header a{
 
 .navBottom{
     display: flex;
+    flex: 1;
 }
 
 .two{
     flex: 1 1 50%;
-    flex-direction: row;
+    /* flex-direction: column; */
+    margin: 0 -5em;
 }
 
 .two li{
@@ -287,7 +289,7 @@ header a{
 
 .popularPicture{
     flex: 0.5;
-    max-height: 20em;
+    height: 8em;
 }
 
 .popularPicture img{
@@ -310,7 +312,7 @@ header a{
 .popularDescription h3{    
     flex: 1 1 30%;
     font-size: 1em;
-    
+    margin: 1em 3em -0.8em 0;
 }
 
 .popularDescription p{    
@@ -352,7 +354,7 @@ header a{
     border-radius: 1em;
     box-shadow: 0 5px 5px 5px #F2F2F2;
     margin: 1em;
-    width: 90%;
+    width: 86%;
     height: calc(50vh - 155px);
 }
 
@@ -386,11 +388,16 @@ header a{
     margin-bottom: 0.5em;
 }
 
+.showMore{
+    margin: 0 0 3em 1em;
+}
+
 
 /* Activities */
+
 .activitiesCard{
     border-radius: 1em;
-    margin: 3em 0.2em 3em -2em;
+    margin: 2em 0.2em 3em -2em;
 }
     
     /* .activitiesPictures{
@@ -415,7 +422,7 @@ header a{
 figcaption{    
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    padding: 1em 0;
+    padding: 1em 0em;
     font-size: 1em;
     font-weight: bold;
     background-color: white;
@@ -488,7 +495,7 @@ figcaption{
         margin-top: -1.3em;
         flex: 1;
         padding-right: 1em;
-        padding-top: -1em;
+        /* padding-top: -1em; Invalid CSS*/ 
     } 
     
     .signupTop, hr{
