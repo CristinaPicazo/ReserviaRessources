@@ -5,7 +5,8 @@
     <title>Reservia</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Reservia" content="Webpage to book accommodations for holclassays">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="Reservia" content="Webpage to book accommodations for holclassays"> -->
 
     <!-- LINKS TO CSS FILE ("STYLESHEET") AND SITE ICON -->
     <!-- Mobile First -->
@@ -26,30 +27,35 @@
                     <li><img class="logo" src="images/logo/Reservia.svg" alt="Reservia logo" title="Reservia"></li>
                     <li><a class="signupTop" href="#sign">Sign Up</a></li>
                     <li>
-                        <ul class="two">
-                            <div class="navBottom">
-                                <li><a class="accommodationsNav" href="#accommodations">Accommodations</a></li>
-                                <li><a class="activitiesNav" href="#activities">Activities</a></li>
+                        <div class="navBottom">
+                            <ul class="two">
+                                <li><a class="accommodationsNav" href="#accommodations">Accommodations</a>
+                                    <hr class="accommodationsNavHR">
+                                </li>
+                                <li><a class="activitiesNav" href="#activities">Activities</a>
+                                    <hr class="activitiesNavHR">
+                                </li>
                                 <li><a class="signupBottom" href="#sign">Sign Up</a></li>
-                        </ul>
+                            </ul>
+                        </div><!-- Close  navBottom-->
                     </li>
-        </div><!-- Close  navBottom-->
-        </ul>
-        </nav>
-        <hr>
+                </ul>
+            </nav>
+            <!-- <div class="hrDiv">
+            </div> -->
         </div><!-- Close navTop -->
     </header>
 
 
     <!-- Head -->
     <div class="bodyPage">
-        <section class="intro">
+        <section class="bodyPageSection">
             <h1>Find a place to your dream vacation</h1>
-            <h3>Downtown or in nature</h3>
+            <h2>Downtown or in nature</h2>
 
-            <!-- Sear button -->
+            <!-- Search Button -->
             <div class="search">
-                <form action="" method="get">
+                <form action="#" method="get">
                     <div class="inputContainer">
                         <i class="map fas fa-map-marker-alt"></i>
                         <input class="inputText" type="text" name="location" placeholder="Marselle, France" />
@@ -63,16 +69,30 @@
             <div class="filtersMenu">
                 <h2>Filters</h2>
                 <div class="filtersButtons">
-                    <button class="buttons"><i class="fas fa-child"></i> Family-friendly</button>
-                    <button class="buttons"><i class="fas fa-heart"></i> Romantic</button>
-                    <button class="buttons"><i class="fas fa-dog"></i> Pets allowed</button>
-                    <button class="buttons"><i class="fas fa-money-bill-wave"></i> Low Cost</button>
+                    <button class="buttons">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span class="filterText"> Low Cost</span>
+                    </button>
+                    <button class="buttons">
+                        <i class="fas fa-heart"></i>
+                        <spam class="filterText"> Romantic</spam>
+                    </button>
+                    <button class="buttons">
+                        <i class="fas fa-child"></i>
+                        <span class="filterText">Family-friendly</span>
+                    </button>
+                    <button class="buttons">
+                        <i class="fas fa-dog"></i>
+                        <span class="filterText"> Pets allowed</span>
+                    </button>
                 </div><!-- Close  filtersButtons-->
             </div><!-- Close  filtersMenu-->
 
             <!-- Info -->
             <div class="info">
-                <p><i class="fas fa-info-circle"></i> More than 5000 accommodations are available in this city</p>
+                <i class="fas fa-info-circle"></i>
+                <p>More than 5000 accommodations are available in this city
+                </p>
             </div><!-- Close  info-->
         </section>
 
@@ -80,13 +100,14 @@
         <!-- Main section -->
         <div class="mainSection">
 
+            <!-- Popular section -->
             <div class="popularSection">
-                <!-- Popular section -->
                 <div class="popularHeading">
                     <h2>Most Popular</h2>
                     <i class="fas fa-chart-line"></i>
-
                 </div><!-- Close  popularHeading-->
+
+                <!-- Popular Card -->
                 <section class="popular">
                     <article class="popularCard firstArticle">
                         <a>
@@ -116,7 +137,7 @@
                                     alt="Au coeur de l'eau Bed and Breakfast picture">
                             </div><!-- Close  popularPicture-->
                             <div class="popularDescription">
-                                <h3>Au coeur de l'eau Bed and Breakfast</h3>
+                                <h3>Au coeur de l'Eau Bed and Breakfast</h3>
                                 <p>Night starting at <strong>71€</strong></p>
                                 <!-- starts -->
                                 <div class="stars">
@@ -137,7 +158,7 @@
                                     alt="Tout bleu et Blanc picture">
                             </div><!-- Close  popularPicture-->
                             <div class="popularDescription">
-                                <h3>Tout bleu et Blanc</h3>
+                                <h3>Tout bleu et Blanc Hotel</h3>
                                 <p>Night starting at <strong>68€</strong></p>
                                 <!-- starts -->
                                 <div class="stars">
@@ -157,7 +178,7 @@
 
             <!-- Accomodations -->
             <section class="accommodations">
-                <h2>Accommodations in Marseille</h2>
+                <h2 class="accommodationsTitle">Accommodations in Marseille</h2>
                 <div class="accommodationsCardBox">
                     <div class="ThreeCards">
                         <article class="accommodationsCard">
@@ -172,12 +193,14 @@
                                 </a>
                                 <p>Night starting at <strong>25€</strong></p>
                                 <!-- starts -->
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="emptyStar fas fa-star"></i>
+                                <div class="stars">
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="emptyStar fas fa-star"></i>
 
+                                </div><!-- Close  stars-->
                             </div><!-- Close  accommodationsDescription-->
                         </article>
                         <article class="accommodationsCard">
@@ -193,11 +216,14 @@
                                 <p>Night starting at <strong>52€</strong></p>
 
                                 <!-- starts -->
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
+                                <div class="stars">
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                </div><!-- Close  stars-->
+
                             </div><!-- Close  accommodationsDescription-->
                         </article>
                         <article class="accommodationsCard">
@@ -212,11 +238,14 @@
                                 </a>
                                 <p>Night starting at <strong>76€</strong></p>
                                 <!-- starts -->
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="emptyStar fas fa-star"></i>
+                                <div class="stars">
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="emptyStar fas fa-star"></i>
+                                </div><!-- Close  stars-->
+
                             </div><!-- Close  accommodationsDescription-->
                         </article>
                     </div><!-- Close  ThreeCards-->
@@ -234,11 +263,14 @@
                                 </a>
                                 <p>Night starting at <strong>46€</strong></p>
                                 <!-- starts -->
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="emptyStar fas fa-star"></i>
-                                <i class="emptyStar fas fa-star"></i>
+                                <div class="stars">
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="emptyStar fas fa-star"></i>
+                                    <i class="emptyStar fas fa-star"></i>
+                                </div><!-- Close  stars-->
+
                             </div><!-- Close  accommodationsDescription-->
                         </article>
                         <article class="accommodationsCard">
@@ -253,11 +285,14 @@
                                 </a>
                                 <p>Night starting at <strong>23€</strong></p>
                                 <!-- starts -->
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="emptyStar fas fa-star"></i>
+                                <div class="stars">
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="emptyStar fas fa-star"></i>
+                                </div><!-- Close  stars-->
+
                             </div><!-- Close  accommodationsDescription-->
                         </article>
                         <article class="accommodationsCard">
@@ -272,18 +307,21 @@
                                 </a>
                                 <p>Night starting at <strong>96€</strong></p>
                                 <!-- starts -->
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
-                                <i class="fullStar fas fa-star"></i>
+                                <div class="stars">
+
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                    <i class="fullStar fas fa-star"></i>
+                                </div><!-- Close  stars-->
                             </div><!-- Close  accommodationsDescription-->
                         </article>
                     </div><!-- Close  ThreeCards-->
 
                 </div><!-- Close  accommodationsCardBox-->
 
-                <h3>Show more</h3>
+                <h3 class="showMore">Show more</h3>
             </section>
         </div><!-- Close  mainSection-->
 
@@ -337,29 +375,30 @@
                     <div class="small">
 
                         <div class="activitiesCard">
-                            <figure class="activitiesPictures ">
+                            <figure class="activitiesPictures">
                                 <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                                     alt="Notre-Dame-de-la-Garde picture" title="Notre-Dame-de-la-Garde">
                                 <figcaption>Notre-Dame-de-la-Garde</figcaption>
                             </figure>
                         </div><!-- Close  activitiesCard-->
                         <div class="activitiesCard">
-                            <figure class="activitiesPictures ">
+                            <figure class="activitiesPictures">
                                 <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                                     alt="Longchamp Park picture" title="Longchamp Park">
                                 <figcaption>Longchamp Park</figcaption>
                             </figure>
-                        </div><!-- Close  small-->
-                    </div><!-- Close  fourContainers-->
-                </div><!-- Close  activitiesCard-->
+                        </div><!-- Close  activitiesCard-->
+                    </div><!-- Close  small-->
+                </div><!-- Close  fourContainers-->
             </section>
         </div><!-- Close  bottomSection-->
     </div><!-- Close  bodyPage-->
+
     <!-- Footer -->
     <footer class="footer">
-        <div class="footerSection">
+        <div class="footerSection firstFooterSection">
             <h2>About</h2>
-            <ul>
+            <ul class="foooterUl">
                 <li><a href="">Site Map</a></li>
                 <li><a href="">General Terms and Conditions</a></li>
                 <li><a href="">Data and Privacy</a></li>
@@ -367,14 +406,14 @@
         </div><!-- Close  footerSection-->
         <div class="footerSection">
             <h2>Our Accomodations</h2>
-            <ul>
+            <ul class="foooterUl">
                 <li><a href="">Quality Assessment</a></li>
                 <li><a href="">Do you have a hotel?</a></li>
             </ul>
         </div><!-- Close  footerSection-->
-        <div class="footerSection">
+        <div class="footerSection assistance">
             <h2>Assistance</h2>
-            <ul>
+            <ul class="foooterUl">
                 <li>
                     <a href="">Help Desk</a>
                 </li>
