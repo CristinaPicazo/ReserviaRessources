@@ -485,19 +485,23 @@ figcaption{
     header a{ 
         font-size: 0.5em;
     }
+
+    .navTop ul{
+        flex-flow: row nowrap;
+    }
+
+    .navTop li{
+        margin-top: -1.3em;
+        flex: 1;
+        /* padding-right: -10em; */
+        /* padding-top: -1em; Invalid CSS*/ 
+    } 
     
     .logo{
         width: 30%;
         margin: 0.5em 0 0 -0.3em;
     }
-    
-    .navTop li{
-        margin-top: -1.3em;
-        flex: 1;
-        padding-right: 1em;
-        /* padding-top: -1em; Invalid CSS*/ 
-    } 
-    
+
     .signupTop, hr{
         display: none;
     }
@@ -507,8 +511,12 @@ figcaption{
         flex-direction: row;
         flex-wrap: nowrap;
         padding: 1.2em;
-        margin-left: -10em;
     }
+
+
+    /* .navBottom li{
+        flex: 1 1 20%;
+    } */
 
     .signupBottom{
         display: block;
@@ -516,6 +524,7 @@ figcaption{
         font-weight: bold;
         color: #0065FC;
         white-space: nowrap;
+        margin: 1em 1em 0 0;
     }
     
     .accommodationsNav{
@@ -531,7 +540,7 @@ figcaption{
 
     /* Head */
     .bodyPage{
-        margin-left: 2em;
+        margin-left: 1em;
     }
 
     .bodyPageSection h1{
@@ -552,19 +561,24 @@ figcaption{
     .inputContainer{
         margin-right: 15%;        
     }
-
-    map{
+    
+    .map{
         font-size: 2em;
-        flex:0.2;
+        /* flex:0.2; */
         border: none;
     }
 
     .inputText{
-        flex:0.6;
+        flex:0.4;
     }
 
     .glass{
         display: none;
+    }
+    
+    .searchSubmit{
+        padding: 2em;
+
     }
 
     .inputContainer button{
@@ -636,12 +650,12 @@ figcaption{
     /* Accommodations */
     .accommodations{
         order: 1;        
-        flex: 1 1 70%;
+        flex: 1 1 60%;
         background-color: #F2F2F2;
         margin: 0 2em;
     }
 
-    .accommodations h2{ 
+    .accommodationsTitle{ 
         white-space: nowrap;
         font-size: 1em;
     }
@@ -650,22 +664,20 @@ figcaption{
         display: flex;        
         flex-flow: row nowrap;
         justify-content: center;
-    }
-    
+    }    
     
     .accommodationsCard{
         background-color: white;
         border-radius: 20px;
         box-shadow: 0 5px 5px 5px #F2F2F2;
         flex:1 1 30%;
-        margin: 0.5em;
-        
+        margin: 0.5em;        
     }
     
     .accommodationsPicture img{
-        margin: 0.2em;
-        height: 100%;
-        width: 98%;
+        margin: 0.3em;
+        height: 90%;
+        width: 92%;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
     }
@@ -673,36 +685,43 @@ figcaption{
     .accommodationsDescription{
         margin: 0em;
         padding: 0.5em;    
+        font-size: 0.5em;
     }
 
-    .accommodationsDescription{
-        font-size: 0.8em;
-    }
-    
     /* .bottomSection{
         height: calc(133vh - 100px);
 
     } */
-    
+
+    /* bottom section */
     .activities{
         display: flex;
         flex-direction: row;
-        flex: 1;
-        
+        flex: 1;        
     }
     
-    .activities > .fourContainers{
+    .fourContainers{
         padding: 1em;
         height: 22em;
         flex: 1;
     }
     
-    .activities > .fourContainers > .activitiesCard{
+    .activitiesCard{
         display: flex;
         flex-direction: column;
         height: 100%;
     }
     
+    figure{
+        margin: 1em;
+        margin: 0;
+    }
+
+    .activitiesPictures{
+        font-size: 1em;
+        flex: 0.5;
+    }
+
     .activitiesCard img{
         flex: 1 1 80%;
     }
@@ -710,18 +729,6 @@ figcaption{
     .activitiesCard figcaption{
         flex: 1 1 20%;
     }
-    
-    figure{
-        margin: 1em;
-        margin: 0;
-    }
-    
-    
-    .activitiesPictures{
-        font-size: 1em;
-        flex: 0.5;
-    }
-        
     
     .small{
         height: 100%;
@@ -731,6 +738,8 @@ figcaption{
         height: 50%;
     }
     
+
+    /* footer */
     .footer{
         margin: 3em 0 0 0 ;
         flex-direction: row;
