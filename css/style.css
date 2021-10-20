@@ -20,7 +20,7 @@ h1{
 }
 
 h2{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 /* Mobile First*/
@@ -57,7 +57,9 @@ header a{
 
 .signupTop{
     color: #0065FC;
-    margin-left: 50%;
+    margin-left: 86%;
+    white-space: nowrap;
+
 }
 
 .navBottom{
@@ -128,13 +130,15 @@ header a{
 
 
 /* Search button */
+.search{
+    width: 90%;
+}
 
 .inputContainer{
     display: flex;
     flex:1;
     height: 3em;
     margin: 1em 0em;
-    /* margin: auto; */
 }
 
 .searchWords{
@@ -144,7 +148,6 @@ header a{
 .map{    
     border-top-left-radius: 30%;
     border-bottom-left-radius: 30%;
-    /* font-size: 1em; */
     background-color:rgb(226, 220, 220);
     padding: 1em;
     align-self: center;
@@ -153,6 +156,7 @@ header a{
 .inputText{
     font-size: 1em;
     padding-left: 1em;
+    width: 90%;
     border: solid thin rgb(226, 220, 220);
 }
 
@@ -168,21 +172,14 @@ header a{
     color: black;
 }
 
-/* .inputContainer input{
-    flex: 1 1 60%;
-} */
-
-.inputContainer button{
-    border-radius: 30%;
-    margin-left: -2em;    
-}
-
 .searchSubmit{
+    margin-left: -2em;    
     color: #DEEBFF;
     background-color: #0065FC;
     border: none;
-    padding: 2%;
+    padding: 1.2em;
     align-self: center;
+    border-radius: 30%;
 }
 
 
@@ -277,7 +274,7 @@ header a{
     margin: 0 1em;
 }
 
-.popularHeading h2{
+.popularHeading h1{
     white-space: nowrap;
     margin: auto;
     flex: 1 1 50%;
@@ -329,7 +326,7 @@ header a{
     
 }
 
-.popularDescription h3{    
+.popularDescription h2{    
     flex: 1 1 30%;
     font-size: 1em;
     margin: 1em 3em -0.8em 0;
@@ -361,7 +358,7 @@ header a{
 
 /* Accommodations */
 
-.accommodations h2{
+.accommodations h1{
     font-weight: bold;
     margin: 2em 0em 0em 1em;
     white-space: nowrap;
@@ -429,6 +426,7 @@ header a{
 }
 
 .activitiesCard{
+    margin-left: -2em;
     border-radius: 1em;
     /* margin: 0em 0.2em 3em -2em; */
 }
