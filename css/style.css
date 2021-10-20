@@ -661,6 +661,7 @@ header a{
         display: flex;    
         flex-direction: row;
         flex: 1;
+        width: 100%;
         height: calc(98vh - 100px);
     }
 
@@ -734,39 +735,58 @@ header a{
     }
     
     .fourContainers{
-        margin: 0.2em;
-    }                             
+        margin: -0.8em;
+    }
+    
+    .small{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .small > .activitiesCard{
+        flex: 0.5;
 
-    .big > .activitiesCard >.activitiesPictures{
+    }
+    
+    .big{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        
+    }
+    
+    /* .big > .activitiesCard >.activitiesPictures{
         flex: 1;
     }
     
     .small > .activitiesCard >.activitiesPictures{
         font-size: 1em;
         flex: 0.5;
-    }
+    } */
     
     
-    .activitiesCard{
+    /* .activitiesCard{
         flex-basis: fill;
-
-    }
+        
+    } */
     .activitiesCard > img{
         flex: 1;
-
+        
     }
     .small > .activitiesCard > img{
         flex: 1 1 80%;
     }
+
     
-    .small{
+    /* .small{
         display: flex;
         flex-direction: column;
     }
     
     .small > .activitiesCard{
         flex: 1 1 50%;
-    }
+    } */
 
     .activitiesCardText{ 
         font-size: 0.5em;
