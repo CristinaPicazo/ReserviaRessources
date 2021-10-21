@@ -288,6 +288,8 @@ header a{
     margin: 40px 40px;
 }
 
+
+
 /* popularCard */
 .popularCard{
     background-color: white;
@@ -306,7 +308,7 @@ header a{
 
 .popularPicture{
     flex: 0.5;
-    height: 8em;
+    max-height: 8em;
 }
 
 .popularPicture img{
@@ -371,7 +373,8 @@ header a{
     box-shadow: 0 5px 5px 5px #F2F2F2;
     margin: 1em;
     width: 86%;
-    height: calc(50vh - 155px);
+    height: 80%;
+    /* height: calc(50vh - 155px); */
 }
 
 /* .accommodationsPicture{
@@ -438,14 +441,12 @@ header a{
 }
     
 .activitiesPictures img{
-    /* display: flex; */
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+}
+
+.bigImg, .smallImg{
     height: 8em;
-    /* width: 107%; */
-    /* order: 1; */
-    /* z-index: -1; */
-    /* position: absolute; */
 }
 
 .activitiesCardText{    
@@ -456,11 +457,8 @@ header a{
     font-weight: bold;
     background-color: white;
     box-shadow: 0 5px 5px 5px #F2F2F2;
-    /* width: 107%; */
     margin-top: -1em;
-    /* position: relative; */
     z-index: 1;
-    /* position: absolute; */
 }
 
 
@@ -597,7 +595,7 @@ header a{
     
     .map{
         border: none;
-        padding: 2%;
+        padding: 1.3em;
     }
 
     .inputText{
@@ -662,19 +660,38 @@ header a{
         flex-direction: row;
         flex: 1;
         width: 100%;
-        height: calc(98vh - 100px);
+        height: calc(54vh - 100px);
+        margin-bottom: 1em;
     }
 
     /* Popular Section */
-    .popularSection{
+     .popularSection{
         order: 2;
         flex: 1 1 30%;
+        border-radius: 20px;
     }
 
     .popularHeading i{
         font-size: 1em;
         margin-right: 0.5em;
     }
+
+    .popularPicture{
+        flex: 0.5;
+        max-height: 10em;
+    }
+
+    .popularPicture img{
+        width: 80%;
+        margin: 0.2em;
+        height: 92%;
+        max-height: 4em;
+    }
+
+    .popularDescription{
+        font-size: 0.6em;
+        padding: 0em;
+    } 
     
     /* Accommodations */
     .accommodations{
@@ -682,13 +699,16 @@ header a{
         flex: 1 1 60%;
         background-color: #F2F2F2;
         margin: 0 2em;
+        border-radius: 20px;
     }
 
+    
     .accommodationsTitle{ 
         white-space: nowrap;
         font-size: 0.8em;
+        margin-left: 1em;
     }
-
+    
     .ThreeCards{
         display: flex;        
         flex-flow: row nowrap;
@@ -705,37 +725,42 @@ header a{
     
     .accommodationsPicture img{
         margin: 0.3em;
-        height: 90%;
+        max-height: 4em;
         width: 92%;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
     }
     
     .accommodationsDescription{
-        margin: 0em;
+        margin: -1em 0 0.5em 0.5em;
         padding: 0.5em;    
         font-size: 0.5em;
     }
 
+    .accommodationsDescription h2{
+        font-size: 1em;
+    }
+
+
     .showMore{
         margin: 1em 0 3em 1em;
     }
-    
-
-    /* .bottomSection{
-        height: calc(133vh - 100px);
-
-    } */
 
     /* Bottom Section */
+    .bottomSection{
+        width: 100%;
+        margin: 0 0.5em 1em 1em ;
+    }
+    
     .activities{
+        width: 140%;
         display: flex;
         flex-direction: row;
-        flex: 1;        
     }
     
     .fourContainers{
         margin: -0.8em;
+        width: 20%;
     }
     
     .small{
@@ -743,50 +768,11 @@ header a{
         flex-direction: column;
         
     }
-    
-    .small > .activitiesCard{
-        flex: 0.5;
 
+    .bigImg{
+        height: 19em;
+        /* width: 10em; */
     }
-    
-    .big{
-        display: flex;
-        flex-direction: column;
-        flex: 1;
-        
-    }
-    
-    /* .big > .activitiesCard >.activitiesPictures{
-        flex: 1;
-    }
-    
-    .small > .activitiesCard >.activitiesPictures{
-        font-size: 1em;
-        flex: 0.5;
-    } */
-    
-    
-    /* .activitiesCard{
-        flex-basis: fill;
-        
-    } */
-    .activitiesCard > img{
-        flex: 1;
-        
-    }
-    .small > .activitiesCard > img{
-        flex: 1 1 80%;
-    }
-
-    
-    /* .small{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .small > .activitiesCard{
-        flex: 1 1 50%;
-    } */
 
     .activitiesCardText{ 
         font-size: 0.5em;
@@ -799,6 +785,7 @@ header a{
         flex-direction: row;
         display: flex;
         align-items: end;
+        width: 100%;
     }
     
     .footerSection h2{
