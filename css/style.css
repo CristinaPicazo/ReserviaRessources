@@ -1,8 +1,9 @@
 /* General */
+
 html, body{
     max-width: 100%;
     height: 100%;
-    margin: 0;    
+    margin: 0; 
 }
 
 .root{
@@ -12,6 +13,14 @@ html, body{
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1em;
 }
 
 /* Mobile First*/
@@ -48,7 +57,9 @@ header a{
 
 .signupTop{
     color: #0065FC;
-    margin-left: 50%;
+    margin-left: 86%;
+    white-space: nowrap;
+
 }
 
 .navBottom{
@@ -110,20 +121,24 @@ header a{
 
 .bodyPageSection h1{
     font-weight: bold;
-    font-size: 1.5em;
 }
 
 .bodyPageSection h2{
     font-weight: normal;
-    font-size: 1em;
     margin-bottom: 1em;
 }
 
 
 /* Search button */
+.search{
+    width: 90%;
+}
+
 .inputContainer{
     display: flex;
     flex:1;
+    height: 3em;
+    margin: 1em 0em;
 }
 
 .searchWords{
@@ -133,41 +148,43 @@ header a{
 .map{    
     border-top-left-radius: 30%;
     border-bottom-left-radius: 30%;
-    font-size: 1em;
     background-color:rgb(226, 220, 220);
-    /* margin: auto; */
     padding: 1em;
+    align-self: center;
 }
 
 .inputText{
     font-size: 1em;
-    font-weight: bold;
-    color: black;
     padding-left: 1em;
+    width: 90%;
     border: solid thin rgb(226, 220, 220);
 }
 
-/* .inputContainer input{
-    flex: 1 1 60%;
-} */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */    color: black;
+    font-weight: bold;
+}
 
-.inputContainer button{
-    border-radius: 30%;
-    margin-left: -2em;    
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
 }
 
 .searchSubmit{
-    text-align: center;
+    margin-left: -2em;    
     color: #DEEBFF;
     background-color: #0065FC;
     border: none;
-    padding: 5%;
+    padding: 1.2em;
+    align-self: center;
+    border-radius: 30%;
 }
 
 
 /* Filters */
 .filtersMenu h2{
-    font-size: 1.2em;
     font-weight: bold;
     margin: 2em 0 -0.5em 0em;
 }
@@ -185,7 +202,7 @@ header a{
 .buttons{
     display: flex;
     margin: 0.8em 1.5em 0.8em 0;
-    border-radius: 50px;
+    border-radius: 3em;
     border: 1px solid grey;
     background-color: white;
     font-size: 0.9em;
@@ -202,7 +219,7 @@ header a{
     color: #0065FC;
     padding: 1.2em;
     position: relative;
-    margin: -7px 0 0 -18px;
+    margin: 0 0 0 -18px;
     background-color: #d5e5ff;
 }
 
@@ -240,6 +257,7 @@ header a{
     display: flex;
     flex-direction: column;
     margin: -1em;
+    width: 450px;
 }
 
 .popularSection {
@@ -256,8 +274,7 @@ header a{
     margin: 0 1em;
 }
 
-.popularHeading h2{
-    font-size: 1.5em;
+.popularHeading h1{
     white-space: nowrap;
     margin: auto;
     flex: 1 1 50%;
@@ -270,6 +287,8 @@ header a{
     text-align: end;
     margin: 40px 40px;
 }
+
+
 
 /* popularCard */
 .popularCard{
@@ -289,7 +308,7 @@ header a{
 
 .popularPicture{
     flex: 0.5;
-    height: 8em;
+    max-height: 8em;
 }
 
 .popularPicture img{
@@ -309,7 +328,7 @@ header a{
     
 }
 
-.popularDescription h3{    
+.popularDescription h2{    
     flex: 1 1 30%;
     font-size: 1em;
     margin: 1em 3em -0.8em 0;
@@ -341,8 +360,7 @@ header a{
 
 /* Accommodations */
 
-.accommodations h2{
-    font-size: 1.2em;
+.accommodations h1{
     font-weight: bold;
     margin: 2em 0em 0em 1em;
     white-space: nowrap;
@@ -355,7 +373,8 @@ header a{
     box-shadow: 0 5px 5px 5px #F2F2F2;
     margin: 1em;
     width: 86%;
-    height: calc(50vh - 155px);
+    height: 80%;
+    /* height: calc(50vh - 155px); */
 }
 
 /* .accommodationsPicture{
@@ -393,54 +412,63 @@ header a{
 }
 
 
-/* Activities */
+/* Bottom Section */
+.bottomSection{
+    width: 450px;
+}
+
+.activities{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0; 
+}
+
+.lastFourContainer{
+    margin-bottom: 2em;
+}
 
 .activitiesCard{
+    margin-left: -2em;
     border-radius: 1em;
-    margin: 2em 0.2em 3em -2em;
-}
-    
-    /* .activitiesPictures{
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-        margin: 0;
-        
-    } */
-    
-    
-.activitiesPictures img{
-    /* display: flex; */
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    height: 8em;
-    width: 107%;
-    /* z-index: -1; */
-    /* position: absolute; */
+    /* margin: 0em 0.2em 3em -2em; */
 }
 
-figcaption{    
+.activitiesPictures{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+    
+.activitiesPictures img{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.bigImg, .smallImg{
+    height: 8em;
+}
+
+.activitiesCardText{    
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    padding: 1em 0em;
+    padding: 1em 1em;
     font-size: 1em;
     font-weight: bold;
     background-color: white;
     box-shadow: 0 5px 5px 5px #F2F2F2;
-    width: 107%;
     margin-top: -1em;
-    position: relative;
-    /* z-index: 1; */
-    /* position: absolute; */
+    z-index: 1;
 }
+
 
 /* Footer */
 .footer{
-    /* margin-top: 1em; */
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
     margin:0;
+    width: 450px;
 }
 
 .footerSection{
@@ -454,8 +482,7 @@ figcaption{
 }
 
 .footerSection h2{
-    margin-left: 1em;
-    font-size: 1.2em;    
+    margin-left: 1.2em;
 
 }
 
@@ -481,6 +508,16 @@ figcaption{
 
 @media (min-width: 768px) {
     /* For tablets: */
+
+    /* General */
+    h1{
+        font-size: 1em;
+    }
+    
+    h2{
+        font-size: 0.8em;
+    }
+
     /* Nav bar */
     header a{ 
         font-size: 0.5em;
@@ -518,6 +555,16 @@ figcaption{
         flex: 1 1 20%;
     } */
 
+    .accommodationsNav{
+        order: 1;
+        border-top: 0.5em solid blue;
+        padding-top: 1.7em;
+    }
+
+    .activitiesNav{
+        order: 2;        
+    }
+
     .signupBottom{
         display: block;
         justify-content: center;
@@ -527,63 +574,41 @@ figcaption{
         margin: 1em 1em 0 0;
     }
     
-    .accommodationsNav{
-        order: 1;
-        border-top: 0.5em solid blue;
-        padding-top: 1.7em;
-    }
-    
-    .activitiesNav{
-        order: 2;        
-    }
-
-
     /* Head */
     .bodyPage{
         margin-left: 1em;
     }
 
-    .bodyPageSection h1{
-        font-size: 1em;
-    }
-    
-    .bodyPageSection h3{
-        font-size: 0.5em;
-    }
 
-
-    /* Search */
+    /* Search Button*/
     .search{
         margin-left: -1em;
         font-size: 0.5em;
     }
     
     .inputContainer{
-        margin-right: 15%;        
+        margin-right: 15%;  
+        height: 2%;
+        flex: 0.1;
+        font-size: 1.3em;
     }
     
     .map{
-        font-size: 2em;
-        /* flex:0.2; */
         border: none;
+        padding: 1.3em;
     }
 
     .inputText{
         flex:0.4;
     }
 
-    .glass{
-        display: none;
-    }
-    
-    .searchSubmit{
-        padding: 2em;
-
-    }
-
     .inputContainer button{
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;            
+    }
+
+    .glass{
+        display: none;
     }
 
     .searchWords{
@@ -607,7 +632,6 @@ figcaption{
     }
 
     .buttons{
-        border-radius: 30%;
         border: 1px solid grey;
         margin: 0.5em;
     }
@@ -617,35 +641,57 @@ figcaption{
         position: relative;
         margin: -5px 0 0 -10px;
     }
-
+    
     /* Info */
     .info{
         font-size: 0.8em;
-        margin-right: 50%;
+        margin-right: 70%;
+        font-size: 0.5em;
+        
     }
 
-    /* Main section */
+    .info i{
+      margin-left: 2em;  
+    }
+
+    /* Main Section */
     .mainSection{
         display: flex;    
         flex-direction: row;
         flex: 1;
-        height: calc(133vh - 100px);
+        width: 100%;
+        height: calc(54vh - 100px);
+        margin-bottom: 1em;
     }
 
-    /* Popular */
-    .popularSection{
+    /* Popular Section */
+     .popularSection{
         order: 2;
         flex: 1 1 30%;
-    }
-
-    .popularHeading h2{
-        font-size: 1em;
+        border-radius: 20px;
     }
 
     .popularHeading i{
         font-size: 1em;
         margin-right: 0.5em;
     }
+
+    .popularPicture{
+        flex: 0.5;
+        max-height: 10em;
+    }
+
+    .popularPicture img{
+        width: 80%;
+        margin: 0.2em;
+        height: 92%;
+        max-height: 4em;
+    }
+
+    .popularDescription{
+        font-size: 0.6em;
+        padding: 0em;
+    } 
     
     /* Accommodations */
     .accommodations{
@@ -653,13 +699,16 @@ figcaption{
         flex: 1 1 60%;
         background-color: #F2F2F2;
         margin: 0 2em;
+        border-radius: 20px;
     }
 
+    
     .accommodationsTitle{ 
         white-space: nowrap;
-        font-size: 1em;
+        font-size: 0.8em;
+        margin-left: 1em;
     }
-
+    
     .ThreeCards{
         display: flex;        
         flex-flow: row nowrap;
@@ -676,85 +725,85 @@ figcaption{
     
     .accommodationsPicture img{
         margin: 0.3em;
-        height: 90%;
+        max-height: 4em;
         width: 92%;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
     }
     
     .accommodationsDescription{
-        margin: 0em;
+        margin: -1em 0 0.5em 0.5em;
         padding: 0.5em;    
         font-size: 0.5em;
     }
 
-    /* .bottomSection{
-        height: calc(133vh - 100px);
+    .accommodationsDescription h2{
+        font-size: 1em;
+    }
 
-    } */
 
-    /* bottom section */
+    .showMore{
+        margin: 1em 0 3em 1em;
+    }
+
+    /* Bottom Section */
+    .bottomSection{
+        width: 100%;
+        margin: 0 0.5em 1em 1em ;
+    }
+    
     .activities{
+        width: 140%;
         display: flex;
         flex-direction: row;
-        flex: 1;        
     }
     
     .fourContainers{
-        padding: 1em;
-        height: 22em;
-        flex: 1;
-    }
-    
-    .activitiesCard{
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-    
-    figure{
-        margin: 1em;
-        margin: 0;
-    }
-
-    .activitiesPictures{
-        font-size: 1em;
-        flex: 0.5;
-    }
-
-    .activitiesCard img{
-        flex: 1 1 80%;
-    }
-    
-    .activitiesCard figcaption{
-        flex: 1 1 20%;
+        margin: -0.8em;
+        width: 20%;
     }
     
     .small{
-        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
     }
-    
-    .activitiesCard{
-        height: 50%;
+
+    .bigImg{
+        height: 19em;
+        /* width: 10em; */
+    }
+
+    .activitiesCardText{ 
+        font-size: 0.5em;
     }
     
 
     /* footer */
     .footer{
-        margin: 3em 0 0 0 ;
+        padding: 1em 0 2em 0 ;
         flex-direction: row;
         display: flex;
         align-items: end;
+        width: 100%;
     }
     
     .footerSection h2{
-        margin-left: 2em;
+        margin-left: 3.6em;
+    }
+
+    .firstFooterSection{
+        margin: 0;
     }
     
     
     .footerSection ul{
         margin-left: 1em;
         font-size: 0.5em;
+    }
+
+    .assistance{
+        margin-bottom: 0;
     }
     
 }
