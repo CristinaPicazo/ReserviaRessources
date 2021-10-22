@@ -119,11 +119,11 @@ header a{
     margin-left: 1em;
 }
 
-.bodyPageSection h1{
+.headerSection h1{
     font-weight: bold;
 }
 
-.bodyPageSection h2{
+.headerSection h2{
     font-weight: normal;
     margin-bottom: 1em;
 }
@@ -203,7 +203,7 @@ header a{
     display: flex;
     margin: 0.8em 1.5em 0.8em 0;
     border-radius: 3em;
-    border: 1px solid grey;
+    border: 1px solid #DEEBFF;
     background-color: white;
     font-size: 0.9em;
     font-weight: bold;
@@ -550,6 +550,10 @@ header a{
         padding: 1.2em;
     }
 
+    .two{
+        margin: 0 -2em;
+    }
+
 
     /* .navBottom li{
         flex: 1 1 20%;
@@ -575,14 +579,17 @@ header a{
     }
     
     /* Head */
-    .bodyPage{
-        margin-left: 1em;
+    .headerSection{
+        margin-left: 1.5em;
+    }
+
+    .headerSection p{
+        font-size: 0.5em;
     }
 
 
     /* Search Button*/
     .search{
-        margin-left: -1em;
         font-size: 0.5em;
     }
     
@@ -625,16 +632,17 @@ header a{
     }
     .filtersMenu h2{
         margin: auto;
+        font-size: 1em;
     }
     
     .filtersButtons{
         flex-flow: row nowrap;
     }
 
-    .buttons{
+    /* .buttons{
         border: 1px solid grey;
         margin: 0.5em;
-    }
+    } */
 
     .filtersMenu i{
         color: #0065FC;
@@ -651,8 +659,12 @@ header a{
     }
 
     .info i{
-      margin-left: 2em;  
+        margin: 0.5em 1em 1em 0;
     }
+
+    /* .info i{
+      margin: auto;  
+    } */
 
     /* Main Section */
     .mainSection{
@@ -676,6 +688,15 @@ header a{
         margin-right: 0.5em;
     }
 
+    .popularCard{
+        height: 5em;
+    }
+    
+    .firstArticle{
+        margin-top: -1em;
+
+    }
+
     .popularPicture{
         flex: 0.5;
         max-height: 10em;
@@ -683,9 +704,9 @@ header a{
 
     .popularPicture img{
         width: 80%;
-        margin: 0.2em;
-        height: 92%;
-        max-height: 4em;
+        margin: 0.1em;
+        height: 98%;
+        max-height: 4.7em;
     }
 
     .popularDescription{
@@ -724,9 +745,9 @@ header a{
     }
     
     .accommodationsPicture img{
-        margin: 0.3em;
+        margin: 0.1em;
         max-height: 4em;
-        width: 92%;
+        width: 98%;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
     }
