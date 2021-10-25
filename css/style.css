@@ -201,12 +201,12 @@ header a{
 
 .buttons{
     display: flex;
-    margin: 0.8em 1.5em 0.8em 0;
+    /* margin: 0.8em 1.5em 0.8em 0; */
     border-radius: 3em;
     border: 1px solid #DEEBFF;
     background-color: white;
     font-size: 0.9em;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .filtersMenu button:hover {
@@ -526,8 +526,8 @@ header a{
     }
 
     /* Filter */
-    .filtersButtons{
-        flex-flow: row nowrap;
+    .buttons{
+        margin: 0.8em 1em 0.8em 0;
     }
 
     /* Info */
@@ -545,6 +545,16 @@ header a{
         border-radius: 1em;
         box-shadow: 0 5px 5px 5px #c9c8c8;
     }
+
+    .popularDescription{
+        text-align: center;
+    }
+    
+    .popularDescription h2{
+        margin: 1em 0;
+
+    }
+
 
     /* Accomodations */
     .accommodations{
@@ -750,7 +760,7 @@ header a{
     .filtersMenu i{
         color: #0065FC;
         position: relative;
-        margin: -5px 0 0 -10px;
+        margin: -0.6em 0 -2em -1em;
     }
     
     /* Info */
@@ -811,7 +821,12 @@ header a{
     .popularDescription{
         font-size: 0.6em;
         padding: 0em;
-    } 
+        text-align: start;
+    }
+    
+    .popularDescription h2{    
+        margin: 1em 3em -0.8em 0;
+    }
     
     /* Accommodations */
     .accommodations{
@@ -856,6 +871,8 @@ header a{
         margin: -1em 0 0.5em 0.5em;
         padding: 0.5em;    
         font-size: 0.5em;
+        background-color: none;
+        border-color: none;
     }
 
     .accommodationsDescription h2{
@@ -869,7 +886,7 @@ header a{
 
     /* Bottom Section */
     .bottomSection{
-        width: 100%;
+        width: 150%;
         margin: 0 0.5em 1em 1em ;
         text-align: left;
         background-color: white;
@@ -877,14 +894,18 @@ header a{
     }
     
     .activities{
-        width: 140%;
         display: flex;
         flex-direction: row;
+        margin: 2em 0;
     }
     
     .fourContainers{
-        margin: -0.8em;
+        margin: -1.8em;
         width: 20%;
+    }
+
+    .activitiesCard{
+        margin: 0 0;
     }
     
     .small{
@@ -893,9 +914,13 @@ header a{
         
     }
 
+    .smallImg{
+        width: 100%;
+        height: 6em;
+    }
+
     .bigImg{
-        height: 19em;
-        /* width: 10em; */
+        height: 15em;
     }
 
     .activitiesCardText{ 
@@ -908,7 +933,7 @@ header a{
         padding: -1em 0 3em 0 ;
         flex-direction: row;
         display: flex;
-        align-items: end;
+        align-items: center;
         width: 100%;
     }
     
