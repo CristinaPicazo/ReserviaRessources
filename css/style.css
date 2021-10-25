@@ -119,11 +119,11 @@ header a{
     margin-left: 1em;
 }
 
-.bodyPageSection h1{
+.headerSection h1{
     font-weight: bold;
 }
 
-.bodyPageSection h2{
+.headerSection h2{
     font-weight: normal;
     margin-bottom: 1em;
 }
@@ -203,7 +203,7 @@ header a{
     display: flex;
     margin: 0.8em 1.5em 0.8em 0;
     border-radius: 3em;
-    border: 1px solid grey;
+    border: 1px solid #DEEBFF;
     background-color: white;
     font-size: 0.9em;
     font-weight: bold;
@@ -506,9 +506,111 @@ header a{
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
     /* For tablets: */
+    /* Header & NavBar*/
+    .navTop li{
+        flex: 1 1 100%;
+    }
 
+    .logo{
+        width: 19%;
+    }
+
+    .signupTop{
+        display: none;
+    }
+
+    .signupBottom{
+        display: block;
+    }
+
+    /* Filter */
+    .filtersButtons{
+        flex-flow: row nowrap;
+    }
+
+    /* Info */
+    .info i{
+        margin: 1em 3em 1em 0;
+    }
+
+    /* Main Section */
+    .mainSection{
+        margin: auto;
+    }
+
+    /* Popular Section */
+    .popularSection{
+        border-radius: 1em;
+        box-shadow: 0 5px 5px 5px #c9c8c8;
+    }
+
+    /* Accomodations */
+    .accommodations{
+        margin-top: 2em;
+        background-color: #F2F2F2;
+        border-radius: 1em;
+        box-shadow: 0 5px 5px 5px #c9c8c8;
+        text-align: center;
+    }
+
+    .accommodations h1{
+        margin: 2em 0em 1em 1em;
+    }
+
+    .accommodationsCard{
+        margin: 1em auto;
+    }
+    
+    .accommodationsPicture img{
+        margin: 0 1em 0em 0;
+        z-index: 1;
+        width: 101%;
+
+    }
+
+    .accommodationsDescription{
+        background-color: white;
+        border-bottom-right-radius: 1em;
+        border-bottom-left-radius: 1em; 
+        width: 95%;
+   }
+    
+    /* Bottom Section */
+    .bottomSection{
+        margin-top: 2em;
+        background-color: #F2F2F2;
+        margin: 2em auto;
+        border-radius: 1em;
+        box-shadow: 0 5px 5px 5px #c9c8c8;
+        text-align: center;
+    }
+
+    .bottomSection h1{
+        padding-top: 2em;
+    }
+
+    .activitiesCard{
+        margin: 1em auto;
+    }
+
+
+    /* Footer */
+    .footer{
+        width: 100%;
+    }
+    
+    .footerSection{
+        text-align: center;
+    }
+
+    
+
+
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
     /* General */
     h1{
         font-size: 1em;
@@ -550,6 +652,10 @@ header a{
         padding: 1.2em;
     }
 
+    .two{
+        margin: 0 -2em;
+    }
+
 
     /* .navBottom li{
         flex: 1 1 20%;
@@ -575,14 +681,18 @@ header a{
     }
     
     /* Head */
-    .bodyPage{
-        margin-left: 1em;
+    .headerSection{
+        margin-left: 1.5em;
+    }
+
+    .headerSection p{
+        font-size: 0.5em;
+        margin-top: -1em;
     }
 
 
     /* Search Button*/
     .search{
-        margin-left: -1em;
         font-size: 0.5em;
     }
     
@@ -625,16 +735,17 @@ header a{
     }
     .filtersMenu h2{
         margin: auto;
+        font-size: 1em;
     }
     
     .filtersButtons{
         flex-flow: row nowrap;
     }
 
-    .buttons{
+    /* .buttons{
         border: 1px solid grey;
         margin: 0.5em;
-    }
+    } */
 
     .filtersMenu i{
         color: #0065FC;
@@ -651,7 +762,7 @@ header a{
     }
 
     .info i{
-      margin-left: 2em;  
+        margin: -0.5em 1em 1em 0;
     }
 
     /* Main Section */
@@ -676,6 +787,15 @@ header a{
         margin-right: 0.5em;
     }
 
+    .popularCard{
+        height: 5em;
+    }
+    
+    .firstArticle{
+        margin-top: -1em;
+
+    }
+
     .popularPicture{
         flex: 0.5;
         max-height: 10em;
@@ -683,9 +803,9 @@ header a{
 
     .popularPicture img{
         width: 80%;
-        margin: 0.2em;
-        height: 92%;
-        max-height: 4em;
+        margin: 0.1em;
+        height: 98%;
+        max-height: 4.7em;
     }
 
     .popularDescription{
@@ -700,6 +820,7 @@ header a{
         background-color: #F2F2F2;
         margin: 0 2em;
         border-radius: 20px;
+        text-align: left;
     }
 
     
@@ -724,9 +845,9 @@ header a{
     }
     
     .accommodationsPicture img{
-        margin: 0.3em;
+        margin: 0.1em;
         max-height: 4em;
-        width: 92%;
+        width: 98%;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
     }
@@ -750,6 +871,9 @@ header a{
     .bottomSection{
         width: 100%;
         margin: 0 0.5em 1em 1em ;
+        text-align: left;
+        background-color: white;
+        box-shadow: none;
     }
     
     .activities{
@@ -781,7 +905,7 @@ header a{
 
     /* footer */
     .footer{
-        padding: 1em 0 2em 0 ;
+        padding: -1em 0 3em 0 ;
         flex-direction: row;
         display: flex;
         align-items: end;
@@ -790,27 +914,23 @@ header a{
     
     .footerSection h2{
         margin-left: 3.6em;
+        text-align: left;
     }
-
-    .firstFooterSection{
+    
+    /* .firstFooterSection{
         margin: 0;
-    }
+    } */
     
     
     .footerSection ul{
         margin-left: 1em;
         font-size: 0.5em;
+        text-align: left;
     }
 
     .assistance{
         margin-bottom: 0;
     }
     
-}
 
-
-/*
-@media only screen and (min-width: 768px) {
-    /* For desktop:
 }
-*/
