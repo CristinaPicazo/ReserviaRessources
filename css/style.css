@@ -196,7 +196,7 @@ header a{
 
 .buttons{
     display: flex;
-    /* margin: 0.8em 1.5em 0.8em 0; */
+    /* margin: 0.2em 0.1em; */
     border-radius: 3em;
     border: 1px solid #DEEBFF;
     background-color: white;
@@ -262,7 +262,7 @@ header a{
     flex-direction: column;
     background-color: #F2F2F2;
     padding-bottom: 2em;
-
+    margin-right: -1em;
 }
 
 .popularHeading{
@@ -296,6 +296,7 @@ header a{
     display: flex;
     flex-direction: row;
     flex: 0.9;
+    height: 8em;
 }
 
 .popularCard a{
@@ -305,11 +306,11 @@ header a{
 
 .popularPicture{
     flex: 0.5;
-    max-height: 8em;
+    height: 8.5em;
 }
 
 .popularPicture img{
-    margin: 0.5em;
+    margin: 0.2em;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
     height: 90%;
@@ -356,6 +357,9 @@ header a{
 }
 
 /* Accommodations */
+.accommodations{
+    margin-right: -1em;
+}
 
 .accommodations h1{
     font-weight: bold;
@@ -369,7 +373,7 @@ header a{
     border-radius: 1em;
     box-shadow: 0 5px 5px 5px #F2F2F2;
     margin: 1em;
-    width: 86%;
+    width: 90%;
     height: 80%;
     /* height: calc(50vh - 155px); */
 }
@@ -380,9 +384,9 @@ header a{
 
 
 .accommodationsPicture img{    
-    margin: 0.6em;
+    margin: 0.1em;
     max-height: 8em;
-    width: 95%;
+    width: 100%;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     align-items: center;
@@ -419,6 +423,7 @@ header a{
     flex: 1;
     flex-direction: column;
     margin: 0; 
+    width: 100%;
 }
 
 .lastFourContainer{
@@ -435,6 +440,7 @@ header a{
     display: flex;
     flex: 1;
     flex-direction: column;
+    width: 85%;
 }
     
 .activitiesPictures img{
