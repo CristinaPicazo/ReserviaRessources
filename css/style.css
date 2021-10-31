@@ -46,7 +46,6 @@ h2{
 
 .logo{
     width: 60%;
-    /* height: 60%; */
     margin-left: -1em;
 }
 
@@ -518,6 +517,7 @@ header a{
 
     .logo{
         width: 19%;
+        margin-left: 34%;
     }
 
     .signupTop{
@@ -529,6 +529,10 @@ header a{
     }
 
     /* Filter */
+    .filtersButtons{
+        justify-content: space-around;
+    }
+
     .buttons{
         margin: 0.8em 1em 0.8em 0;
     }
@@ -541,6 +545,7 @@ header a{
     /* Main Section */
     .mainSection{
         margin: auto;
+        width: 62%;
     }
 
     /* Popular Section */
@@ -592,12 +597,12 @@ header a{
     
     /* Bottom Section */
     .bottomSection{
-        margin-top: 2em;
         background-color: #F2F2F2;
         margin: 2em auto;
         border-radius: 1em;
         box-shadow: 0 5px 5px 5px #c9c8c8;
         text-align: center;
+        width: 62%;
     }
 
     .bottomSection h1{
