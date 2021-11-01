@@ -377,9 +377,10 @@ header a{
     /* height: calc(50vh - 155px); */
 }
 
-/* .accommodationsPicture{
-    flex: 0.6;
-} */
+.accommodationsLink{
+    text-decoration: none;
+    color: black;
+}
 
 
 .accommodationsPicture img{    
@@ -433,6 +434,11 @@ header a{
     margin-left: -2em;
     border-radius: 1em;
     /* margin: 0em 0.2em 3em -2em; */
+}
+
+.activitiesLink{
+    text-decoration: none;
+    color: black;
 }
 
 .activitiesPictures{
@@ -554,6 +560,11 @@ header a{
         box-shadow: 0 5px 5px 5px #c9c8c8;
     }
 
+    .popularLink{
+        text-decoration: none;
+        color: black;
+    }
+
     .popularDescription{
         text-align: center;
     }
@@ -635,7 +646,7 @@ header a{
     }
 
     h1{
-        font-size: 1em;
+        font-size: 0.8em;
     }
     
     h2{
@@ -731,12 +742,17 @@ header a{
     }
 
     .inputText{
-        flex:0.4;
+        flex: 0.3;
+    }
+
+    .inputContainer{
+        font-size: 1em;          
+
     }
 
     .inputContainer button{
         border-top-left-radius: 0;
-        border-bottom-left-radius: 0;            
+        border-bottom-left-radius: 0;  
     }
 
     .glass{
@@ -769,16 +785,17 @@ header a{
         color: #0065FC;
         position: relative;
         margin: -0.6em 0 -2em -1em;
+        padding: 1.2em;
     }
 
     .filterText{
-        padding: inherit;
+        padding: 0.5em;
     }
     
     /* Info */
     .info{
-        font-size: 0.8em;
-        margin-right: 70%;
+        font-size: 0.5em;
+        margin: 2% 76% 1% 1%;
         font-size: 0.5em;
         
     }
@@ -862,7 +879,15 @@ header a{
         font-size: 0.8em;
         margin-left: 1em;
     }
+
+    .accommodations h1{
+        margin: 2em 0em 0.2em 1.5em;
+    }
     
+    .accommodationsCardBox{
+        padding: 0.5em;
+    }
+
     .ThreeCards{
         display: flex;        
         flex-flow: row nowrap;
@@ -894,12 +919,12 @@ header a{
     }
 
     .accommodationsDescription h2{
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
 
     .showMore{
-        margin: 1em 0 3em 1em;
+        margin-left: 1em;
     }
 
     /* Bottom Section */
@@ -949,6 +974,10 @@ header a{
     
 
     /* footer */
+    .firstFooterSection{
+        margin-top: 1.2em;
+    } 
+
     .footer{
         padding-bottom: 3em;
         flex-direction: row;
@@ -963,9 +992,6 @@ header a{
         text-align: left;
     }
     
-    /* .firstFooterSection{
-        margin: 0;
-    } */
     
     
     .footerSection ul{
