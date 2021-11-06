@@ -14,11 +14,11 @@ html, body{
 }
 
 h1{
-    font-size: 1.5em;
+    font-size: 22px;
 }
 
 h2{
-    font-size: 1em;
+    font-size: 16px;
 }
 
 /* Mobile First*/
@@ -38,21 +38,20 @@ h2{
 }
 
 .navTop li{
-    padding-top: 1em;
+    padding-top: 12px;
     display: inline;
     flex: 1 1 50%;
     margin: auto;
 }
 
 .logo{
-    width: 60%;
-    margin-left: -1em;
+    width: 50%;
+    margin-left: -16.2%;
 }
 
 header a{
     text-decoration: none;    
     color: black;    
-    font-size: 1em;
     font-weight: bold;
 }
 
@@ -71,7 +70,7 @@ header a{
 .two{
     flex: 1 1 50%;
     max-width: 100%;
-    margin: 0 -5em;
+    margin: 0 -24%;
 }
 
 .two li{
@@ -87,12 +86,6 @@ header a{
     display: none;
 }
 
-.hrDiv{
-    display: flex;
-    flex-direction: row;
-    margin-top: 0.2em;
-}
-
 .accommodationsNavHR{
     flex: 1 1 50%;
     border-bottom: solid #0065FC;
@@ -106,7 +99,10 @@ header a{
 /* Head */
 .bodyPage{
     max-width: 100%;
-    margin-left: 1em;
+}
+
+.headerSection{
+    margin-left: 5%;
 }
 
 .headerSection h1{
@@ -115,7 +111,6 @@ header a{
 
 .headerSection h2{
     font-weight: normal;
-    margin-bottom: 1em;
 }
 
 
@@ -127,8 +122,7 @@ header a{
 .inputContainer{
     display: flex;
     flex:1;
-    height: 3em;
-    margin: 1em 0em;
+    margin: 0.5% 0;
 }
 
 .searchWords{
@@ -138,19 +132,20 @@ header a{
 .map{    
     border-top-left-radius: 30%;
     border-bottom-left-radius: 30%;
-    background-color:rgb(226, 220, 220);
+    background-color:#F2F2F2;
     padding: 1em;
     align-self: center;
 }
 
 .inputText{
-    font-size: 1em;
-    padding-left: 1em;
+    font-size: 16px;
+    padding-left: 5%;
     width: 90%;
     border: solid thin rgb(226, 220, 220);
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */    color: black;
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */    
+    color: black;
     font-weight: bold;
 }
 
@@ -163,11 +158,11 @@ header a{
 }
 
 .searchSubmit{
-    margin-left: -2em;    
+    margin-left: -8%;    
     color: #DEEBFF;
     background-color: #0065FC;
     border: hidden;
-    padding: 1.2em;
+    padding: 5%;
     align-self: center;
     border-radius: 30%;
 }
@@ -214,7 +209,7 @@ header a{
     padding: 1.2em;
     position: relative;
     margin: 0 0 0 -18px;
-    background-color: #d5e5ff;
+    background-color: #DEEBFF;
 }
 
 .filterText{
@@ -229,7 +224,6 @@ header a{
     max-width: 100%;
     display: flex;
     flex-direction: row;
-    font-size: 1em;
     margin: 0 0.2em 3.2em 0.2em;
 }
 
@@ -266,14 +260,13 @@ header a{
 .popularHeading{
     display: flex;
     flex-direction: row;
-    margin: 0 1em;
+    margin-left: 10%;
 }
 
 .popularHeading h1{
     white-space: nowrap;
     margin: auto;
     flex: 1 1 50%;
-    font-size: 0.8em;
 }
 
 .popularHeading i{
@@ -290,16 +283,20 @@ header a{
     background-color: white;
     border-radius: 1em;
     box-shadow: 0 5px 5px 5px #c9c8c8;
-    margin: 1em;
+    margin: 3% 10%;
     display: flex;
     flex-direction: row;
     flex: 0.9;
-    height: 8em;
 }
 
 .popularCard a{
     display: flex;
     flex: 1;
+}
+
+.popularLink{
+    text-decoration: none;
+    color: black;
 }
 
 .popularPicture{
@@ -311,7 +308,7 @@ header a{
     margin: 0.2em;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
-    height: 90%;
+    height: 95%;
     width: 100%;
 }
 
@@ -326,13 +323,11 @@ header a{
 
 .popularDescription h2{    
     flex: 1 1 30%;
-    font-size: 1em;
     margin: 1em 3em -0.8em 0;
 }
 
 .popularDescription p{    
     flex: 1 1 30%;
-    font-size: 0.8em;
     margin-bottom: 1em;
     justify-self: start;
     
@@ -356,7 +351,7 @@ header a{
 
 /* Accommodations */
 .accommodations{
-    margin-right: -1em;
+    margin-left: 5%;
 }
 
 .accommodations h1{
@@ -415,14 +410,14 @@ header a{
 /* Bottom Section */
 .bottomSection{
     max-width: 100%;
+    margin-left: 5%;
 }
 
 .activities{
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin: 0; 
-    width: 100%;
+    width: 95%;
 }
 
 .lastFourContainer{
@@ -460,7 +455,6 @@ header a{
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     padding: 1em 1em;
-    font-size: 1em;
     font-weight: bold;
     background-color: white;
     box-shadow: 0 5px 5px 5px #F2F2F2;
@@ -505,7 +499,6 @@ header a{
 .foooterUl li a{
     color: black;
     text-decoration: none;
-    font-size: 1em;    
 }
 
 .assistance{
@@ -513,7 +506,7 @@ header a{
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     /* For tablets: */
     /* Header & NavBar*/
     .navTop li{
@@ -559,11 +552,6 @@ header a{
         box-shadow: 0 5px 5px 5px #c9c8c8;
     }
 
-    .popularLink{
-        text-decoration: none;
-        color: black;
-    }
-
     .popularDescription{
         text-align: center;
     }
@@ -579,7 +567,7 @@ header a{
         margin-top: 2em;
         background-color: #F2F2F2;
         border-radius: 1em;
-        box-shadow: 0 5px 5px 5px #c9c8c8;
+        box-shadow: 0 5px 5px 5px #F2F2F2;
         text-align: center;
     }
 
@@ -637,7 +625,7 @@ header a{
 
 
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
     /* For desktop: */
     /* General */
     .root{
@@ -718,7 +706,6 @@ header a{
     }
 
     .headerSection p{
-        font-size: 0.5em;
         margin-top: -1em;
     }
 
@@ -772,7 +759,6 @@ header a{
     }
     .filtersMenu h2{
         margin: auto;
-        font-size: 1em;
     }
     
     .filtersButtons{
@@ -793,7 +779,6 @@ header a{
     
     /* Info */
     .info{
-        font-size: 0.5em;
         margin: 2% 76% 1% 1%;
         font-size: 0.5em;
         
@@ -852,7 +837,6 @@ header a{
     }
 
     .popularDescription{
-        font-size: 0.6em;
         padding: 0em;
         text-align: start;
     }
@@ -875,7 +859,6 @@ header a{
     
     .accommodationsTitle{ 
         white-space: nowrap;
-        font-size: 0.8em;
         margin-left: 1em;
     }
 
@@ -912,15 +895,9 @@ header a{
     .accommodationsDescription{
         margin: -1em 0 0.5em 0.5em;
         padding: 0.5em;    
-        font-size: 0.5em;
         background-color: transparent;
         border-color: transparent;
     }
-
-    .accommodationsDescription h2{
-        font-size: 1.5em;
-    }
-
 
     .showMore{
         margin-left: 1em;
@@ -970,10 +947,6 @@ header a{
     .bigImg{
         height: 15em;
     }
-
-    .activitiesCardText{ 
-        font-size: 0.5em;
-    }
     
 
     /* footer */
@@ -999,7 +972,6 @@ header a{
     
     .footerSection ul{
         margin-left: 1em;
-        font-size: 0.5em;
         text-align: left;
     }
 
