@@ -69,7 +69,7 @@ header a{
 
 .two{
     flex: 1 1 50%;
-    max-width: 100%;
+    max-width: 112%;
     margin: 0 -24%;
 }
 
@@ -133,7 +133,7 @@ header a{
     border-top-left-radius: 30%;
     border-bottom-left-radius: 30%;
     background-color:#F2F2F2;
-    padding: 1em;
+    padding: 5%;
     align-self: center;
 }
 
@@ -170,32 +170,30 @@ header a{
 
 /* Filters */
 .filtersMenu{
-    max-width: 100%;
+    max-width: 94%;
 }
 
 .filtersMenu h2{
     font-weight: bold;
-    margin: 2em 0 -0.5em 0em;
 }
 
 .filtersButtons{
     display: flex;
     flex: 1;
-    flex-flow: row wrap;
-    padding: 1em;
+    flex-flow: wrap;
     white-space: nowrap;
-    margin: auto;
+    margin: 0 -6%;
     font-weight: bold;
 }
 
 .buttons{
     display: flex;
-    /* margin: 0.2em 0.1em; */
-    border-radius: 3em;
+    border-radius: 26px;
     border: 1px solid #DEEBFF;
     background-color: white;
-    font-size: 0.9em;
     font-weight: bolder;
+    padding-right: 7%;
+    margin: 1% 2%;
 }
 
 .filtersMenu button:hover {
@@ -206,17 +204,31 @@ header a{
     flex: 1 1 20%;
     border-radius: 50%;
     color: #0065FC;
-    padding: 1.2em;
+    padding: 12px;
     position: relative;
-    margin: 0 0 0 -18px;
+    margin: 0 0 0 -7px;
     background-color: #DEEBFF;
 }
 
 .filterText{
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;    
+    padding: 5% 7%;   
 }
+
+/* .low{
+    order: 0;
+}
+
+.romantic{
+    order: 1;
+}
+
+.family{
+    order: 2;
+}
+
+.pets{
+    order: 3;
+} */
 
 
 /* Info */
@@ -246,7 +258,7 @@ header a{
     display: flex;
     flex-direction: column;
     margin: -1em;
-    width: 450px;
+    /* width: 450px; */
 }
 
 .popularSection {
