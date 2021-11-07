@@ -236,7 +236,7 @@ header a{
     max-width: 100%;
     display: flex;
     flex-direction: row;
-    margin: 0 0.2em 3.2em 0.2em;
+    margin: 4% 0 10% -7%;
 }
 
 .info i{
@@ -257,16 +257,15 @@ header a{
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    margin: -1em;
-    /* width: 450px; */
+    margin: -5%;
 }
 
 .popularSection {
     display: flex;    
     flex-direction: column;
     background-color: #F2F2F2;
-    padding-bottom: 2em;
-    margin-right: -1em;
+    padding-bottom: 9%;
+    margin-right: -5%;
 }
 
 .popularHeading{
@@ -282,7 +281,7 @@ header a{
 }
 
 .popularHeading i{
-    font-size: 1.5em;
+    font-size: 20px;
     flex: 1 1 50%;
     text-align: end;
     margin: 40px 40px;
@@ -293,7 +292,7 @@ header a{
 /* popularCard */
 .popularCard{
     background-color: white;
-    border-radius: 1em;
+    border-radius: 20px;
     box-shadow: 0 5px 5px 5px #c9c8c8;
     margin: 3% 10%;
     display: flex;
@@ -313,13 +312,13 @@ header a{
 
 .popularPicture{
     flex: 0.5;
-    height: 8.5em;
+    height: 98%;
 }
 
 .popularPicture img{
     margin: 0.2em;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
     height: 95%;
     width: 100%;
 }
@@ -375,7 +374,7 @@ header a{
 .accommodationsCard{
     display: flex;
     flex-flow: column;
-    border-radius: 1em;
+    border-radius: 20px;
     box-shadow: 0 5px 5px 5px #F2F2F2;
     margin: 1em;
     width: 90%;
@@ -393,8 +392,8 @@ header a{
     margin: 0.1em;
     max-height: 8em;
     width: 100%;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
     align-items: center;
 }
 
@@ -438,7 +437,7 @@ header a{
 
 .activitiesCard{
     margin-left: -2em;
-    border-radius: 1em;
+    border-radius: 20px;
     /* margin: 0em 0.2em 3em -2em; */
 }
 
@@ -455,8 +454,8 @@ header a{
 }
     
 .activitiesPictures img{
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
 }
 
 .bigImg, .smallImg{
@@ -560,7 +559,7 @@ header a{
 
     /* Popular Section */
     .popularSection{
-        border-radius: 1em;
+        border-radius: 20px;
         box-shadow: 0 5px 5px 5px #c9c8c8;
     }
 
@@ -578,7 +577,7 @@ header a{
     .accommodations{
         margin-top: 2em;
         background-color: #F2F2F2;
-        border-radius: 1em;
+        border-radius: 20px;
         box-shadow: 0 5px 5px 5px #F2F2F2;
         text-align: center;
     }
@@ -609,7 +608,7 @@ header a{
     .bottomSection{
         background-color: #F2F2F2;
         margin: 2em auto;
-        border-radius: 1em;
+        border-radius: 20px;
         box-shadow: 0 5px 5px 5px #c9c8c8;
         text-align: center;
         width: 62%;
@@ -900,8 +899,8 @@ header a{
         margin: 0.1em;
         max-height: 4em;
         width: 98%;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
+        border-top-left-radius: 20%;
+        border-top-right-radius: 20%;
     }
     
     .accommodationsDescription{
