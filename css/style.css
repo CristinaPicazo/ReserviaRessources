@@ -1,16 +1,10 @@
+@import url("./navbar.css");
 /* General */
 
 html, body{
     max-width: 100%;
-    margin: 0; 
-}
-
-.root{
-    background-color: white;
-    font-family: 'Raleway', sans-serif;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    font-family: "Raleway", sans-serif; 
 }
 
 h1{
@@ -23,78 +17,6 @@ h2{
 
 /* Mobile First*/
 /* Header & NavBar*/
-.navTop{
-    max-width: 100%;
-}
-
-.one{
-    max-width: 100%;
-    margin: 0;
-}
-
-.navTop ul{
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.navTop li{
-    padding-top: 12px;
-    display: inline;
-    flex: 1 1 50%;
-    margin: auto;
-}
-
-.logo{
-    width: 50%;
-    margin-left: -16.2%;
-}
-
-header a{
-    text-decoration: none;    
-    color: black;    
-    font-weight: bold;
-}
-
-.signupTop{
-    color: #0065FC;
-    margin-left: 44%;
-    white-space: nowrap;
-
-}
-
-.navBottom{
-    display: flex;
-    flex: 1;
-}
-
-.two{
-    flex: 1 1 50%;
-    max-width: 112%;
-    margin: 0 -24%;
-}
-
-.two li{
-    text-align: center;
-    /* margin: auto; */
-}
-
-.accommodationsNav{
-    color: #0065FC;
-} 
-
-.signupBottom{
-    display: none;
-}
-
-.accommodationsNavHR{
-    flex: 1 1 50%;
-    border-bottom: solid #0065FC;
-}
-
-.activitiesNavHR{
-    flex: 1 1 50%;
-    border-bottom: solid #DEEBFF;
-}
 
 /* Head */
 .bodyPage{
@@ -520,22 +442,6 @@ header a{
 @media (min-width: 768px) {
     /* For tablets: */
     /* Header & NavBar*/
-    .navTop li{
-        flex: 1 1 100%;
-    }
-
-    .logo{
-        width: 19%;
-        margin-left: 34%;
-    }
-
-    .signupTop{
-        display: none;
-    }
-
-    .signupBottom{
-        display: block;
-    }
 
     /* Filter */
     .filtersButtons{
@@ -639,9 +545,6 @@ header a{
 @media only screen and (min-width: 992px) {
     /* For desktop: */
     /* General */
-    .root{
-        max-width: 97%;
-    }
 
     h1{
         font-size: 0.8em;
@@ -652,64 +555,7 @@ header a{
     }
 
     /* Nav bar */
-    header a{ 
-        font-size: 0.5em;
-    }
 
-    .navTop ul{
-        flex-flow: row nowrap;
-    }
-
-    .navTop li{
-        margin-top: -1.3em;
-        flex: 1;
-        /* padding-right: -10em; */
-        /* padding-top: -1em; Invalid CSS*/ 
-    } 
-    
-    .logo{
-        width: 30%;
-        margin: 0.5em 0 0 -0.3em;
-    }
-
-    .signupTop, hr{
-        display: none;
-    }
-
-    .navBottom{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        padding: 1.2em;
-    }
-
-    .two{
-        margin: 0 -2em;
-    }
-
-
-    /* .navBottom li{
-        flex: 1 1 20%;
-    } */
-
-    .accommodationsNav{
-        order: 1;
-        border-top: 0.5em solid blue;
-        padding-top: 1.7em;
-    }
-
-    .activitiesNav{
-        order: 2;        
-    }
-
-    .signupBottom{
-        display: block;
-        justify-content: center;
-        font-weight: bold;
-        color: #0065FC;
-        white-space: nowrap;
-        margin: 1em 1em 0 0;
-    }
     
     /* Head */
     .headerSection{
@@ -728,7 +574,7 @@ header a{
     
     .inputContainer{
         margin-right: 15%;  
-        height: 2%;
+        height: 36px;
         flex: 0.1;
         font-size: 1.3em;
     }
@@ -740,11 +586,6 @@ header a{
 
     .inputText{
         flex: 0.3;
-    }
-
-    .inputContainer{
-        font-size: 1em;          
-
     }
 
     .inputContainer button{

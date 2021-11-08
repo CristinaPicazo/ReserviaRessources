@@ -1,0 +1,64 @@
+.navTop{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    border: 1px solid red;
+    margin: 0;
+    padding: 1rem;
+    justify-content: end;
+}
+
+.navTop > div{
+    border: 1px solid blue;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.subNav{
+    order: 1;
+}
+.subNav{
+    order: 1;
+}
+
+.signupTop{
+    order: 2;
+}
+
+.subNav > div{
+    display: inline-block;
+    border: 1px solid purple;
+}
+
+
+header a{
+    text-decoration: none;    
+    color: black;    
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 771px) {
+    /* For mobile: */
+    .subNav{
+        width: 100%;
+        order: 2;
+    }
+    
+    .subNav > div{
+        width: calc(50% - 1rem);
+        text-align: center;
+    }
+
+    .signupTop{
+        order: 1;
+    }
+
+
+
+}
