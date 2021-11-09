@@ -1,19 +1,19 @@
 /* Header Section */
-.headerSection{
+.header-section{
     padding: 1rem;
     border: 1px solid cyan;
 
 }
 
-.headerSection p{
+.header-section p{
     margin-top: -1em;
 }
 
 
-.headerSection h1{
+.header-section h1{
     font-weight: bold;
 }
 
-.headerSection h2{
+.header-section h2{
     font-weight: normal;
 }

@@ -10,70 +10,13 @@
 /* Search Bar */
 @import url("./search.css");
 
+/* Search Bar */
+@import url("./filters.css");
 
 
 
-/* Filters */
-.filtersMenu{
-    max-width: 94%;
-}
 
-.filtersMenu h2{
-    font-weight: bold;
-}
 
-.filtersButtons{
-    display: flex;
-    flex: 1;
-    flex-flow: wrap;
-    white-space: nowrap;
-    margin: 0 -6%;
-    font-weight: bold;
-}
-
-.buttons{
-    display: flex;
-    border-radius: 26px;
-    border: 1px solid #DEEBFF;
-    background-color: white;
-    font-weight: bolder;
-    padding-right: 7%;
-    margin: 1% 2%;
-}
-
-.filtersMenu button:hover {
-    background-color: #DEEBFF;
-}
-
-.filtersMenu i{
-    flex: 1 1 20%;
-    border-radius: 50%;
-    color: #0065FC;
-    padding: 12px;
-    position: relative;
-    margin: 0 0 0 -7px;
-    background-color: #DEEBFF;
-}
-
-.filterText{
-    padding: 5% 7%;   
-}
-
-/* .low{
-    order: 0;
-}
-
-.romantic{
-    order: 1;
-}
-
-.family{
-    order: 2;
-}
-
-.pets{
-    order: 3;
-} */
 
 
 /* Info */
@@ -364,16 +307,8 @@
 
 @media (min-width: 768px) {
     /* For tablets: */
-    /* Header & NavBar*/
 
-    /* Filter */
-    .filtersButtons{
-        justify-content: space-around;
-    }
 
-    .buttons{
-        margin: 0.8em 1em 0.8em 0;
-    }
 
     /* Info */
     .info i{
@@ -468,31 +403,7 @@
 
 
 
-    /* Filters */
-    .filtersMenu{
-        display: flex;
-        flex: 1;
-        font-size: 0.5em;
-    }
-    .filtersMenu h2{
-        margin: auto;
-    }
     
-    .filtersButtons{
-        flex-flow: row nowrap;
-        justify-content: unset;
-    }
-
-    .filtersMenu i{
-        color: #0065FC;
-        position: relative;
-        margin: -0.6em 0 -2em -1em;
-        padding: 1.2em;
-    }
-
-    .filterText{
-        padding: 0.5em;
-    }
     
     /* Info */
     .info{

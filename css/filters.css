@@ -1,0 +1,56 @@
+/* Filters */
+.filters-buttons{
+    display: flex;
+    flex-flow: wrap;
+    white-space: nowrap;
+    font-weight: bold;
+    border: 1px solid red;
+    margin-right: 1rem;
+}
+
+.buttons{
+    display: flex;
+    border-radius: 26px;
+    border: 1px solid #DEEBFF;
+    background-color: white;
+    font-weight: bolder;
+    margin: 0.5rem;
+}
+
+.filters-menu button:hover {
+    background-color: #DEEBFF;
+}
+
+.buttons i{
+    flex: 1 1 20%;
+    border-radius: 50%;
+    color: #0065FC;
+    padding: 1rem;
+    margin: -1px 0 -1px -7px;
+    background-color: #DEEBFF;
+}
+
+.filterText{
+    padding: 0 1rem; 
+    margin: auto;  
+}
+
+.family{
+    order: 1;
+}
+
+.pets{
+    order: 2;
+}
+
+@media (min-width: 768px) {
+    /* For tablets: */
+    .family{
+        order: 0;
+    }
+    
+    .pets{
+        order: 0;
+    }
+
+}
