@@ -1,0 +1,122 @@
+/* Popular Section */
+.popular-section {
+    background-color: #F2F2F2;
+    padding-bottom: 1rem;
+    border: 1px solid pink;
+}
+
+.popular-heading{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid green;
+    white-space: nowrap;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+.popular-heading i{
+    font-size: 20px;
+    align-self: flex-end;
+    margin: auto;
+    
+}
+
+/* Popular Card */
+.popular-card{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px #c9c8c8;
+    margin: 1rem;
+}
+
+.popular-link{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.popular-picture{
+    flex: 0.5;
+    height: 9rem;
+}
+
+.popular-picture img{
+    margin: 0.2em;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 95%;
+    width: 100%;
+}
+
+.popular-description{    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 1rem;    
+}
+
+.popular-description h2{    
+    flex: 1 1 30%;
+    margin-top: 1rem;
+}
+
+.popular-description p{    
+    flex: 1 1 50%;
+    
+}
+
+.stars{    
+    flex: 1 1 30%;
+    justify-self: end;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.full-star{
+    color: #0065FC;
+}
+
+.empty-star{
+    color: #F2F2F2;
+}
+
+@media (min-width: 768px) {
+    
+    .popular-section{
+        border-radius: 20px;
+        box-shadow: 0 5px 5px 5px #c9c8c8;
+        width: 60%;
+        margin: auto;
+    }
+
+    .popular-description{
+        text-align: center;
+    }   
+}
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+        /* Popular Section */
+        .popular-section{
+            order: 2;
+            flex: 1 1 30%;
+            border-radius: 20px;
+            box-shadow: none;
+            margin: initial;
+        }
+        
+        .first-article{
+            margin-top: -1rem;    
+        }
+        
+        .popular-picture img{
+            margin: 0.1em;
+            height: 98%;
+        }
+    
+        .popular-description{
+            text-align: start;
+        }
+        
+}

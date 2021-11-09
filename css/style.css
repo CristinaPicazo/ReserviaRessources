@@ -1,5 +1,5 @@
 /* General */
-@import url("./general.css");
+@import url("./full-body.css");
 
 /* Nav Bar */
 @import url("./navbar.css");
@@ -19,6 +19,8 @@
 /* Info */
 @import url("./main.css");
 
+/* Info */
+@import url("./popular.css");
 
 
 
@@ -29,105 +31,8 @@
 
 
 
-.popularSection {
-    display: flex;    
-    flex-direction: column;
-    background-color: #F2F2F2;
-    padding-bottom: 9%;
-    margin-right: -5%;
-}
-
-.popularHeading{
-    display: flex;
-    flex-direction: row;
-    margin-left: 10%;
-}
-
-.popularHeading h1{
-    white-space: nowrap;
-    margin: auto;
-    flex: 1 1 50%;
-}
-
-.popularHeading i{
-    font-size: 20px;
-    flex: 1 1 50%;
-    text-align: end;
-    margin: 40px 40px;
-}
 
 
-
-/* popularCard */
-.popularCard{
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0 5px 5px 5px #c9c8c8;
-    margin: 3% 10%;
-    display: flex;
-    flex-direction: row;
-    flex: 0.9;
-}
-
-.popularCard a{
-    display: flex;
-    flex: 1;
-}
-
-.popularLink{
-    text-decoration: none;
-    color: black;
-}
-
-.popularPicture{
-    flex: 0.5;
-    height: 98%;
-}
-
-.popularPicture img{
-    margin: 0.2em;
-    border-top-left-radius: 20%;
-    border-bottom-left-radius: 20%;
-    height: 95%;
-    width: 100%;
-}
-
-.popularDescription{    
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin-left: 1.5em;
-    /* margin-top: -25px; */
-    
-}
-
-.popularDescription h2{    
-    flex: 1 1 30%;
-    margin: 1em 3em -0.8em 0;
-}
-
-.popularDescription p{    
-    flex: 1 1 30%;
-    margin-bottom: 1em;
-    justify-self: start;
-    
-}
-
-.stars{    
-    flex: 1 1 30%;
-    justify-self: end;
-    font-size: 0.8em;
-    margin-bottom: 0.5em;
-
-}
-
-.fullStar{
-    color: #0065FC;
-}
-
-.emptyStar{
-    color: #F2F2F2;
-}
 
 /* Accommodations */
 .accommodations{
@@ -291,27 +196,6 @@
 
 
 
-
-
-    /* Main Section */
-
-
-    /* Popular Section */
-    .popularSection{
-        border-radius: 20px;
-        box-shadow: 0 5px 5px 5px #c9c8c8;
-    }
-
-    .popularDescription{
-        text-align: center;
-    }
-    
-    .popularDescription h2{
-        margin: 1em 0;
-
-    }
-
-
     /* Accomodations */
     .accommodations{
         margin-top: 2em;
@@ -381,57 +265,7 @@
     
 @media only screen and (min-width: 992px) {
 /* For desktop: */
-
-
-
-    /* Popular Section */
-     .popularSection{
-        order: 2;
-        flex: 1 1 30%;
-        border-radius: 20px;
-        box-shadow: none;
-    }
-
-    .popularHeading{
-        margin: -1em 1em 0 1em;
-    }
-
-    .popularHeading i{
-        font-size: 1em;
-        margin-right: 0.5em;
-    }
-
-    .popularCard{
-        height: 5em;
-    }
-    
-    .firstArticle{
-        margin-top: -1em;
-
-    }
-
-    .popularPicture{
-        flex: 0.5;
-        max-height: 10em;
-    }
-
-    .popularPicture img{
-        width: 100%;
-        margin: 0.1em;
-        height: 98%;
-        max-height: 4.7em;
-    }
-
-    .popularDescription{
-        padding: 0em;
-        text-align: start;
-    }
-    
-    .popularDescription h2{    
-        margin: 1em 3em -0.8em 0;
-    }
-    
-    /* Accommodations */
+  /* Accommodations */
     .accommodations{
         order: 1;        
         flex: 1 1 60%;
