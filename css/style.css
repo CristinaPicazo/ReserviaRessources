@@ -10,58 +10,7 @@
 /* Search Bar */
 @import url("./search.css");
 
-/* Search button */
-.search{
-    width: 90%;
-}
 
-.inputContainer{
-    display: flex;
-    flex:1;
-    margin: 0.5% 0;
-}
-
-.searchWords{
-    display: none;
-}
-
-.map{    
-    border-top-left-radius: 30%;
-    border-bottom-left-radius: 30%;
-    background-color:#F2F2F2;
-    padding: 5%;
-    align-self: center;
-}
-
-.inputText{
-    font-size: 16px;
-    padding-left: 5%;
-    width: 90%;
-    border: solid thin rgb(226, 220, 220);
-}
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */    
-    color: black;
-    font-weight: bold;
-}
-
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: black;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: black;
-}
-
-.searchSubmit{
-    margin-left: -8%;    
-    color: #DEEBFF;
-    background-color: #0065FC;
-    border: hidden;
-    padding: 5%;
-    align-self: center;
-    border-radius: 30%;
-}
 
 
 /* Filters */
@@ -516,59 +465,7 @@
 
 
 }
-@media only screen and (min-width: 992px) {
-    /* For desktop: */
-    /* General */
 
-    h1{
-        font-size: 0.8em;
-    }
-    
-    h2{
-        font-size: 0.8em;
-    }
-
-    /* Nav bar */
-
-    
-    /* Head */
-    
-
-
-    /* Search Button*/
-    .search{
-        font-size: 0.5em;
-    }
-    
-    .inputContainer{
-        margin-right: 15%;  
-        height: 36px;
-        flex: 0.1;
-        font-size: 1.3em;
-    }
-    
-    .map{
-        border: none;
-        padding: 1.3em;
-    }
-
-    .inputText{
-        flex: 0.3;
-    }
-
-    .inputContainer button{
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;  
-    }
-
-    .glass{
-        display: none;
-    }
-
-    .searchWords{
-        display: block;
-        font-size: 1em;
-    }
 
 
     /* Filters */
