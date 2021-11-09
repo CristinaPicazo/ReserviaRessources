@@ -1,0 +1,22 @@
+/* Info */
+.info{
+    display: flex;
+    flex-direction: row;
+    /* margin: 4% 0 10% -7%; */
+    border: 1px solid red;
+}
+
+.info i{
+    /* height: 50%; */
+    background-color: #0065FC;
+    color: white;
+    border-radius: 50%;
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .info p{
+        margin-right: 40%;    
+    }
+}

@@ -13,32 +13,16 @@
 /* Search Bar */
 @import url("./filters.css");
 
-
-
-
-
-
-
 /* Info */
-.info{
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin: 4% 0 10% -7%;
-}
+@import url("./info.css");
 
-.info i{
-    height: 50%;
-    background-color: #0065FC;
-    color: white;
-    border-radius: 50%;
-    margin: 5%;
-}
 
-.info p{
-    flex: 1 1 90%;
-    
-}
+
+
+
+
+
+
 
 /* Main section */
 .mainSection{
@@ -310,10 +294,7 @@
 
 
 
-    /* Info */
-    .info i{
-        margin: -2% 2%;
-    }
+
 
     /* Main Section */
     .mainSection{
@@ -404,17 +385,8 @@
 
 
     
-    
-    /* Info */
-    .info{
-        margin: 2% 76% 1% 1%;
-        font-size: 0.5em;
-        
-    }
-
-    .info i{
-        margin: -0.5em 1em 1em 0;
-    }
+@media only screen and (min-width: 992px) {
+/* For desktop: */
 
     /* Main Section */
     .mainSection{
