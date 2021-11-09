@@ -4,27 +4,11 @@
 /* Nav Bar */
 @import url("./navbar.css");
 
+/* Header Section */
+@import url("./header.css");
 
-/* Mobile First*/
-/* Header & NavBar*/
-
-/* Head */
-.bodyPage{
-    max-width: 100%;
-}
-
-.headerSection{
-    margin-left: 5%;
-}
-
-.headerSection h1{
-    font-weight: bold;
-}
-
-.headerSection h2{
-    font-weight: normal;
-}
-
+/* Search Bar */
+@import url("./search.css");
 
 /* Search button */
 .search{
@@ -548,13 +532,7 @@
 
     
     /* Head */
-    .headerSection{
-        margin-left: 1.5em;
-    }
-
-    .headerSection p{
-        margin-top: -1em;
-    }
+    
 
 
     /* Search Button*/
