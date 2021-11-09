@@ -1,19 +1,9 @@
-@import url("./navbar.css");
 /* General */
+@import url("./general.css");
 
-html, body{
-    max-width: 100%;
-    margin: 0;
-    font-family: "Raleway", sans-serif; 
-}
+/* Nav Bar */
+@import url("./navbar.css");
 
-h1{
-    font-size: 22px;
-}
-
-h2{
-    font-size: 16px;
-}
 
 /* Mobile First*/
 /* Header & NavBar*/
