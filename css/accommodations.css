@@ -1,0 +1,106 @@
+/* Accommodations */
+.accommodations{
+    border: 1px solid blueviolet;
+    margin: 1rem;
+}
+/* 
+.accommodations h1{
+    white-space: nowrap;
+} */
+
+.accommodations-card{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px #c9c8c8;
+    height: 15rem;
+    /* height: calc(50vh - 155px); */
+    margin: 1rem 0;
+}
+
+.accommodations-link{
+    text-decoration: none;
+    color: black;
+}
+
+.accommodations-picture{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 8rem;
+    width: 99%;
+}
+
+.accommodationsPicture img{    
+    margin: 0.1em;
+    max-height: 8em;
+    width: 100%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    align-items: center;
+}
+
+.accommodations-description{
+    padding-left: 1rem;
+}
+
+@media (min-width: 768px) {
+/* For tablets: */
+    .accommodations{
+        text-align: center;
+    }
+
+    .accommodations-card{
+        width: 60%;
+        margin: 1rem auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+      /* Accommodations */
+      .accommodations{
+        order: 1;        
+        flex: 1 1 60%;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        text-align: left;
+        box-shadow: none;
+    }
+    
+    /* .accommodationsCardBox{
+        padding: 0.5em;
+    } */
+
+    .three-cards{
+        display: flex;        
+        flex-flow: row nowrap;
+        justify-content: center;
+    }    
+    
+    .accommodationsCard{
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 5px 5px 5px #F2F2F2;
+        flex:1 1 30%;
+        margin: 0.5em;        
+    }
+    
+    .accommodationsPicture img{
+        margin: 0.1em;
+        max-height: 4em;
+        width: 98%;
+        border-top-left-radius: 20%;
+        border-top-right-radius: 20%;
+    }
+    
+    .accommodationsDescription{
+        margin: -1em 0 0.5em 0.5em;
+        padding: 0.5em;    
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .showMore{
+        margin-left: 1em;
+    }
+
+}

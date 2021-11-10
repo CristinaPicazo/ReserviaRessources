@@ -7,21 +7,23 @@
 /* Header Section */
 @import url("./header.css");
 
-/* Search Bar */
+/* Search Bar within Header*/
 @import url("./search.css");
 
-/* Search Bar */
+/* Filters Buttons within Header*/
 @import url("./filters.css");
 
-/* Info */
+/* Info within Header*/
 @import url("./info.css");
 
-/* Info */
+/* Main */
 @import url("./main.css");
 
-/* Info */
+/* Popular within Main*/
 @import url("./popular.css");
 
+/* Accommodations within Main*/
+@import url("./accommodations.css");
 
 
 
@@ -34,62 +36,8 @@
 
 
 
-/* Accommodations */
-.accommodations{
-    margin-left: 5%;
-}
-
-.accommodations h1{
-    font-weight: bold;
-    margin: 2em 0em 0em 1em;
-    white-space: nowrap;
-}
-
-.accommodationsCard{
-    display: flex;
-    flex-flow: column;
-    border-radius: 20px;
-    box-shadow: 0 5px 5px 5px #F2F2F2;
-    margin: 1em;
-    width: 90%;
-    height: 80%;
-    /* height: calc(50vh - 155px); */
-}
-
-.accommodationsLink{
-    text-decoration: none;
-    color: black;
-}
 
 
-.accommodationsPicture img{    
-    margin: 0.1em;
-    max-height: 8em;
-    width: 100%;
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
-    align-items: center;
-}
-
-.accommodationsDescription{
-    flex: 0.3;
-    padding-left: 1.5em;
-    margin-top: -1em;
-}
-
-.accommodationsDescription a{
-    color: black;
-    text-decoration: none;
-    margin-bottom: 0.5em;
-}
-
-.accommodationsDescription p{
-    margin-bottom: 0.5em;
-}
-
-.showMore{
-    margin: 0 0 3em 1em;
-}
 
 
 /* Bottom Section */
@@ -194,39 +142,6 @@
 @media (min-width: 768px) {
     /* For tablets: */
 
-
-
-    /* Accomodations */
-    .accommodations{
-        margin-top: 2em;
-        background-color: #F2F2F2;
-        border-radius: 20px;
-        box-shadow: 0 5px 5px 5px #F2F2F2;
-        text-align: center;
-    }
-
-    .accommodations h1{
-        margin: 2em 0em 1em 1em;
-    }
-
-    .accommodationsCard{
-        margin: 1em auto;
-    }
-    
-    .accommodationsPicture img{
-        margin: 0 1em 0em 0;
-        z-index: 1;
-        width: 101%;
-
-    }
-
-    .accommodationsDescription{
-        background-color: white;
-        border-bottom-right-radius: 1em;
-        border-bottom-left-radius: 1em; 
-        width: 95%;
-   }
-    
     /* Bottom Section */
     .bottomSection{
         background-color: #F2F2F2;
@@ -265,63 +180,6 @@
     
 @media only screen and (min-width: 992px) {
 /* For desktop: */
-  /* Accommodations */
-    .accommodations{
-        order: 1;        
-        flex: 1 1 60%;
-        background-color: #F2F2F2;
-        margin: 0 2em;
-        border-radius: 20px;
-        text-align: left;
-        box-shadow: none;
-    }
-
-    
-    .accommodationsTitle{ 
-        white-space: nowrap;
-        margin-left: 1em;
-    }
-
-    .accommodations h1{
-        margin: 2em 0em 0.2em 1.5em;
-    }
-    
-    .accommodationsCardBox{
-        padding: 0.5em;
-    }
-
-    .ThreeCards{
-        display: flex;        
-        flex-flow: row nowrap;
-        justify-content: center;
-    }    
-    
-    .accommodationsCard{
-        background-color: white;
-        border-radius: 20px;
-        box-shadow: 0 5px 5px 5px #F2F2F2;
-        flex:1 1 30%;
-        margin: 0.5em;        
-    }
-    
-    .accommodationsPicture img{
-        margin: 0.1em;
-        max-height: 4em;
-        width: 98%;
-        border-top-left-radius: 20%;
-        border-top-right-radius: 20%;
-    }
-    
-    .accommodationsDescription{
-        margin: -1em 0 0.5em 0.5em;
-        padding: 0.5em;    
-        background-color: transparent;
-        border-color: transparent;
-    }
-
-    .showMore{
-        margin-left: 1em;
-    }
 
     /* Bottom Section */
     .bottomSection{
