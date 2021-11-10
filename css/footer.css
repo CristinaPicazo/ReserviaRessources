@@ -8,14 +8,9 @@
     padding: 1rem 0 0 1rem;
 }
 
-/* .foooterUl{
-    padding: 1rem;
-} */
-
 .foooterUl li{
     margin-left: -1.5rem;
     margin-bottom: 1rem;
-    /* padding: 0.2rem; */
     list-style-type: none;
 }
 

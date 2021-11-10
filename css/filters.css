@@ -1,10 +1,17 @@
 /* Filters */
+.filters-menu{
+    border: 1px solid yellow;
+}
+
+.filters-menu h2{
+    font-weight: bold;
+}
+
 .filters-buttons{
     display: flex;
     flex-flow: wrap;
     white-space: nowrap;
     font-weight: bold;
-    border: 1px solid red;
     margin-right: 1rem;
 }
 
@@ -45,6 +52,17 @@
 
 @media (min-width: 768px) {
     /* For tablets: */
+    .filters-menu{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .filters-menu h2{
+        padding-right: 1rem;
+        margin: auto;
+    }
+
     .family{
         order: 0;
     }
