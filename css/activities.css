@@ -35,7 +35,7 @@
 
 .big-img, .small-img{
     height: 8rem;
-    width: 98%;
+    width: 100%;
 }
 
 .activities-card-text{    
@@ -47,78 +47,49 @@
     box-shadow: 0 5px 5px 5px #F2F2F2;
     margin-top: -1rem;
     z-index: 1;
-    width: 98%;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
     /* For tablets: */
-        /* Bottom Section */
-        .bottomSection{
-            background-color: #F2F2F2;
-            margin: 2em auto;
-            border-radius: 20px;
-            box-shadow: 0 5px 5px 5px #c9c8c8;
+        .activities-section{
+            margin: 1rem auto;
             text-align: center;
             width: 62%;
-        }
-    
-        .bottomSection h1{
-            padding-top: 2em;
-        }
-    
-        .activitiesCard{
-            margin: 1em auto;
-        }
-    
-    
+        }   
 }
-
     
 @media only screen and (min-width: 992px) {
-    /* For desktop: */
-        /* Bottom Section */
-        .bottomSection{
-            width: 150%;
-            margin: 0 0.5em 1em 1em;
-            text-align: left;
-            background-color: white;
-            box-shadow: none;
-            padding: 1em;
-        }
-        .bottomSection h1{
-            padding: 2em 0 1em 1em;
-        }
-        
-        .activities{
-            display: flex;
-            flex-direction: row;
-            margin: 2em 0;
-            justify-content: space-between;
-            width: 93%;
-        }
-        
-        .fourContainers{
-            margin: -1.8em;
-            width: 28%;
-        }
+    /* For desktop: */ 
+    .activities-section{
+        width: 100%;
+    }   
     
-        .activitiesCard{
-            margin: 0 0;
-        }
-        
-        .small{
-            display: flex;
-            flex-direction: column;
-            
-        }
+    .activities-section h1{
+        text-align: left;
+        margin: 1rem;
+    }
+
+    .activities{
+        display: flex;
+        flex-direction: row;
+        /* margin: 1rem; */
+        padding: 1rem;
+
+    }
+
+    .four-containers{
+        flex: 2;
+        margin: 1rem;
+    }
     
-        .smallImg{
-            width: 100%;
-            height: 6em;
-        }
+    .small{
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .big-img{
+        height: 20rem;
+    }
     
-        .bigImg{
-            height: 15em;
-        }
-        
 }
