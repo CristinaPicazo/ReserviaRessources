@@ -25,75 +25,9 @@
 /* Accommodations within Main*/
 @import url("./accommodations.css");
 
+/* Accommodations within Main*/
+@import url("./activities.css");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Bottom Section */
-.bottomSection{
-    max-width: 100%;
-    margin-left: 5%;
-}
-
-.activities{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    width: 95%;
-}
-
-.lastFourContainer{
-    margin-bottom: 2em;
-}
-
-.activitiesCard{
-    margin-left: -2em;
-    border-radius: 20px;
-    /* margin: 0em 0.2em 3em -2em; */
-}
-
-.activitiesLink{
-    text-decoration: none;
-    color: black;
-}
-
-.activitiesPictures{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    width: 85%;
-}
-    
-.activitiesPictures img{
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
-}
-
-.bigImg, .smallImg{
-    height: 8em;
-}
-
-.activitiesCardText{    
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-    padding: 1em 1em;
-    font-weight: bold;
-    background-color: white;
-    box-shadow: 0 5px 5px 5px #F2F2F2;
-    margin-top: -1em;
-    z-index: 1;
-}
 
 
 /* Footer */
@@ -142,24 +76,6 @@
 @media (min-width: 768px) {
     /* For tablets: */
 
-    /* Bottom Section */
-    .bottomSection{
-        background-color: #F2F2F2;
-        margin: 2em auto;
-        border-radius: 20px;
-        box-shadow: 0 5px 5px 5px #c9c8c8;
-        text-align: center;
-        width: 62%;
-    }
-
-    .bottomSection h1{
-        padding-top: 2em;
-    }
-
-    .activitiesCard{
-        margin: 1em auto;
-    }
-
 
     /* Footer */
     .footer{
@@ -181,51 +97,6 @@
 @media only screen and (min-width: 992px) {
 /* For desktop: */
 
-    /* Bottom Section */
-    .bottomSection{
-        width: 150%;
-        margin: 0 0.5em 1em 1em;
-        text-align: left;
-        background-color: white;
-        box-shadow: none;
-        padding: 1em;
-    }
-    .bottomSection h1{
-        padding: 2em 0 1em 1em;
-    }
-    
-    .activities{
-        display: flex;
-        flex-direction: row;
-        margin: 2em 0;
-        justify-content: space-between;
-        width: 93%;
-    }
-    
-    .fourContainers{
-        margin: -1.8em;
-        width: 28%;
-    }
-
-    .activitiesCard{
-        margin: 0 0;
-    }
-    
-    .small{
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .smallImg{
-        width: 100%;
-        height: 6em;
-    }
-
-    .bigImg{
-        height: 15em;
-    }
-    
 
     /* footer */
     .firstFooterSection{
