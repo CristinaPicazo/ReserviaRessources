@@ -25,6 +25,7 @@
     flex: 1;
     flex-direction: column; */
     width: 99%;
+    margin: 1rem 0;
 }
     
 .activities-pictures img{
@@ -32,7 +33,7 @@
     border-top-right-radius: 20px;
 }
 
-.bigImg, .smallImg{
+.big-img, .small-img{
     height: 8rem;
     width: 98%;
 }
@@ -40,7 +41,7 @@
 .activities-card-text{    
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    padding: 1rem;
+    padding: 1rem 0;
     font-weight: bold;
     background-color: white;
     box-shadow: 0 5px 5px 5px #F2F2F2;
