@@ -1,7 +1,4 @@
 /* Filters */
-.filters-menu{
-    border: 1px solid yellow;
-}
 
 .filters-menu h2{
     font-weight: bold;
@@ -55,12 +52,10 @@
     .filters-menu{
         display: flex;
         flex-direction: row;
-        text-align: left;
     }
 
     .filters-menu h2{
-        padding-right: 1rem;
-        margin: auto;
+        margin: auto 0;
     }
 
     .family{

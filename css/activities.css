@@ -1,15 +1,7 @@
 /* Bottom Section */
 .activities-section{
-    border: 1px solid brown;
-    margin: 1rem;
+    margin: 2rem;
 }
-
-/* .activities{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    width: 95%;
-} */
 
 .activities-card{
     border-radius: 20px;
@@ -67,7 +59,7 @@
     
     .activities-section h1{
         text-align: left;
-        margin: 1rem;
+        margin: 2rem 0 -1rem 2rem;
     }
 
     .activities{

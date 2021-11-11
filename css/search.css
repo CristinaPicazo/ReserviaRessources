@@ -1,7 +1,6 @@
 /* Search button */
 .search{
     width: 97%;
-    /* border: 1px solid blueviolet; */
     height: 3rem;
     display: flex;
     flex:1;

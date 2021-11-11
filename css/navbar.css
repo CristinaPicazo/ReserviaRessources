@@ -1,16 +1,20 @@
 /* Nav Bar */
+header a{
+    text-decoration: none;    
+    color: black;    
+    font-weight: bold;
+}
+
 .nav-top{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    border: 1px solid red;
     margin: 0;
     padding: 1rem;
     justify-content: end;
 }
 
 .nav-top > div{
-    border: 1px solid blue;
     text-decoration: none;
     list-style-type: none;
     padding: 1rem;
@@ -23,28 +27,46 @@
 .sub-nav{
     order: 1;
 }
-.sub-nav{
-    order: 1;
-}
 
 .signup-top{
     order: 2;
 }
 
+.signup-top a{
+    color: blue;
+}
+
+.signup-top a:hover{
+    font-size: large;
+}
+
 .sub-nav > div{
     display: inline-block;
-    border: 1px solid purple;
+    
+}
+
+.sub-nav > div:first-child a{
+    border-top: 3px solid #F2F2F2;
+    color: blue;
+}
+.sub-nav > div:last-child a{
+    border-top: 3px solid #F2F2F2;
+    color: blue;
+}
+
+.sub-nav > div:first-child:hover a{
+    border-top: 3px solid blue;
+}
+
+.sub-nav > div:last-child:hover a{
+    border-top: 3px solid blue;
 }
 
 
-header a{
-    text-decoration: none;    
-    color: black;    
-    font-weight: bold;
-}
 
 
-@media only screen and (max-width: 771px) {
+
+@media only screen and (max-width: 992px) {
     /* For mobile: */
     .sub-nav{
         width: 100%;
@@ -55,6 +77,30 @@ header a{
         width: calc(50% - 1rem);
         text-align: center;
     }
+
+    .sub-nav > div:first-child a{
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 1.5rem;
+        width: 49%;
+        border-top: none;
+    }
+    
+    .sub-nav > div:last-child a{
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 1.5rem;
+        width: 49%;
+        border-top: none;
+    }
+    .sub-nav > div:first-child:hover a{
+        border-bottom: 3px solid blue;
+        border-top: none;
+    }
+    
+    .sub-nav > div:last-child:hover a{
+        border-bottom: 3px solid blue;
+        border-top: none;
+    }
+
 
     .signup-top{
         order: 1;

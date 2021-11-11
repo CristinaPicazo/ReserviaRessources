@@ -2,7 +2,6 @@
 .main-section{
     display: flex;
     flex-direction: column;
-    border: 1px solid purple;
     margin: auto;
 }
 
@@ -10,5 +9,6 @@
     /* For desktop: */
     .main-section{
         flex-direction: row;
+        margin: auto 1rem;
     }
 }

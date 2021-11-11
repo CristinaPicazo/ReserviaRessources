@@ -1,11 +1,14 @@
 /* Accommodations */
 .accommodations{
-    border: 1px solid blueviolet;
     margin: 0 1rem;
 }
 
 .accommodations h1{
     margin: 1rem;
+}
+
+.cards{
+    margin: 0 1rem;
 }
 
 .accommodations-card{
@@ -40,6 +43,7 @@
 
 .accommodations-description{
     padding-left: 1rem;
+    margin: -0.2rem;
 }
 
 .show-more{
