@@ -16,8 +16,8 @@
     border-radius: 20px;
     box-shadow: 0 5px 5px 5px #c9c8c8;
     height: 15rem;
-    /* height: calc(50vh - 155px); */
     margin: 1rem 0;
+    text-align: center;
 }
 
 .accommodations-link{
@@ -44,6 +44,7 @@
 .accommodations-description{
     padding-left: 1rem;
     margin: -0.2rem;
+    text-align: initial;
 }
 
 .show-more{
@@ -59,6 +60,10 @@
     .accommodations-card{
         width: 60%;
         margin: 1rem auto;
+    }
+    
+    .accommodations-description{
+        text-align: center;
     }
 }
 
@@ -81,6 +86,10 @@
 
     .accommodations-card{
         width: 30%;
+    }
+
+    .accommodations-description{
+        text-align: initial;
     }
 
 }

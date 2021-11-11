@@ -83,5 +83,9 @@
     .big-img{
         height: 20rem;
     }
+
+    .activities-card-text{    
+        text-align: initial;
+    }
     
 }

@@ -1,6 +1,6 @@
 /* Nav Bar */
 header a{
-    text-decoration: none;    
+    text-decoration: transparent;    
     color: black;    
     font-weight: bold;
 }
@@ -11,17 +11,20 @@ header a{
     align-items: center;
     margin: 0;
     padding: 1rem;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .nav-top > div{
-    text-decoration: none;
-    list-style-type: none;
-    padding: 1rem;
+    text-decoration: transparent;
+    list-style-type: transparent;
+}
+
+.nav-top  div a{
+    padding: 1.8rem
 }
 
 .logo{
-    margin-right: auto;
+    margin: 0 auto 0 1rem;
 }
 
 .sub-nav{
@@ -37,36 +40,25 @@ header a{
 }
 
 .signup-top a:hover{
-    font-size: large;
+    border-top: 3px solid blue;
 }
 
 .sub-nav > div{
     display: inline-block;
-    
+
 }
 
-.sub-nav > div:first-child a{
-    border-top: 3px solid #F2F2F2;
+.sub-nav > div:hover a{
     color: blue;
-}
-.sub-nav > div:last-child a{
-    border-top: 3px solid #F2F2F2;
-    color: blue;
-}
-
-.sub-nav > div:first-child:hover a{
     border-top: 3px solid blue;
-}
 
-.sub-nav > div:last-child:hover a{
-    border-top: 3px solid blue;
 }
 
 
 
 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
     /* For mobile: */
     .sub-nav{
         width: 100%;
@@ -76,34 +68,34 @@ header a{
     .sub-nav > div{
         width: calc(50% - 1rem);
         text-align: center;
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 1.5rem;        
     }
 
     .sub-nav > div:first-child a{
-        border-bottom: 3px solid #F2F2F2;
-        padding-bottom: 1.5rem;
-        width: 49%;
-        border-top: none;
+        border-top: transparent;
     }
     
     .sub-nav > div:last-child a{
-        border-bottom: 3px solid #F2F2F2;
-        padding-bottom: 1.5rem;
-        width: 49%;
-        border-top: none;
+        border-top: transparent;
     }
-    .sub-nav > div:first-child:hover a{
+    .sub-nav > div:first-child:hover{
         border-bottom: 3px solid blue;
-        border-top: none;
+        border-top: transparent;
     }
     
-    .sub-nav > div:last-child:hover a{
+    .sub-nav > div:last-child:hover{
         border-bottom: 3px solid blue;
-        border-top: none;
+        border-top: transparent;
     }
 
 
     .signup-top{
         order: 1;
+    }
+
+    .signup-top a:hover{
+        border-top: transparent;
     }
 
 
