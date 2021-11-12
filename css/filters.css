@@ -48,7 +48,7 @@
 }
 
 @media (min-width: 768px) {
-    /* For tablets: */
+    /* For tablets: */    
     .filters-menu{
         display: flex;
         flex-direction: row;
@@ -56,6 +56,11 @@
 
     .filters-menu h2{
         margin: auto 0;
+    }
+
+    .filters-buttons{
+        display: flex;
+        flex-flow: nowrap;
     }
 
     .family{

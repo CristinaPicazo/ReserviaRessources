@@ -6,6 +6,7 @@
 
 .popular-heading{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     white-space: nowrap;
     align-items: center;
@@ -15,8 +16,6 @@
 
 .popular-heading i{
     font-size: 20px;
-    align-self: flex-end;
-    margin: auto;
     
 }
 

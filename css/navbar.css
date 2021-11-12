@@ -24,7 +24,7 @@ header a{
 }
 
 .logo{
-    margin: 0 auto 0 1rem;
+    margin: 0 auto auto 2rem;
 }
 
 .sub-nav{
@@ -60,16 +60,22 @@ header a{
 
 @media only screen and (max-width: 768px) {
     /* For mobile: */
+    .nav-top{
+        padding: 0;
+    }
+
     .sub-nav{
         width: 100%;
         order: 2;
+        margin: 0;
+        display: flex;
     }
     
     .sub-nav > div{
-        width: calc(50% - 1rem);
+        width: 50%;
         text-align: center;
         border-bottom: 3px solid #F2F2F2;
-        padding-bottom: 1.5rem;        
+        padding: 1rem 0 0.5rem 0;        
     }
 
     .sub-nav > div:first-child a{
@@ -79,6 +85,7 @@ header a{
     .sub-nav > div:last-child a{
         border-top: transparent;
     }
+
     .sub-nav > div:first-child:hover{
         border-bottom: 3px solid blue;
         border-top: transparent;
