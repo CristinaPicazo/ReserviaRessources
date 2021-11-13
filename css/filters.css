@@ -29,9 +29,11 @@
     flex: 1 1 20%;
     border-radius: 50%;
     color: #0065FC;
-    padding: 1rem;
+    padding: 12px;
     margin: -1px 0 -1px -7px;
     background-color: #DEEBFF;
+    width: 12px;
+    font-size: 12px;
 }
 
 .filterText{

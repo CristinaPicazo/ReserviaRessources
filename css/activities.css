@@ -30,7 +30,7 @@
     width: 100%;
 }
 
-.activities-card-text{    
+.activities-card{    
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 1rem 0;
@@ -42,9 +42,9 @@
     width: 100%;
 }
 
-/* figcaption{
+figcaption{
     padding-left: 1rem;
-} */
+}
 
 @media (min-width: 768px) {
     /* For tablets: */
