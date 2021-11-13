@@ -102,14 +102,23 @@
             box-shadow: none;
             margin: initial;
         }
-        
-        .first-article{
-            margin-top: -1rem;    
+
+        .popular-heading{
+            margin: 0 1rem -0.5rem 1rem;
+        }
+
+        .popular{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
         
+        .popular-card{
+            margin: 6% 1rem;
+        }
+
         .popular-picture img{
-            margin: 0.1em;
-            height: 98%;
+            height: 96%;
         }
     
         .popular-description{

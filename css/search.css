@@ -19,7 +19,7 @@
     font-size: 16px;
     padding-left: 5%;
     width: 90%;
-    border: solid thin rgb(226, 220, 220);
+    border: solid thin #F2F2F2;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */    

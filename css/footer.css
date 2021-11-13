@@ -2,10 +2,11 @@
 .footer{
     background-color: #F2F2F2;
     margin: 0;
+    padding: 0 0 2rem 1rem;
 }
 
 .footer-section h2{
-    padding: 1rem 0 0 1rem;
+    padding: 3rem 0 0 1rem;
 }
 
 .foooterUl li{
@@ -17,6 +18,7 @@
 .foooterUl li a{
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -29,18 +31,19 @@
  
 @media only screen and (min-width: 992px) {
 /* For desktop: */
-    .firstFooterSection{
+    .firstFooter-section{
         margin-top: 1.2em;
     } 
-
+    
     .footer{
         display: flex;
         flex-direction: row;
     }
-
+    
     .footer-section{
         text-align: left;
         flex: 3;
+        padding: 0 0 1rem 2rem;
     }
 
 }

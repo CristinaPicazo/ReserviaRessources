@@ -23,6 +23,7 @@
 
 .filters-menu button:hover{
     background-color: #DEEBFF;
+    cursor: pointer;
 }
 
 .buttons i{
@@ -57,7 +58,7 @@
     }
 
     .filters-menu h2{
-        margin: auto 0;
+        margin: auto 1rem auto 0;
     }
 
     .filters-buttons{

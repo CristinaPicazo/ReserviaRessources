@@ -15,7 +15,7 @@
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 5px 5px 5px #c9c8c8;
-    height: 15rem;
+    height: 16rem;
     margin: 1rem 0;
     text-align: center;
 }
@@ -29,7 +29,8 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 8rem;
-    width: 99%;
+    width: 97%;
+    padding: 1.5%;
 }
 
 .accommodationsPicture img{    
@@ -78,6 +79,10 @@
         text-align: left;
         box-shadow: none;
     }
+
+    .accommodations h1{
+        margin: 1rem 2rem;
+    }
     
     .cards{
         display: flex;
@@ -90,6 +95,10 @@
 
     .accommodations-description{
         text-align: initial;
+    }
+
+    .show-more{
+        margin: 1rem 0 3rem 2rem;
     }
 
 }

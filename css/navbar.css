@@ -36,11 +36,11 @@ header a{
 }
 
 .signup-top a{
-    color: blue;
+    color: #0065FC;
 }
 
 .signup-top a:hover{
-    border-top: 3px solid blue;
+    border-top: 3px solid #0065FC;
 }
 
 .sub-nav > div{
@@ -49,8 +49,8 @@ header a{
 }
 
 .sub-nav > div:hover a{
-    color: blue;
-    border-top: 3px solid blue;
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
 
 }
 
@@ -87,12 +87,12 @@ header a{
     }
 
     .sub-nav > div:first-child:hover{
-        border-bottom: 3px solid blue;
+        border-bottom: 3px solid #0065FC;
         border-top: transparent;
     }
     
     .sub-nav > div:last-child:hover{
-        border-bottom: 3px solid blue;
+        border-bottom: 3px solid #0065FC;
         border-top: transparent;
     }
 
