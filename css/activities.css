@@ -42,11 +42,16 @@ figcaption{
 
 @media (min-width: 768px) {
     /* For tablets: */
-        .activities-section{
-            margin: 1rem auto;
-            text-align: center;
-            width: 62%;
-        }   
+    .activities-section{
+        margin: 1rem auto;
+        text-align: center;
+        width: 62%;
+    }
+    
+    figcaption{
+        text-align: center;
+    }
+
 }
     
 @media only screen and (min-width: 992px) {
@@ -74,11 +79,19 @@ figcaption{
     
     .small{
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;   
+    }
+
+    .small-img{
+        height: 6rem;
     }
 
     .big-img{
         height: 20rem;
+    }
+
+    figcaption{
+        text-align: initial;
     }
     
 }
