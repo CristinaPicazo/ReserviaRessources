@@ -2,11 +2,11 @@
 .info{
     display: flex;
     flex-direction: row;
-    /* margin: 4% 0 10% -7%; */
 }
 
 .info i{
-    /* height: 50%; */
+    display: flex;
+    flex-direction: row;
     background-color: #0065FC;
     color: white;
     border-radius: 50%;

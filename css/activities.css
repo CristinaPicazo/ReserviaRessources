@@ -1,5 +1,5 @@
 /* Bottom Section */
-.activities-section h1{
+.activities-section h2{
     margin-left: 2rem;
 }
 
@@ -35,6 +35,11 @@
     margin: 2rem auto;
 }
 
+.activities-card:hover{
+    transform: scale(120%);
+    transition: all 1s ease-in-out;
+}
+
 figcaption{
     padding: 0.5rem 1rem;
     text-align: initial;
@@ -60,7 +65,7 @@ figcaption{
         width: 100%;
     }   
     
-    .activities-section h1{
+    .activities-section h2{
         text-align: left;
         margin: 2rem 0 -1rem 2rem;
     }

@@ -20,6 +20,11 @@
     text-align: center;
 }
 
+.accommodations-card:hover{
+    transform: scale(120%);
+    transition: all 1s ease-in-out;
+}
+
 .accommodations-link{
     text-decoration: none;
     color: black;

@@ -28,6 +28,11 @@
     margin: 1rem;
 }
 
+.popular-card:hover{
+    transform: scale(120%);
+    transition: all 1s ease-in-out;
+}
+
 .popular-link{
     display: flex;
     text-decoration: none;
