@@ -21,7 +21,7 @@
 }
 
 .accommodations-card:hover{
-    transform: scale(120%);
+    transform: scale(105%);
     transition: all 1s ease-in-out;
 }
 

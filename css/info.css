@@ -2,15 +2,17 @@
 .info{
     display: flex;
     flex-direction: row;
+    align-items: baseline;
+    gap: 1rem;
 }
 
 .info i{
-    display: flex;
-    flex-direction: row;
+
     background-color: #0065FC;
     color: white;
-    border-radius: 50%;
-    margin: 1rem 1rem 3rem 0rem;
+    border-radius: 7px;
+    width: 1rem;
+    height: 1rem;
 }
 
 @media only screen and (min-width: 992px) {

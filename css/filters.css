@@ -24,6 +24,7 @@
 .filters-menu button:hover{
     background-color: #DEEBFF;
     cursor: pointer;
+    transform: scale(102%);
 }
 
 .buttons i{
@@ -41,6 +42,7 @@
 .filterText{
     padding: 0 1rem; 
     margin: auto;  
+    font-weight: 600;
 }
 
 .family{

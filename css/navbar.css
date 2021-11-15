@@ -24,7 +24,7 @@ header a{
 }
 
 .logo{
-    margin: 0 auto auto 2rem;
+    margin-right: auto;
 }
 
 .sub-nav{
@@ -39,9 +39,8 @@ header a{
     color: #0065FC;
 }
 
-.signup-top a:hover{
+.signup-top a:hover, a:focus{
     border-top: 3px solid #0065FC;
-    scroll-behavior: smooth;
 }
 
 .sub-nav > div{
@@ -104,7 +103,7 @@ header a{
         order: 1;
     }
 
-    .signup-top a:hover{
+    .signup-top a:hover, , a:focus{
         border-top: transparent;
     }
 
