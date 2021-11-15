@@ -3,8 +3,8 @@
     margin: 0 1rem;
 }
 
-.accommodations h1{
-    margin: 1rem;
+.accommodations-title{
+    padding: 1rem 0 0 0;
 }
 
 .cards{
@@ -80,7 +80,7 @@
         box-shadow: none;
     }
 
-    .accommodations h1{
+    .accommodations-title{
         margin: 1rem 2rem;
     }
     
