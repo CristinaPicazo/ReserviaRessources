@@ -19,3 +19,7 @@ h2{
 .bodyPage{
     max-width: 100%;
 }
+
+img{
+    object-fit: cover;
+}
