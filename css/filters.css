@@ -1,14 +1,8 @@
 /* Filters */
-
-.filters-menu h2{
-    font-weight: bold;
-}
-
 .filters-buttons{
     display: flex;
     flex-flow: wrap;
     white-space: nowrap;
-    font-weight: bold;
     margin-right: 1rem;
 }
 
