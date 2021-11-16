@@ -1,6 +1,5 @@
 /* Search button */
 .search{
-    width: 97%;
     height: 3rem;
     display: flex;
     flex:1;
@@ -8,8 +7,8 @@
 }
 
 .search .fa-map-marker-alt{
-    border-top-left-radius: 30%;
-    border-bottom-left-radius: 30%;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
     background-color:#F2F2F2;
     padding: 1rem;
     align-self: center;
@@ -18,12 +17,12 @@
 
 .search .fa-map-marker-alt:hover{
     cursor: pointer;
-    transform: scale(105%);
+    transform: scale(1.05);
 }
 
 .input-text{
     font-size: 16px;
-    padding-left: 5%;
+    padding-left: 1rem;
     width: 90%;
     border: solid thin #F2F2F2;
 }
@@ -54,11 +53,11 @@
 
 .search-submit:hover{
     cursor: pointer;
-    transform: scale(102%);
+    transform: scale(1.02);
 }
 
 .glass{
-    border-radius: 30%;
+    border-radius: 12px;
 }
 
 .search-words{
@@ -80,7 +79,7 @@
 
     .search-words{
         display: block;
-        border-top-right-radius: 30%;
-        border-bottom-right-radius: 30%;
+        border-top-right-radius: 13px;
+        border-bottom-right-radius: 13px;
     }
 }

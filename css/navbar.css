@@ -103,7 +103,7 @@ header a{
         order: 1;
     }
 
-    .signup-top a:hover, , a:focus{
+    .signup-top a:hover a:focus{
         border-top: transparent;
     }
 
