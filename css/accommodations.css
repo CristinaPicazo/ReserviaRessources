@@ -19,10 +19,11 @@
     margin: 1rem 0;
     text-align: center;
     transition: all 1s ease-in-out;
+    padding: 2px;
 }
 
 .accommodations-card:hover{
-    transform: scale(105%);
+    transform: scale(1.05);
 }
 
 .accommodations-link{
@@ -34,17 +35,7 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 8rem;
-    width: 97%;
-    padding: 1.5%;
-}
-
-.accommodationsPicture img{    
-    margin: 0.1em;
-    max-height: 8em;
     width: 100%;
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
-    align-items: center;
 }
 
 .accommodations-description{
@@ -75,7 +66,6 @@
 
 @media only screen and (min-width: 992px) {
     /* For desktop: */
-      /* Accommodations */
       .accommodations{
         order: 1;        
         flex: 1 1 60%;
