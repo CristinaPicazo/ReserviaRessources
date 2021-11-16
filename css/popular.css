@@ -26,11 +26,11 @@
     border-radius: 20px;
     box-shadow: 0 5px 5px 5px #c9c8c8;
     margin: 1rem;
+    transition: all 1s ease-in-out;
 }
 
 .popular-card:hover{
     transform: scale(105%);
-    transition: all 1s ease-in-out;
 }
 
 .popular-link{

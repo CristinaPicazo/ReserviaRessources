@@ -18,11 +18,11 @@
     max-height: 18rem;
     margin: 1rem 0;
     text-align: center;
+    transition: all 1s ease-in-out;
 }
 
 .accommodations-card:hover{
     transform: scale(105%);
-    transition: all 1s ease-in-out;
 }
 
 .accommodations-link{

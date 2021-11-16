@@ -33,11 +33,11 @@
     z-index: 1;
     width: 90%;
     margin: 2rem auto;
+    transition: all 1s ease-in-out;
 }
 
 .activities-card:hover{
     transform: scale(105%);
-    transition: all 1s ease-in-out;
 }
 
 figcaption{

@@ -7,12 +7,18 @@
     margin: 2rem 0;
 }
 
-.map{
+.search .fa-map-marker-alt{
     border-top-left-radius: 30%;
     border-bottom-left-radius: 30%;
     background-color:#F2F2F2;
     padding: 1rem;
     align-self: center;
+    transition: all 1s ease-in-out;
+}
+
+.search .fa-map-marker-alt:hover{
+    cursor: pointer;
+    transform: scale(105%);
 }
 
 .input-text{
@@ -44,6 +50,12 @@
     align-self: center;
     padding: 1rem;    
     z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.search-submit:hover{
+    cursor: pointer;
+    transform: scale(102%);
 }
 
 .glass{
