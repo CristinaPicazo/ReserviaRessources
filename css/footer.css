@@ -32,7 +32,7 @@
 @media only screen and (min-width: 992px) {
 /* For desktop: */
     .firstFooter-section{
-        margin-top: 1.2em;
+        margin: 1rem 0;
     } 
     
     .footer{
