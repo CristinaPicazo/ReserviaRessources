@@ -16,8 +16,7 @@
 
 
 .popular-heading i{
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 
 /* Popular Card */
@@ -27,10 +26,11 @@
     box-shadow: 0 5px 5px 5px #c9c8c8;
     margin: 1rem;
     transition: all 1s ease-in-out;
+    padding: 2px;
 }
 
 .popular-card:hover{
-    transform: scale(105%);
+    transform: scale(1.05);
 }
 
 .popular-link{
@@ -45,10 +45,9 @@
 }
 
 .popular-picture img{
-    margin: 0.2em;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    height: 95%;
+    height: 100%;
     width: 100%;
 }
 
@@ -117,14 +116,6 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-        }
-        
-        .popular-card{
-            margin: 6% 1rem;
-        }
-
-        .popular-picture img{
-            height: 96%;
         }
     
         .popular-description{
