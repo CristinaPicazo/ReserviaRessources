@@ -1,48 +1,44 @@
 /* Bottom Section */
+/* .activities-card{
+    border: 2px solid blue;
+} */
 .activities-section h2{
-    margin-left: 2rem;
+    margin: 0 2rem;
+    border: 2px solid green;
 }
 
-.activities-link{
-    text-decoration: none;
-    color: black;
-}
-
-.activities-pictures{
-    width: 99%;
-    margin: -0.5% 0 1rem 0;
-}
-    
-.activities-pictures img{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.big-img, .small-img{
-    height: 8rem;
-    width: 98%;
-    margin: 1.3%;
-}
 
 .activities-card{    
     border-radius: 20px;
-    padding-bottom: 0.1rem;
-    font-weight: bold;
     background-color: white;
-    box-shadow: 0 5px 5px 5px #F2F2F2;
-    z-index: 1;
-    width: 90%;
-    margin: 2rem auto;
+    margin: 1rem 2rem;
     transition: all 1s ease-in-out;
 }
 
 .activities-card:hover{
-    transform: scale(105%);
+    transform: scale(1.05);
+}
+.activities-link{
+    text-decoration: none;
+    color: black;
+}
+.activities-pictures{
+    box-shadow: 0 5px 5px 5px #F2F2F2;
+    border-radius: 20px;
+    margin: 2px;    
+}
+
+.activities-pictures img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 8rem;
+    width: 100%;
 }
 
 figcaption{
     padding: 0.5rem 1rem;
     text-align: initial;
+    font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -67,32 +63,55 @@ figcaption{
     
     .activities-section h2{
         text-align: left;
-        margin: 2rem 0 -1rem 2rem;
     }
 
     .activities{
-        display: flex;
-        flex-direction: row;
-        padding: 1rem;
+        display: grid;
+        grid-template: repeat(5,1fr) / repeat(4,1fr);
+        grid-template-areas: 
+            'port fort calanques notre'
+            'port fort calanques notre'
+            'port fort calanques park'
+            'port island calanques park'
+            'port island calanques park'
+            ;
+            max-height: 20rem;
 
     }
 
-    .four-containers{
-        flex: 2;
-        margin: 1rem;
+    .activities > div:nth-child(1){
+        grid-area: port;
+        border: 5px solid red;
     }
-    
-    .small{
-        display: flex;
-        flex-direction: column;   
+    .activities > div:nth-child(2){
+        grid-area: fort;
+        border: 5px solid green;
+    }
+    .activities > div:nth-child(3){
+        grid-area: island;
+        border: 5px solid red;
+    }
+    .activities > div:nth-child(4){
+        grid-area: calanques;
+        border: 5px solid palevioletred;
+    }
+    .activities > div:nth-child(5){
+        grid-area: notre;
+        border: 5px solid orange;
+    }
+    .activities > div:nth-child(6){
+        grid-area: park;
+        border: 5px solid pink;
     }
 
-    .small-img{
-        height: 6rem;
+    .activities-pictures{
+        height: 100%;
     }
 
-    .big-img{
-        height: 20rem;
+    .activities-pictures img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 
     figcaption{
