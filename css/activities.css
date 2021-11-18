@@ -1,12 +1,7 @@
 /* Bottom Section */
-/* .activities-card{
-    border: 2px solid blue;
-} */
 .activities-section h2{
     margin: 0 2rem;
-    border: 2px solid green;
 }
-
 
 .activities-card{    
     border-radius: 20px;
@@ -59,15 +54,18 @@ figcaption{
     /* For desktop: */ 
     .activities-section{
         width: 100%;
+        margin: 2rem;
+
     }   
     
     .activities-section h2{
         text-align: left;
+        margin: 1rem 0;
     }
 
     .activities{
         display: grid;
-        grid-template: repeat(5,1fr) / repeat(4,1fr);
+        grid-template: repeat(5, 5rem) / repeat(4,1fr);
         grid-template-areas: 
             'port fort calanques notre'
             'port fort calanques notre'
@@ -75,47 +73,50 @@ figcaption{
             'port island calanques park'
             'port island calanques park'
             ;
-            max-height: 20rem;
+        grid-gap: 1rem;
+    }
 
+    .activities-card{
+        margin: 0;
     }
 
     .activities > div:nth-child(1){
         grid-area: port;
-        border: 5px solid red;
     }
     .activities > div:nth-child(2){
         grid-area: fort;
-        border: 5px solid green;
     }
     .activities > div:nth-child(3){
         grid-area: island;
-        border: 5px solid red;
     }
     .activities > div:nth-child(4){
         grid-area: calanques;
-        border: 5px solid palevioletred;
     }
     .activities > div:nth-child(5){
         grid-area: notre;
-        border: 5px solid orange;
     }
     .activities > div:nth-child(6){
         grid-area: park;
-        border: 5px solid pink;
     }
 
     .activities-pictures{
         height: 100%;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .activities-pictures img{
-        height: 100%;
-        width: 100%;
         object-fit: cover;
+        flex: 1;
     }
 
     figcaption{
         text-align: initial;
+        white-space: nowrap;
+        padding: 0 1rem;
+        height: 2.5rem;
     }
     
 }
