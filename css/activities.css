@@ -54,13 +54,12 @@ figcaption{
     /* For desktop: */ 
     .activities-section{
         width: 100%;
-        margin: 2rem;
-
+        
     }   
     
     .activities-section h2{
         text-align: left;
-        margin: 1rem 0;
+        margin: 2rem;
     }
 
     .activities{
@@ -74,6 +73,7 @@ figcaption{
             'port island calanques park'
             ;
         grid-gap: 1rem;
+        margin: 2rem;
     }
 
     .activities-card{
