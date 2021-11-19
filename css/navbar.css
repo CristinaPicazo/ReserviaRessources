@@ -3,21 +3,27 @@ header a{
     text-decoration: transparent;    
     color: black;    
     font-weight: bold;
-    border: 3px solid yellow;
 }
 
 .nav-top{
-    border: 3px solid gray;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: flex-end;
+    padding: 0 2rem;
 }
 
-.nav-top > div{
-    border: 3px solid purple;
+.nav-top > div:nth-child(2) div{
     text-decoration: transparent;
     list-style-type: transparent;
+    margin-top: -0.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border-top: 3px solid transparent;
+    
+}
+.nav-top > div:nth-child(2) div:hover{
+    border-top: 3px solid var(--blue); 
 }
 
 .logo{
@@ -25,15 +31,12 @@ header a{
 }
 
 .sub-nav{
-    border: 3px solid turquoise;
     order: 1;    
 }
 
 .sub-nav > div{
     display: inline-block;    
     border-bottom: 3px solid transparent;
-    /* border-top: 3px solid transparent; */
-    border-top: 3px solid yellowgreen;
 }
 
 .sub-nav > div:hover {
@@ -53,14 +56,13 @@ header a{
 }
 
 .nav-top > div:nth-child(3){
-    /* border-top: 3px solid transparent; */
-    border-top: 3px solid yellowgreen;
-
+    margin-top: -0.7rem;
+    padding-top: 1rem;
+    border-top: 3px solid transparent;
 }
 
 .nav-top > div:nth-child(3):hover{
     border-top: 3px solid var(--blue);
-
 }
 
 
@@ -68,6 +70,10 @@ header a{
     /* For mobile: */
     .nav-top{
         padding: 0;
+    }
+    
+    .nav-top > div:nth-child(2) div:hover{
+        border-top: 3px solid transparent; 
     }
 
     .sub-nav{
@@ -84,27 +90,18 @@ header a{
         padding: 1rem 0 0.5rem 0;
     }
 
+
     .sub-nav > div:hover{
         border-bottom: 3px solid var(--blue);        
     }
-
-    /* .sub-nav > div:first-child:hover {
-        border-bottom: 3px solid #0065FC;
-        border-top: 3px solid transparent;
-    }
-    
-    .sub-nav > div:last-child:hover{
-        border-bottom: 3px solid #0065FC;
-        border-top: transparent;
-    } */
-
 
     .signup-top{
         order: 1;
     }
 
-    .signup-top a:hover a:focus{
-        border-top: transparent;
+
+    .nav-top > div:nth-child(3):hover{
+        border-top: 3px solid transparent;
     }
 
 
