@@ -1,6 +1,6 @@
 /* Popular Section */
 .popular-section {
-    background-color: #F2F2F2;
+    background-color: var(--grey);
     padding: 0 0 1rem 1rem;
 }
 
@@ -23,7 +23,7 @@
 .popular-card{
     background-color: white;
     border-radius: 20px;
-    box-shadow: 0 2px 8px 1px #F2F2F2;
+    box-shadow: 0 2px 8px 1px var(--grey);
     margin: 1rem;
     transition: all 1s ease-in-out;
     padding: 2px;
@@ -76,18 +76,18 @@
 }
 
 .full-star{
-    color: #0065FC;
+    color: var(--blue);
 }
 
 .empty-star{
-    color: #F2F2F2;
+    color: var(--grey);
 }
 
 @media (min-width: 768px) {
     
     .popular-section{
         border-radius: 20px;
-        box-shadow: 0 2px 8px 1px #F2F2F2;
+        box-shadow: 0 2px 8px 1px var(--grey);
         width: 60%;
         margin: auto;
     }

@@ -8,7 +8,7 @@
 
 .info i{
 
-    background-color: #0065FC;
+    background-color: var(--blue);
     color: white;
     border-radius: 7px;
     width: 1rem;

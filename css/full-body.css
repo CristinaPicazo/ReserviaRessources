@@ -1,4 +1,10 @@
 /* General */
+:root {
+    --blue: #0065FC;
+    --light-blue: #DEEBFF;
+    --grey: #F2F2F2;
+}
+
 html, body{
     width: 100%;
     margin: 0;

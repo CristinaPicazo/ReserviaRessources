@@ -14,7 +14,7 @@
 .accommodations-card{
     background-color: white;
     border-radius: 20px;
-    box-shadow: 0 2px 8px 1px #F2F2F2;
+    box-shadow: 0 2px 8px 1px var(--grey);
     max-height: 18rem;
     margin: 1rem 0;
     transition: all 1s ease-in-out;
@@ -68,7 +68,7 @@
       .accommodations{
         order: 1;        
         flex: 1 1 60%;
-        background-color: #F2F2F2;
+        background-color: var(--grey);
         border-radius: 20px;
         text-align: left;
         box-shadow: none;

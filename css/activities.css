@@ -18,7 +18,7 @@
     color: black;
 }
 .activities-pictures{
-    box-shadow: 0 2px 8px 1px #F2F2F2;
+    box-shadow: 0 2px 8px 1px var(--grey);
     border-radius: 20px;
     margin: 2px;    
 }
