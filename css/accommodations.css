@@ -14,10 +14,9 @@
 .accommodations-card{
     background-color: white;
     border-radius: 20px;
-    box-shadow: 0 5px 5px 5px #c9c8c8;
+    box-shadow: 0 2px 8px 1px #F2F2F2;
     max-height: 18rem;
     margin: 1rem 0;
-    text-align: center;
     transition: all 1s ease-in-out;
     padding: 2px;
 }

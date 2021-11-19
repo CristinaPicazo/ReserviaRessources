@@ -15,8 +15,8 @@
     height: 1rem;
 }
 
-@media only screen and (min-width: 768px) {
-    /* For tablets: */
+@media only screen and (min-width: 992px) {
+    /* For desktop: */ 
     .info {
         padding-right: 62%;    
     }

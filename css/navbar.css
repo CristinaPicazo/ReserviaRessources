@@ -3,24 +3,21 @@ header a{
     text-decoration: transparent;    
     color: black;    
     font-weight: bold;
+    border: 3px solid yellow;
 }
 
 .nav-top{
+    border: 3px solid gray;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    margin: 0;
-    padding: 1rem;
     justify-content: flex-end;
 }
 
 .nav-top > div{
+    border: 3px solid purple;
     text-decoration: transparent;
     list-style-type: transparent;
-}
-
-.nav-top  div a{
-    padding: 1.8rem
 }
 
 .logo{
@@ -28,7 +25,23 @@ header a{
 }
 
 .sub-nav{
-    order: 1;
+    border: 3px solid turquoise;
+    order: 1;    
+}
+
+.sub-nav > div{
+    display: inline-block;    
+    border-bottom: 3px solid transparent;
+    /* border-top: 3px solid transparent; */
+    border-top: 3px solid yellowgreen;
+}
+
+.sub-nav > div:hover {
+    border-top: 3px solid #0065FC; 
+}
+
+.sub-nav > div:hover a{
+    color: #0065FC;
 }
 
 .signup-top{
@@ -39,23 +52,16 @@ header a{
     color: #0065FC;
 }
 
-.signup-top a:hover, a:focus{
-    border-top: 3px solid #0065FC;
-}
-
-.sub-nav > div{
-    display: inline-block;
+.nav-top > div:nth-child(3){
+    /* border-top: 3px solid transparent; */
+    border-top: 3px solid yellowgreen;
 
 }
 
-.sub-nav > div:hover a{
-    color: #0065FC;
+.nav-top > div:nth-child(3):hover{
     border-top: 3px solid #0065FC;
 
 }
-
-
-
 
 
 @media only screen and (max-width: 768px) {
@@ -75,28 +81,22 @@ header a{
         width: 50%;
         text-align: center;
         border-bottom: 3px solid #F2F2F2;
-        padding: 1rem 0 0.5rem 0;        
+        padding: 1rem 0 0.5rem 0;
     }
 
-    .sub-nav > div:first-child a{
-        border-top: transparent;
-    }
-    
-    .sub-nav > div:last-child a{
-        border-top: transparent;
+    .sub-nav > div:hover{
+        border-bottom: 3px solid #0065FC;        
     }
 
-    .sub-nav > div:first-child:hover{
+    /* .sub-nav > div:first-child:hover {
         border-bottom: 3px solid #0065FC;
-        border-top: transparent;
-        scroll-behavior: smooth;
+        border-top: 3px solid transparent;
     }
     
     .sub-nav > div:last-child:hover{
         border-bottom: 3px solid #0065FC;
         border-top: transparent;
-        scroll-behavior: smooth;
-    }
+    } */
 
 
     .signup-top{

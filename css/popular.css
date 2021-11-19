@@ -23,7 +23,7 @@
 .popular-card{
     background-color: white;
     border-radius: 20px;
-    box-shadow: 0 5px 5px 5px #c9c8c8;
+    box-shadow: 0 2px 8px 1px #F2F2F2;
     margin: 1rem;
     transition: all 1s ease-in-out;
     padding: 2px;
@@ -87,7 +87,7 @@
     
     .popular-section{
         border-radius: 20px;
-        box-shadow: 0 5px 5px 5px #c9c8c8;
+        box-shadow: 0 2px 8px 1px #F2F2F2;
         width: 60%;
         margin: auto;
     }

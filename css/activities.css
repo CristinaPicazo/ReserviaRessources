@@ -18,7 +18,7 @@
     color: black;
 }
 .activities-pictures{
-    box-shadow: 0 5px 5px 5px #F2F2F2;
+    box-shadow: 0 2px 8px 1px #F2F2F2;
     border-radius: 20px;
     margin: 2px;    
 }
@@ -114,9 +114,6 @@ figcaption{
 
     figcaption{
         text-align: initial;
-        white-space: nowrap;
-        padding: 0 1rem;
-        height: 2.5rem;
     }
     
 }
