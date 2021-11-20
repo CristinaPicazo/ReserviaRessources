@@ -22,12 +22,14 @@ header a{
     border-top: 3px solid transparent;
     
 }
+
 .nav-top > div:nth-child(2) div:hover{
     border-top: 3px solid var(--blue); 
 }
 
 .logo{
     margin-right: auto;
+    padding: 0;
 }
 
 .sub-nav{
@@ -71,6 +73,10 @@ header a{
     .nav-top{
         padding: 0;
     }
+
+    .logo{
+        padding: 0 2rem;
+    }
     
     .nav-top > div:nth-child(2) div:hover{
         border-top: 3px solid transparent; 
@@ -97,6 +103,10 @@ header a{
 
     .signup-top{
         order: 1;
+    }
+
+    .signup-top a{
+        margin: 1rem;
     }
 
 

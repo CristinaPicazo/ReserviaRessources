@@ -5,6 +5,7 @@
 
 .accommodations-title{
     padding: 1rem 0 0 0;
+    margin: 1rem;
 }
 
 .cards{
@@ -44,7 +45,7 @@
 }
 
 .show-more{
-    margin: 1rem;
+    margin: 1rem 1rem 3rem 1rem;
 }
 
 @media (min-width: 768px) {
