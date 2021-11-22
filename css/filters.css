@@ -22,7 +22,7 @@
 .filters-menu button:hover{
     background-color: #eff4fd;
     cursor: pointer;
-    transform: scale(102%);
+    transform: scale(1.02);
 }
 
 .buttons i{
