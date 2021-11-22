@@ -27,19 +27,6 @@
     border: solid thin var(--grey);
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */    
-    color: black;
-    font-weight: bold;
-}
-
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: black;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
-    color: black;
-}
-
 .search-submit{
     margin-left: -1rem;    
     color: white;
